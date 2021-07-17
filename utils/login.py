@@ -1,0 +1,34 @@
+import os
+import secrets
+from fastapi import Depends, HTTPException, status, Request
+from fastapi.security import HTTPBasic, HTTPBasicCredentials
+
+security = HTTPBasic()
+try:
+    env_username = os.environ["USERNAME"]
+except KeyError:
+    env_username = "admin"
+try:
+    env_password = os.environ["PASSWORD"]
+except KeyError:
+    env_password = "Ihazadmin"
+
+
+def get_current_username(credentials: HTTPBasicCredentials = Depends(security)):
+    correct_username = secrets.compare_digest(credentials.username, env_username)
+    correct_password = secrets.compare_digest(credentials.password, env_password)
+    if not (correct_username and correct_password):
+        raise HTTPException(
+            status_code=status.HTTP_401_UNAUTHORIZED,
+            detail="Incorrect email or password",
+            headers={"WWW-Authenticate": "Basic"},
+        )
+    return credentials.username
+
+
+def logout(request: Request, credentials: HTTPBasicCredentials = Depends(security)):
+    correct_username = secrets.compare_digest(credentials.username, "")
+    correct_password = secrets.compare_digest(credentials.password, "")
+    if not (correct_username and correct_password):
+        return templates.TemplateResponse("login.html", {"request": request})
+    return credentials.username

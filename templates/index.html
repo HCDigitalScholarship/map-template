@@ -1,0 +1,475 @@
+{% extends 'base.html' %}
+{% block title%}{{ data['name'] }}{% endblock %}
+{% block logo %}{{ data['logo'] }}{% endblock %}
+  {% block content %}
+ 
+  <!-- ======= MAP Section ======= -->
+  <section id="map" class="hero d-flex align-items-center">
+
+    <div class="container">
+      <div class="row">
+        <div class=" d-flex flex-column justify-content-center">
+            <section>
+                <div id="map" class="container" style="padding-top: 20px;">
+                  <div class="row">
+                    <div class="col-lg-2">
+                      <form>
+              
+                        <div class="form-group">
+              
+                          <input type="text" class="form-control" id="query" placeholder="Search...">
+                          <button type="button" onclick="reset_map();" class="btn btn-sm btn-light">Reset Map</button>
+              
+                          <hr>
+              
+                          <label for="subject">Type</label>
+                          <select style="width: 100%;" class="select2-type" multiple="multiple"></select>
+                          <label for="medium">Area</label>
+                          <select style="width: 100%;" class="select2-area" multiple="multiple"></select>
+                          <label for="location">Language</label>
+                          <select style="width: 100%;" class="select2-language" multiple="multiple"></select>
+                          <label for="subject">Organization</label>
+                          <select style="width: 100%;" class="select2-organization" multiple="multiple"></select>
+                          <label for="subject">Keyword</label>
+                          <select style="width: 100%;" class="select2-keyword" multiple="multiple"></select>
+                          
+                          
+                        
+                          <hr>
+                          <div class="card" style="background-color: #f3efef;">
+                            <div class="card-body">
+                              <p>Legend</p>
+                              {% for category in categories %}
+                              {% if foroop.last %}
+                              <img style="height:25px; width:25px" src="{{ category.marker_image.url }}" /><span
+                                style="font-size:x-small;">&nbsp;{{ category.name }}</span><br>
+                              
+                              {% else %}
+                              <img style="height:25px; width:25px" src="{{ category.marker_image.url }}" /><span
+                                style="font-size:x-small;">&nbsp;{{ category.name }}</span><br>
+                                <hr style="border-width: 1px; ">
+                                {% endif %}
+                              {% endfor %}
+                            </div>
+                          </div>
+                        </div>
+              
+              
+                      </form>
+                    </div>
+                    <div class="col-lg-10">
+              
+              
+                      <style>
+                        
+                        #mapid { height: 80vh; width: 100%; }
+                      </style>
+                      <!-- http://bl.ocks.org/zross/47760925fcb1643b4225 -->
+                      <div id="mapid"></div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+        </div>
+        
+      </div>
+    </div>
+
+  </section><!-- End Hero -->
+
+ 
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
+{% endblock %}
+
+{% block extrajs %}
+<script>
+    <!-- LEAFLET SECTION -->
+
+      var map = L.map('mapid', {
+        zoomControl: false,
+        zoomSnap: 0.25,
+        zoomDelta: 0.125,
+        wheelPxPerZoomLevel: 60,
+        zoomControl: false,
+      }).setView([36.26490471823096, -37.35054994598953], 3);
+      var wmsLayer = L.esri.basemapLayer('ImageryClarity').addTo(map);
+      //add zoom control with your options
+    
+      
+      
+      
+    
+      
+      
+    
+    
+    let items = {
+      "crs": {
+        "type": "link",
+        "properties": {
+          "type": "proj4",
+          "href": "http://spatialreference.org/ref/epsg/4326/"
+        }
+      },
+      "type": "FeatureCollection",
+      "features": [{
+        "id": 14,
+        "type": "Feature",
+        "properties": {
+          "popupcontent": "<img style=\"max-width:120px\" src=\"/media/items/Fig._2_-_Neagoe_Basarab_and_Family_SUrQtK6.jpg\" /><br><strong><a href=\"/item/neagoe-basarab-of-wallachia-and-his-family\">Neagoe Basarab of Wallachia and His Family</a></strong><br>",
+          "subject": 7,
+          "model": "main.item",
+          "categories": [6],
+          "category": 6,
+          "medium": null,
+          "locations": [2],
+          "location": 2,
+          "end_year": 1550,
+          "types": [],
+          "subjects": [7],
+          "start_year": 1500
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [24.6685182, 45.14059659999999]
+        }
+      }, {
+        "id": 15,
+        "type": "Feature",
+        "properties": {
+          "popupcontent": "<img style=\"max-width:120px\" src=\"/media/items/1._Sullian_Erdeljan_fCw6ONC.jpg\" /><br><strong><a target=\"_blank\" href=\"https://www.academia.edu/42488261/_Review_Jelena_Erdeljan_Chosen_Places_Constructing_New_Jerusalems_in_Slavia_Orthodoxa_East_Central_and_Eastern_Europe_in_the_Middle_Ages_450_1450_45_Leiden_and_Boston\">Review of J. Erdeljan, <i>Chosen Places: Constructing New Jerusalems in Slavia Orthodoxa</i> (Leiden and Boston: Brill, 2017), in <i>Speculum</i> 95, no. 2 (2020): 546-547. [A. I. Sullivan]</a></strong><br>",
+          "subject": null,
+          "model": "main.item",
+          "categories": [7],
+          "category": 7,
+          "medium": null,
+          "locations": [6],
+          "location": 6,
+          "end_year": 1450,
+          "types": [],
+          "subjects": [],
+          "start_year": 450
+        },
+        "geometry": {
+          "type": "Point",
+          "coordinates": [20.4489216, 44.786568]
+        }
+      }]
+    }
+
+      //   hide the leaflet and esri label on the map
+      $('.leaflet-control-attribution').hide()
+    
+    </script>
+    <!-- MAP FILTER AND SEARCH -->
+    <script>
+      function make_map() {
+        // clear existing points on the map
+        map.eachLayer(function (layer) {
+          if (!!layer.toGeoJSON) {
+            map.removeLayer(layer);
+          }
+        });
+
+        
+        // collect search parameters
+        let query = $('#query').val();
+        let type = $('.select2-type').val();
+        // select2 returns the ids of the selected items, convert to string
+        let types = [] 
+        for (let i = 0; i < type.length; i++) {
+          types.push(type[i].innerText));
+        }
+        let area = $('.select2-area').val();
+        let languages = $('.select2-language').val();
+        let organization = $('.select2-organization').val();
+        let keywords = $('.select2-keyword').val();
+        let start_year = $("#slider").slider("values", 0);
+        let end_year = $("#slider").slider("values", 1);
+    
+        //iterate over features in the FeatureCollection to filter
+        // returns an array of ids to be dropped from the map
+        // that do not match the current parameters 
+        let drop_items = [];
+        for (i = 0; i < items.features.length; i++) {
+    
+          if (query) {
+            // normalize the title and query, remove accented charachters and convert to lowercase
+            let title = items.features[i].properties.popupcontent.normalize('NFD').replace(/[\u0300-\u036f]/g, "").toLowerCase();
+            if (!title.includes(query.normalize('NFD').replace(/[\u0300-\u036f]/g, "").toLowerCase())) {
+              drop_items.push(items.features[i].id);
+            }
+          };
+    
+          if (type.length > 0) {
+            let matches = items.features[i].properties.categories.filter(value => type.includes(value.toString()));
+            if (matches.length ==  0) {
+              drop_items.push(items.features[i].id)
+            } 
+          };
+    
+          if (area.length > 0) {
+            let matches = items.features[i].properties.area.filter(value => area.includes(value.toString()));
+            if (matches.length ==  0) {
+              drop_items.push(items.features[i].id)
+            } 
+          };
+          
+          if (languages.length > 0) {
+            let matches = items.features[i].properties.languages.filter(value => languages.includes(value.toString()));
+            if (matches.length ==  0) {
+              drop_items.push(items.features[i].id)
+            } 
+          };
+          
+          if (organization.length > 0) {
+            let matches = items.features[i].properties.organization.filter(value => organization.includes(value.toString()));
+            if (matches.length ==  0) {
+              drop_items.push(items.features[i].id)
+            } 
+          };
+    
+          if (keywords.length > 0) {
+            let matches = items.features[i].properties.keywords.filter(value => keywords.includes(value.toString()));
+            if (matches.length ==  0) {
+              drop_items.push(items.features[i].id)
+            } 
+          };
+    
+        }; // End of for loop 
+    
+        // console.log('criteria: ', type,subject, location, medium,keywords,start_year, end_year)
+    
+        // console.log('drop: ', drop_items);
+    
+        // add the categories as layers with their own icons
+        {% for category in categories %}
+
+        //TODO add image and shadow field to category use those urls for icon
+        var cat_{{ category.id }}_icon = new L.Icon({
+    
+        iconUrl: '{{ category.marker_image.url }}',
+        shadowUrl: '{{ category.marker_shadow.url }}',
+        iconSize: [{{ category.marker_image.width }}, {{ category.marker_image.height }}],  // [25, 41],
+        iconAnchor: [{{ category.marker_image.width | half }}, {{ category.marker_image.height | half }}],
+        popupAnchor: [1, -34],
+        shadowSize: [{{ category.marker_shadow.width }}, {{ category.marker_shadow.height }}]
+          });
+    
+      //create a layer for each category with filter
+      var coords = [];
+      var popups = [];
+      var i;
+      var j;
+      var inArray = false;
+      var k;
+      var z;
+      var t = 0;
+      var cat_{{ category.id }} = L.geoJSON(items, {
+        pointToLayer: function (feature, latlng) {
+          return L.marker(latlng, {
+            icon: cat_{{ category.id }}_icon
+      });
+        },
+      filter: function(feature, layer) {
+        return feature.properties.categories.includes({{ category.id }}) && !(drop_items.includes(feature.id))
+        },
+      onEachFeature: function(feature, layer) {
+        c = [];
+        d = [];
+        props = [];
+    
+        coords.push(feature.geometry.coordinates);
+        popups.push(feature.properties.popupcontent);
+        for (i = 0; i < coords.length; i++) {
+          for (j = 0; j < c.length; j++) {
+            if (c[j][0][0] == (coords[i][0])) {
+              c[j].push(coords[i]);
+              d[j].push(popups[i]);
+              inArray = true;
+              break;
+            }
+          }
+          if (inArray == false) {
+            c.push([coords[i]]);
+            d.push([popups[i]]);
+          }
+          inArray = false;
+        }
+    
+        for (k = 0; k < c.length; k++) {
+          if (c[k].includes(feature.geometry.coordinates)) {
+            break;
+          }
+        }
+        var props = "";
+        props = props + d[k][0]
+        for (t = 1; t < d[k].length; t++) {
+          var x = d[k][t].indexOf("br>")
+          d[k][t] = d[k][t].substring(x + 3, d[k][t].length)
+          props = props + "<hr>" + d[k][t];
+          if (t > 10) {
+            props = props + "<p>and " + ((d[k].length) + -t) + " more results. Narrow down your search!</p>";
+            break;
+          }
+        }
+        var content = `<p>${props}</p>`;
+        layer.bindPopup(content, {
+          maxWidth: "auto"
+        });
+      }
+    }).addTo(map);
+    
+      inArray = false;
+      t = 0;
+    
+    
+    
+    
+      {% endfor %}
+    
+          
+      };
+    
+    
+    </script>
+
+    
+    <!-- SELECT2 SECTION -->
+    <script>
+      $('.select2-type').select2({
+        ajax: {
+          url: '../assets/categories/type_autocomplete.json',
+          dataType: 'json',
+          theme: 'bootstrap4',
+        }
+      });
+    
+      $('.select2-area').select2({
+        ajax: {
+          url: '../assets/categories/area_autocomplete.json',
+          dataType: 'json',
+          theme: 'bootstrap4',
+        }
+      });
+      $('.select2-language').select2({
+        ajax: {
+          url: '../language-autocomplete',
+          dataType: 'json',
+          theme: 'bootstrap4',
+        }
+      });
+      $('.select2-organization').select2({
+        ajax: {
+          url: '../organization-autocomplete',
+          dataType: 'json',
+          theme: 'bootstrap4',
+        }
+      });
+      $('.select2-keyword').select2({
+        ajax: {
+          url: '../keyword-autocomplete',
+          dataType: 'json',
+          theme: 'bootstrap4',
+        }
+      });
+    
+      $('.select2-keyword').on('select2:select', function (e) {
+        // added on select, individually, need function for when deselected as well 
+    
+    
+        make_map();
+      });
+      $('.select2-keyword').on('select2:unselect', function (e) {
+    
+        make_map();
+      });
+    
+      $('.select2-medium').on('select2:select', function (e) {
+        make_map();
+      });
+    
+      $('.select2-medium').on('select2:unselect', function (e) {
+        make_map();
+      });
+    
+      $('.select2-location').on('select2:select', function (e) {
+        make_map();
+      });
+    
+      $('.select2-location').on('select2:unselect', function (e) {
+        make_map();
+      });
+    
+      $('.select2-subject').on('select2:select', function (e) {
+        make_map();
+      });
+    
+      $('.select2-subject').on('select2:unselect', function (e) {
+        make_map();
+      });
+    
+      $('.select2-type').on('select2:select', function (e) {
+        make_map();
+      });
+    
+      $('.select2-type').on('select2:unselect', function (e) {
+        make_map();
+      });
+    
+      $('.select2-keyword').on('select2:select', function (e) {
+        make_map();
+      });
+    
+      $('.select2-keyword').on('select2:unselect', function (e) {
+        make_map();
+      });
+    
+      $('#query').on('change keydown paste input', function (e) {
+        if (e.keyCode === 13) {
+          event.preventDefault();
+          make_map();
+        }
+        else {
+          make_map();
+        }
+    
+      });
+    
+    
+      // helper function to remove value from array
+      // https://stackoverflow.com/questions/3954438/how-to-remove-item-from-array-by-value
+      Array.prototype.remove = function () {
+        var what, a = arguments, L = a.length, ax;
+        while (L && this.length) {
+          what = a[--L];
+          while ((ax = this.indexOf(what)) !== -1) {
+            this.splice(ax, 1);
+          }
+        }
+        return this;
+      };
+    </script>
+    
+    <script>
+      function reset_map() {
+        $('#query').val('');
+        $('.select2-type').val(null).trigger('change');
+        $('.select2-subject').val(null).trigger('change');
+        $('.select2-location').val(null).trigger('change');
+        $('.select2-medium').val(null).trigger('change');
+        $('.select2-keyword').val(null).trigger('change');
+        make_map();
+      };
+    
+    
+    </script>
+    
+    <script>
+    
+    
+      // call make map for initial state before filters and search
+      make_map();
+    </script>
+{% endblock %}

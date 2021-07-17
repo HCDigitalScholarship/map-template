@@ -1,0 +1,25 @@
+name: Map of Yore
+author: null 
+title: Cartographic Delusions in the Works of Old Chaucer
+about: This is a site for mapping things 
+logo: 'cpgc.png' #file goes in assets/img
+email: null
+categories:
+ - name: "Type"
+   #file should be a valid image file located in /assets/icons
+   marker_image_file: 'noun_book_setting_3987934_1.png' 
+   marker_shadow_file: null
+ - name: "Area"
+   marker_image_file: 'noun_Museum_3477668 (1).png'
+   marker_shadow_file: null
+ - name: "Language"
+   marker_image_file: 'noun_looking_for_663971.png'
+   marker_shadow_file: null
+ - name: "Organization"
+   marker_image_file: 'noun_book_setting_3987934_1.png'
+   marker_shadow_file: null
+ - name: "Keyword"
+   marker_image_file: 'noun_Museum_3477668 (1).png'
+   marker_shadow_file: null
+
+   

@@ -1,0 +1,21 @@
+name: Fred's Fish
+lat: 40.008803
+long: -75.307069
+image_file: null
+organization: null
+contact: null
+haverford_office: null
+description : "This is a great place for fish."
+start_date: 2021-01-01
+end_date: 2021-12-31
+type_of_opportunity:
+  - research
+  - partner
+area_of_interest: null
+languages:
+  - French
+  - Hungarian 
+regions: null
+subjects: null 
+keywords: null
+publish: true

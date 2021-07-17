@@ -1,0 +1,53 @@
+{
+	"crs": {
+		"type": "link",
+		"properties": {
+			"type": "proj4",
+			"href": "http://spatialreference.org/ref/epsg/4326/"
+		}
+	},
+	"type": "FeatureCollection",
+	"features": [{
+		"id": 14,
+		"type": "Feature",
+		"properties": {
+			"popupcontent": "<img style=\"max-width:120px\" src=\"/media/items/Fig._2_-_Neagoe_Basarab_and_Family_SUrQtK6.jpg\" /><br><strong><a href=\"/item/neagoe-basarab-of-wallachia-and-his-family\">Neagoe Basarab of Wallachia and His Family</a></strong><br>",
+			"subject": 7,
+			"model": "main.item",
+			"categories": [6],
+			"category": 6,
+			"medium": null,
+			"locations": [2],
+			"location": 2,
+			"end_year": 1550,
+			"types": [],
+			"subjects": [7],
+			"start_year": 1500
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [24.6685182, 45.14059659999999]
+		}
+	}, {
+		"id": 15,
+		"type": "Feature",
+		"properties": {
+			"popupcontent": "<img style=\"max-width:120px\" src=\"/media/items/1._Sullian_Erdeljan_fCw6ONC.jpg\" /><br><strong><a target=\"_blank\" href=\"https://www.academia.edu/42488261/_Review_Jelena_Erdeljan_Chosen_Places_Constructing_New_Jerusalems_in_Slavia_Orthodoxa_East_Central_and_Eastern_Europe_in_the_Middle_Ages_450_1450_45_Leiden_and_Boston\">Review of J. Erdeljan, <i>Chosen Places: Constructing New Jerusalems in Slavia Orthodoxa</i> (Leiden and Boston: Brill, 2017), in <i>Speculum</i> 95, no. 2 (2020): 546-547. [A. I. Sullivan]</a></strong><br>",
+			"subject": null,
+			"model": "main.item",
+			"categories": [7],
+			"category": 7,
+			"medium": null,
+			"locations": [6],
+			"location": 6,
+			"end_year": 1450,
+			"types": [],
+			"subjects": [],
+			"start_year": 450
+		},
+		"geometry": {
+			"type": "Point",
+			"coordinates": [20.4489216, 44.786568]
+		}
+	}]
+}
