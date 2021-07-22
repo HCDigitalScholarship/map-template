@@ -1,6 +1,6 @@
 {% extends 'base.html' %}
-{% block title%}{{ data['name'] }}{% endblock %}
-{% block logo %}{{ data['logo'] }}{% endblock %}
+{% block title%}{{ site_data['name'] }}{% endblock %}
+{% block logo %}{{ site_data['logo'] }}{% endblock %}
   {% block content %}
  
   <!-- ======= MAP Section ======= -->
@@ -39,16 +39,12 @@
                           <div class="card" style="background-color: #f3efef;">
                             <div class="card-body">
                               <p>Legend</p>
-                              {% for category in categories %}
-                              {% if foroop.last %}
-                              <img style="height:25px; width:25px" src="{{ category.marker_image.url }}" /><span
-                                style="font-size:x-small;">&nbsp;{{ category.name }}</span><br>
-                              
-                              {% else %}
-                              <img style="height:25px; width:25px" src="{{ category.marker_image.url }}" /><span
-                                style="font-size:x-small;">&nbsp;{{ category.name }}</span><br>
+                              {% for category in site_data['categories'] %}
+                  
+                              <img style="height:25px; width:25px" src="{{ category['marker_image.url'] }}" /><span
+                                style="font-size:x-small;">&nbsp;{{ category['name'] }}</span><br>
                                 <hr style="border-width: 1px; ">
-                                {% endif %}
+                                
                               {% endfor %}
                             </div>
                           </div>
@@ -355,21 +351,21 @@
       });
       $('.select2-language').select2({
         ajax: {
-          url: '../language-autocomplete',
+          url: '../assets/categories/language_autocomplete.json',
           dataType: 'json',
           theme: 'bootstrap4',
         }
       });
       $('.select2-organization').select2({
         ajax: {
-          url: '../organization-autocomplete',
+          url: '../assets/categories/organization_autocomplete.json',
           dataType: 'json',
           theme: 'bootstrap4',
         }
       });
       $('.select2-keyword').select2({
         ajax: {
-          url: '../keyword-autocomplete',
+          url: '../assets/categories/keyword_autocomplete.json',
           dataType: 'json',
           theme: 'bootstrap4',
         }

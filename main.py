@@ -25,8 +25,9 @@ app.include_router(add_items.router)
 @app.get("/")
 def root(request: Request,):
     context= {}
-    data = load_data()
-    context['data'] = data 
+    items, site_data = load_data()
+    context['items'] = items
+    context['site_data'] = site_data
     context['request'] = request
     
     return templates.TemplateResponse("index.html", context)

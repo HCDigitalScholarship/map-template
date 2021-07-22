@@ -6,6 +6,7 @@ from pydantic import BaseModel
 from PIL import Image
 from typing import List, Dict, Optional
 import datetime 
+from functools import cache
 
 class Category(BaseModel):
     id: int
@@ -34,7 +35,7 @@ class Item(BaseModel):
     geo_json: Optional[dict]
 
     
-
+@cache
 def load_data():
     icons_dir = Path.cwd() / 'assets' / 'icons'
     items_dir = Path.cwd() / 'data' / 'items'
@@ -78,11 +79,22 @@ def load_data():
             items.append(item_obj)
             ii += 1
             item_type = [a for a in item_obj.categories if list(a.keys())[0]  == 'Type'][0]['Type']
+            update_category_values('Type', item_type, site_data)
+
             item_area = [a for a in item_obj.categories if list(a.keys())[0]  == 'Area'][0]['Area']
+            update_category_values('Area', item_area, site_data)
+
             item_language = [a for a in item_obj.categories if list(a.keys())[0]  == 'Language'][0]['Language']
+            update_category_values('Language', item_language, site_data)
+
             item_region = [a for a in item_obj.categories if list(a.keys())[0]  == 'Region'][0]['Region']
+            update_category_values('Region', item_region, site_data)
+
             item_subject = [a for a in item_obj.categories if list(a.keys())[0]  == 'Subject'][0]['Subject']
+            update_category_values('Subject', item_subject, site_data)
+
             item_keyword = [a for a in item_obj.categories if list(a.keys())[0]  == 'Keyword'][0]['Keyword']
+            update_category_values('Keyword', item_keyword, site_data)
 
             geo_json = {
                         "id": item_obj.id,
@@ -106,5 +118,29 @@ def load_data():
                         }
             site_data['geojson']['features'].append(geo_json)
             item_obj.geo_json = geo_json
+
+    update_select2_autocomplete_json(site_data)
     return items, site_data
 
+def update_category_values(category, category_values, site_data):
+    for cat in site_data['categories']:
+        if cat['name'] == category:
+            if category_values:
+                for type in category_values:
+                    if type not in cat['values']:
+                        cat['values'].append(type)
+
+
+def update_select2_autocomplete_json(site_data):
+    for cat in site_data['categories']:
+        name = cat['name']
+        filename = Path(Path.cwd() / 'assets' / 'categories' / (name.lower() + '_autocomplete.json'))
+        data = {"results": [], 
+                "pagination": {"more": "false"}}
+        for i, value in enumerate(cat['values']): 
+            data['results'].append({
+                "id": i+1,
+                "selected_text": value,
+                "text": value
+            })
+        srsly.write_json(filename, data)
