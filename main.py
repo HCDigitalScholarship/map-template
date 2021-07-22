@@ -11,6 +11,7 @@ from routers import (
 )
 
 templates = Jinja2Templates(directory="templates")
+
 #Register custom filter to convert \n to <br>
 def half(value:int):
     if value:
@@ -25,7 +26,7 @@ app.include_router(add_items.router)
 def root(request: Request,):
     context= {}
     data = load_data()
-    context['data'] = data #srsly.json_dumps(data)
+    context['data'] = data 
     context['request'] = request
     
     return templates.TemplateResponse("index.html", context)

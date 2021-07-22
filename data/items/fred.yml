@@ -8,14 +8,16 @@ haverford_office: null
 description : "This is a great place for fish."
 start_date: 2021-01-01
 end_date: 2021-12-31
-type_of_opportunity:
-  - research
-  - partner
-area_of_interest: null
-languages:
-  - French
-  - Hungarian 
-regions: null
-subjects: null 
-keywords: null
+categories:
+  - Type:
+    - research
+    - partner
+  - Area: null
+  - Language:
+    - French
+    - Hungarian 
+  - Region: null
+  - Subject: null 
+  - Keyword: null
 publish: true
+geo_json: {}
