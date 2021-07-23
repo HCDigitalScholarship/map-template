@@ -2,12 +2,10 @@
   "results":[
     {
       "id":1,
-      "selected_text":"research",
       "text":"research"
     },
     {
       "id":2,
-      "selected_text":"partner",
       "text":"partner"
     }
   ],

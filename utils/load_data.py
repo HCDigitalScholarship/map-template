@@ -59,11 +59,16 @@ def load_data():
         category['slug'] = category['name'].lower().replace(' ', '-')
         category['values'] = []
         if category['marker_image_file']:
-            category['marker_image_width'] = Image.open(str(icons_dir) +'/'+category['marker_image_file'] ).size[0]
+            marker_width, marker_height = Image.open(str(icons_dir) +'/'+category['marker_image_file'] ).size
+            category['marker_image_width'] = marker_width
+            category['marker_image_height'] = marker_height
+            
             category['marker_image_file'] = '../assets/icons/'+ category['marker_image_file']
             
         if category['marker_shadow_file']:
-            category['marker_shadow_width'] = Image.open(str(icons_dir) +'/'+category['marker_shadow_file'] ).size[0]
+            shadow_width, shadow_height = Image.open(str(icons_dir) +'/'+category['marker_shadow_file'] ).size
+            category['marker_shadow_width'] = shadow_width
+            category['marker_shadow_height'] = shadow_height
             category['marker_shadow_file'] = '../assets/icons/'+ category['marker_shadow_file']
         i += 1
 
@@ -116,7 +121,7 @@ def load_data():
                                 "coordinates": [item_obj.long,item_obj.lat ]
                             }
                         }
-            site_data['geojson']['features'].append(geo_json)
+            site_data['geojson']['features'].append(srsly.json_dumps(geo_json))
             item_obj.geo_json = geo_json
 
     update_select2_autocomplete_json(site_data)
@@ -140,7 +145,6 @@ def update_select2_autocomplete_json(site_data):
         for i, value in enumerate(cat['values']): 
             data['results'].append({
                 "id": i+1,
-                "selected_text": value,
                 "text": value
             })
         srsly.write_json(filename, data)
