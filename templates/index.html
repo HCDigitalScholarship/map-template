@@ -101,7 +101,9 @@
     
     
     let items = {{ site_data['geojson']|safe }};
-
+    for (i in items.features) {
+      items.features[i] = JSON.parse(items.features[i]);
+    };
       //   hide the leaflet and esri label on the map
       $('.leaflet-control-attribution').hide()
     
@@ -132,7 +134,6 @@
         // that do not match the current parameters 
         let drop_items = [];
         for (i = 0; i < items.features.length; i++) {
-    
           if (query) {
             // normalize the title and query, remove accented charachters and convert to lowercase
             let title = items.features[i].properties.popupcontent.normalize('NFD').replace(/[\u0300-\u036f]/g, "").toLowerCase();
@@ -142,45 +143,44 @@
           };
     
           if (type.length > 0) {
-            let matches = items.features[i].properties.categories.filter(value => type.includes(value.toString()));
+            let matches = items.features[i].properties.Type.filter(value => type.includes(value.toString()));
             if (matches.length ==  0) {
               drop_items.push(items.features[i].id)
             } 
           };
     
           if (area.length > 0) {
-            let matches = items.features[i].properties.area.filter(value => area.includes(value.toString()));
+            let matches = items.features[i].properties.Area.filter(value => area.includes(value.toString()));
             if (matches.length ==  0) {
               drop_items.push(items.features[i].id)
             } 
           };
           
           if (languages.length > 0) {
-            let matches = items.features[i].properties.languages.filter(value => languages.includes(value.toString()));
+            let matches = items.features[i].properties.Language.filter(value => languages.includes(value.toString()));
             if (matches.length ==  0) {
               drop_items.push(items.features[i].id)
             } 
           };
           
           if (organization.length > 0) {
-            let matches = items.features[i].properties.organization.filter(value => organization.includes(value.toString()));
+            let matches = items.features[i].properties.Organization.filter(value => organization.includes(value.toString()));
             if (matches.length ==  0) {
               drop_items.push(items.features[i].id)
             } 
           };
     
           if (keywords.length > 0) {
-            let matches = items.features[i].properties.keywords.filter(value => keywords.includes(value.toString()));
+            let matches = items.features[i].properties.Keyword.filter(value => keywords.includes(value.toString()));
             if (matches.length ==  0) {
               drop_items.push(items.features[i].id)
             } 
           };
     
         }; // End of for loop 
-    
+        console.log('drop_items=',drop_items);
         // console.log('criteria: ', type,subject, location, medium,keywords,start_year, end_year)
     
-        // console.log('drop: ', drop_items);
     
         // add the categories as layers with their own icons
         {% for category in site_data['categories'] %}
@@ -212,7 +212,7 @@
       });
         },
       filter: function(feature, layer) {
-        return feature.properties.categories.includes({{ category.id }}) && !(drop_items.includes(feature.id))
+        return  !(drop_items.includes(feature.id)) //&& feature.properties.{{ category['name'] }}.includes({{ category.name }})
         },
       onEachFeature: function(feature, layer) {
         c = [];

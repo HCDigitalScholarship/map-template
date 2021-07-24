@@ -106,13 +106,12 @@ def load_data():
                         "type": "Feature",
                         "properties": {
                             "popupcontent": f"""<img style="max-width:120px" src="../assets/items/{item_obj.image_file}" /><br><strong><a href="../item/{item_obj.name}">{item_obj.name}</a></strong><br>""",
-                            "organization": item_obj.organization,
-                            "languages": item_language,
+                            "Organization": item_obj.organization,
+                            "Language": item_language,
                             "regions": item_region,
-                            "area_of_interest": item_area, 
-                            "types": item_type,
-                            "subjects": item_subject,
-                            "keywords": item_keyword,
+                            "Area": item_area, 
+                            "Type": item_type,
+                            "Keyword": item_keyword,
                             "start_date": item_obj.start_date.strftime("%Y-%m-%d") if item_obj.start_date else None,
                             "end_date": item_obj.end_date.strftime("%Y-%m-%d") if item_obj.end_date else None
                         },
