@@ -61,6 +61,10 @@ def load_data():
     # 1.1 update categories with slug, and image dimensions
     #TODO would be good to do this dynamically from values in the items, but how to handle marker files? 
     i= 1
+    categories = get_cats(items_dir)
+    print(categories)  
+    
+
     for category in site_data['categories']:
         category['id'] = i
         category['slug'] = category['name'].lower().replace(' ', '-')
@@ -92,7 +96,7 @@ def load_data():
             ii += 1
             item_type = [a for a in item_obj.categories if list(a.keys())[0]  == 'Type'][0]['Type']
             update_category_values('Type', item_type, site_data)
-
+            
             item_area = [a for a in item_obj.categories if list(a.keys())[0]  == 'Area'][0]['Area']
             update_category_values('Area', item_area, site_data)
 
@@ -112,7 +116,7 @@ def load_data():
                         "id": item_obj.id,
                         "type": "Feature",
                         "properties": {
-                            "popupcontent": f"""<img style="max-width:120px" src="../assets/items/{item_obj.image_file}" /><br><strong><a href="../item/{item_obj.name}">{item_obj.name}</a></strong><br>""",
+                            "popupcontent": f"""<img style="max-width:120px" src="../assets/items/{item_obj.image_file}" /><br><strong><a href="../item/{item_obj.slug}">{item_obj.name}</a></strong><br>""",
                             "Organization": item_obj.organization,
                             "Language": item_language,
                             "regions": item_region,
@@ -132,9 +136,10 @@ def load_data():
     #3 update autocomplete json files with values present in the items.
     update_select2_autocomplete_json(site_data)
     site_data = to_s2ids(site_data)
+    site_data['types'] = [a for a in site_data['categories'] if a['name']  == 'Type']
     return items, site_data
 
-def update_category_values(category, category_values, site_data):
+def update_category_values(category, category_values, site_data): # retire
     for cat in site_data['categories']:
         if cat['name'] == category:
             if category_values:
@@ -191,4 +196,22 @@ def select2_ids():
             result[option['text']] = option['id']
     return result
     
+def get_cats(items_dir):
+    """Read current data to return all category names and all distinct values for each category names
+    should replace site_data['categories'] 
+    """
+    cats = {}
+    for item in items_dir.iterdir():
+        data = srsly.read_yaml(item)
+        cat_names = [list(cat.keys())[0] for cat in data['categories']]
+        for type_ in cat_names:
+            try: 
+                cats[type_]
+            except KeyError:
+                cats[type_] = []
+            for cat in data['categories']:
+                if list(cat.keys())[0]  == type_:
+                    if cat[type_]:
+                        cats[type_].extend(cat[type_])
+    return cats
 

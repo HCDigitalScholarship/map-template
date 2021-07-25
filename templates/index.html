@@ -187,8 +187,7 @@
     
     
         // add the categories as layers with their own icons
-        {% for category in site_data['categories'] %}
-
+        {% for category in site_data['types'] %} // switch to type values, not category names
         //TODO add image and shadow field to category use those urls for icon
         var cat_{{ category.id }}_icon = new L.Icon({
     
@@ -329,27 +328,27 @@
         make_map();
       });
     
-      $('.select2-medium').on('select2:select', function (e) {
+      $('.select2-organization').on('select2:select', function (e) {
         make_map();
       });
     
-      $('.select2-medium').on('select2:unselect', function (e) {
+      $('.select2-organization').on('select2:unselect', function (e) {
         make_map();
       });
     
-      $('.select2-location').on('select2:select', function (e) {
+      $('.select2-language').on('select2:select', function (e) {
         make_map();
       });
     
-      $('.select2-location').on('select2:unselect', function (e) {
+      $('.select2-language').on('select2:unselect', function (e) {
         make_map();
       });
     
-      $('.select2-subject').on('select2:select', function (e) {
+      $('.select2-area').on('select2:select', function (e) {
         make_map();
       });
     
-      $('.select2-subject').on('select2:unselect', function (e) {
+      $('.select2-area').on('select2:unselect', function (e) {
         make_map();
       });
     
