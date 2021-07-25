@@ -37,6 +37,13 @@ class Item(BaseModel):
     
 @cache
 def load_data():
+    """
+    1. Reads the site.yml file to create a site_data dict.
+    1.1 For each category in the site_data, it reads the map icon file and identifies its center point.
+    2 Reads each file in the data/items directory, creates am Item object and generates geoJSON for the item.
+    3 update autocomplete json files with values present in the items. 
+    returns the site_data dict as well as a list of the Item objects
+    """
     icons_dir = Path.cwd() / 'assets' / 'icons'
     items_dir = Path.cwd() / 'data' / 'items'
     site_data = srsly.read_yaml((Path.cwd() / 'data' / 'site.yml'))
@@ -51,7 +58,7 @@ def load_data():
 	"type": "FeatureCollection",
 	"features": []
     }
-    # update categories with slug, and image dimensions
+    # 1.1 update categories with slug, and image dimensions
     #TODO would be good to do this dynamically from values in the items, but how to handle marker files? 
     i= 1
     for category in site_data['categories']:
@@ -72,7 +79,7 @@ def load_data():
             category['marker_shadow_file'] = '../assets/icons/'+ category['marker_shadow_file']
         i += 1
 
-    # read all items for categories values and create items geojson
+    # 2 read all items for categories values and create items geojson
     items = []
     ii = 1
     for item in items_dir.iterdir():
@@ -122,8 +129,9 @@ def load_data():
                         }
             site_data['geojson']['features'].append(srsly.json_dumps(geo_json))
             item_obj.geo_json = geo_json
-
+    #3 update autocomplete json files with values present in the items.
     update_select2_autocomplete_json(site_data)
+    site_data = to_s2ids(site_data)
     return items, site_data
 
 def update_category_values(category, category_values, site_data):
@@ -143,7 +151,44 @@ def update_select2_autocomplete_json(site_data):
                 "pagination": {"more": "false"}}
         for i, value in enumerate(cat['values']): 
             data['results'].append({
-                "id": i+1,
+                "id": i,
                 "text": value
             })
         srsly.write_json(filename, data)
+
+def to_s2ids(site_data: dict) -> dict:
+    categories = [a['name'] for a in site_data['categories']]
+    s2_id_lookup = select2_ids()
+    new_feats = []
+    for feat in site_data['geojson']['features']:
+        feat = srsly.json_loads(feat)
+        for prop in feat['properties'].keys():
+            if prop in categories:
+                if feat['properties'][prop]:
+                    if isinstance(feat['properties'][prop], List): #some properties may be strings, filter them out
+                        s2_ids = []
+                        for val in feat['properties'][prop]:
+                            s2_ids.append(s2_id_lookup[val])
+                        feat['properties'][prop] = s2_ids
+        new_feats.append(srsly.json_dumps(feat))
+    site_data['geojson']['features'] = new_feats
+    return site_data
+
+
+def select2_ids():
+    """Generates a dictionary of select2 ids for each category
+    Note that this requires that categories cannot share text values. I think this sounds right, but may not be correct for 
+    all use cases.
+    Returns:
+        dict: with key of text option and value of select2 id
+    """
+    result = {}
+    autocomp_dir = Path(Path.cwd() / 'assets' / 'categories' )
+    for cat in autocomp_dir.iterdir():
+        cat_name = cat.stem.split('_')[0]
+        cat_data = srsly.read_json(cat)
+        for option in cat_data['results']:
+            result[option['text']] = option['id']
+    return result
+    
+

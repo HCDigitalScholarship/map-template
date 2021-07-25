@@ -22,15 +22,15 @@
               
                           <hr>
               
-                          <label for="subject">Type</label>
+                          <label for="type">Type</label>
                           <select style="width: 100%;" class="select2-type" multiple="multiple"></select>
-                          <label for="medium">Area</label>
+                          <label for="area">Area</label>
                           <select style="width: 100%;" class="select2-area" multiple="multiple"></select>
-                          <label for="location">Language</label>
+                          <label for="language">Language</label>
                           <select style="width: 100%;" class="select2-language" multiple="multiple"></select>
-                          <label for="subject">Organization</label>
+                          <label for="organization">Organization</label>
                           <select style="width: 100%;" class="select2-organization" multiple="multiple"></select>
-                          <label for="subject">Keyword</label>
+                          <label for="keyword">Keyword</label>
                           <select style="width: 100%;" class="select2-keyword" multiple="multiple"></select>
                           
                           
@@ -79,6 +79,8 @@
 {% endblock %}
 
 {% block extrajs %}
+<script id="hello-data" type="application/json">{"hello": "world"}</script>
+
 <script>
     <!-- LEAFLET SECTION -->
 
@@ -101,6 +103,7 @@
     
     
     let items = {{ site_data['geojson']|safe }};
+    
     for (i in items.features) {
       items.features[i] = JSON.parse(items.features[i]);
     };
@@ -121,7 +124,7 @@
         
         // collect search parameters
         let query = $('#query').val();
-        let type = $('.select2-type').val();
+        let type = $('.select2-type').val(); 
         let area = $('.select2-area').val();
         let languages = $('.select2-language').val();
         let organization = $('.select2-organization').val();
@@ -143,6 +146,7 @@
           };
     
           if (type.length > 0) {
+
             let matches = items.features[i].properties.Type.filter(value => type.includes(value.toString()));
             if (matches.length ==  0) {
               drop_items.push(items.features[i].id)
