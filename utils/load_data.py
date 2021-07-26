@@ -135,14 +135,6 @@ def load_data():
     site_data['types'] = site_data['categories']['Type'] #add icon path for each type
     return items, site_data
 
-def update_category_values(category, category_values, site_data): # retire
-    for cat in site_data['categories']:
-        if cat['name'] == category:
-            if category_values:
-                for type in category_values:
-                    if type not in cat['values']:
-                        cat['values'].append(type)
-
 
 def update_select2_autocomplete_json(site_data):
     for cat in site_data['categories']:

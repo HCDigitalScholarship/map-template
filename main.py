@@ -37,5 +37,13 @@ def root(request: Request,):
     
     return templates.TemplateResponse("index.html", context)
 
+@app.get("/item/{slug}")
+def root(request: Request, slug:str):
+    context= {}
+    items, site_data = load_data()
+    context['site_data'] = site_data
+    context['request'] = request
+    context['item'] = [i for i in items if i.slug == slug][0].dict()
+    return templates.TemplateResponse("item.html", context)
 
 

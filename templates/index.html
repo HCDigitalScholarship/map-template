@@ -35,19 +35,19 @@
                           
                           
                         
-                          <!-- If you want a legend, uncomment this section <hr>
+                          If you want a legend, uncomment this section <hr>
                           <div class="card" style="background-color: #f3efef;">
                             <div class="card-body">
                               <p>Legend</p>
-                              {% for category in site_data['categories'] %}
+                              {% for category in site_data['icons'] %}
                   
-                              <img style="height:25px; width:25px" src="{{ category['marker_image_file'] }}" /><span
+                              <img style="height:25px; width:25px" src="{{ category['file'] }}" /><span
                                 style="font-size:x-small;">&nbsp;{{ category['name'] }}</span><br>
                                 <hr style="border-width: 1px; ">
                                 
                               {% endfor %}
                             </div>
-                          </div> -->
+                          </div>
                         </div>
               
               

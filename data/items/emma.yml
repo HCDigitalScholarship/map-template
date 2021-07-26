@@ -1,0 +1,24 @@
+name: Emma's Toasties
+lat: 64.41428903168094
+long: -16.772546926033137
+image_file: EaQVfiPXYAEUynK.png
+organization: The United Nations
+contact: toast@emma.com
+haverford_office: null
+description : This is a great place for toasties.
+start_date: 2021-01-01
+end_date: 2021-12-31
+categories:
+  - Type:
+    - otters
+    - fancy poodles
+  - Area: null
+  - Language:
+    - German
+    - Chinese 
+  - Region: 
+    - Other
+  - Subject: null 
+  - Keyword: null
+publish: true
+geo_json: {}
