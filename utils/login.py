@@ -30,5 +30,5 @@ def logout(request: Request, credentials: HTTPBasicCredentials = Depends(securit
     correct_username = secrets.compare_digest(credentials.username, "")
     correct_password = secrets.compare_digest(credentials.password, "")
     if not (correct_username and correct_password):
-        return templates.TemplateResponse("login.html", {"request": request})
+        return templates.TemplateResponse("index.html", {"request": request})
     return credentials.username

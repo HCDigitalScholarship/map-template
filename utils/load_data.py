@@ -64,27 +64,7 @@ def load_data():
 
     # identify category icon files and save to site_data.icons
     site_data['icons'] = get_icons(icons_dir, site_data['categories'])
-            
     
-
-    # for category in site_data['categories']:
-    #     category['id'] = i
-    #     category['slug'] = category['name'].lower().replace(' ', '-')
-    #     category['values'] = []
-    #     if category['marker_image_file']:
-    #         marker_width, marker_height = Image.open(str(icons_dir) +'/'+category['marker_image_file'] ).size
-    #         category['marker_image_width'] = marker_width
-    #         category['marker_image_height'] = marker_height
-            
-    #         category['marker_image_file'] = '../assets/icons/'+ category['marker_image_file']
-            
-    #     if category['marker_shadow_file']:
-    #         shadow_width, shadow_height = Image.open(str(icons_dir) +'/'+category['marker_shadow_file'] ).size
-    #         category['marker_shadow_width'] = shadow_width
-    #         category['marker_shadow_height'] = shadow_height
-    #         category['marker_shadow_file'] = '../assets/icons/'+ category['marker_shadow_file']
-    #     i += 1
-
     # 2 read all items for categories values and create items geojson
     items = []
     ii = 1
