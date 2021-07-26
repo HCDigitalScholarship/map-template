@@ -18,6 +18,11 @@ def half(value:int):
         return int(value / 2)
 templates.env.filters['half'] = half
 
+def slug_me(value:str):
+    if value:
+        return value.lower().replace(' ', '-')
+templates.env.filters['slug'] = slug_me
+       
 app = FastAPI()
 app.mount("/assets", StaticFiles(directory="./assets"), name="assets")
 app.include_router(add_items.router)

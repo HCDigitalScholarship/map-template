@@ -58,30 +58,32 @@ def load_data():
 	"type": "FeatureCollection",
 	"features": []
     }
-    # 1.1 update categories with slug, and image dimensions
-    #TODO would be good to do this dynamically from values in the items, but how to handle marker files? 
-    i= 1
-    categories = get_cats(items_dir)
-    print(categories)  
+    
+    # read all items for distinct categories and current possible values 
+    site_data['categories'] = get_cats(items_dir)
+
+    # identify category icon files and save to site_data.icons
+    site_data['icons'] = get_icons(icons_dir, site_data['categories'])
+            
     
 
-    for category in site_data['categories']:
-        category['id'] = i
-        category['slug'] = category['name'].lower().replace(' ', '-')
-        category['values'] = []
-        if category['marker_image_file']:
-            marker_width, marker_height = Image.open(str(icons_dir) +'/'+category['marker_image_file'] ).size
-            category['marker_image_width'] = marker_width
-            category['marker_image_height'] = marker_height
+    # for category in site_data['categories']:
+    #     category['id'] = i
+    #     category['slug'] = category['name'].lower().replace(' ', '-')
+    #     category['values'] = []
+    #     if category['marker_image_file']:
+    #         marker_width, marker_height = Image.open(str(icons_dir) +'/'+category['marker_image_file'] ).size
+    #         category['marker_image_width'] = marker_width
+    #         category['marker_image_height'] = marker_height
             
-            category['marker_image_file'] = '../assets/icons/'+ category['marker_image_file']
+    #         category['marker_image_file'] = '../assets/icons/'+ category['marker_image_file']
             
-        if category['marker_shadow_file']:
-            shadow_width, shadow_height = Image.open(str(icons_dir) +'/'+category['marker_shadow_file'] ).size
-            category['marker_shadow_width'] = shadow_width
-            category['marker_shadow_height'] = shadow_height
-            category['marker_shadow_file'] = '../assets/icons/'+ category['marker_shadow_file']
-        i += 1
+    #     if category['marker_shadow_file']:
+    #         shadow_width, shadow_height = Image.open(str(icons_dir) +'/'+category['marker_shadow_file'] ).size
+    #         category['marker_shadow_width'] = shadow_width
+    #         category['marker_shadow_height'] = shadow_height
+    #         category['marker_shadow_file'] = '../assets/icons/'+ category['marker_shadow_file']
+    #     i += 1
 
     # 2 read all items for categories values and create items geojson
     items = []
@@ -95,22 +97,16 @@ def load_data():
             items.append(item_obj)
             ii += 1
             item_type = [a for a in item_obj.categories if list(a.keys())[0]  == 'Type'][0]['Type']
-            update_category_values('Type', item_type, site_data)
             
             item_area = [a for a in item_obj.categories if list(a.keys())[0]  == 'Area'][0]['Area']
-            update_category_values('Area', item_area, site_data)
 
             item_language = [a for a in item_obj.categories if list(a.keys())[0]  == 'Language'][0]['Language']
-            update_category_values('Language', item_language, site_data)
 
             item_region = [a for a in item_obj.categories if list(a.keys())[0]  == 'Region'][0]['Region']
-            update_category_values('Region', item_region, site_data)
 
             item_subject = [a for a in item_obj.categories if list(a.keys())[0]  == 'Subject'][0]['Subject']
-            update_category_values('Subject', item_subject, site_data)
 
             item_keyword = [a for a in item_obj.categories if list(a.keys())[0]  == 'Keyword'][0]['Keyword']
-            update_category_values('Keyword', item_keyword, site_data)
 
             geo_json = {
                         "id": item_obj.id,
@@ -136,7 +132,7 @@ def load_data():
     #3 update autocomplete json files with values present in the items.
     update_select2_autocomplete_json(site_data)
     site_data = to_s2ids(site_data)
-    site_data['types'] = [a for a in site_data['categories'] if a['name']  == 'Type']
+    site_data['types'] = site_data['categories']['Type'] #add icon path for each type
     return items, site_data
 
 def update_category_values(category, category_values, site_data): # retire
@@ -150,11 +146,11 @@ def update_category_values(category, category_values, site_data): # retire
 
 def update_select2_autocomplete_json(site_data):
     for cat in site_data['categories']:
-        name = cat['name']
+        name = cat
         filename = Path(Path.cwd() / 'assets' / 'categories' / (name.lower() + '_autocomplete.json'))
         data = {"results": [], 
                 "pagination": {"more": "false"}}
-        for i, value in enumerate(cat['values']): 
+        for i, value in enumerate(site_data['categories'][cat]): 
             data['results'].append({
                 "id": i,
                 "text": value
@@ -162,7 +158,7 @@ def update_select2_autocomplete_json(site_data):
         srsly.write_json(filename, data)
 
 def to_s2ids(site_data: dict) -> dict:
-    categories = [a['name'] for a in site_data['categories']]
+    categories = list(site_data['categories'].keys())
     s2_id_lookup = select2_ids()
     new_feats = []
     for feat in site_data['geojson']['features']:
@@ -215,3 +211,26 @@ def get_cats(items_dir):
                         cats[type_].extend(cat[type_])
     return cats
 
+
+def get_icons(icons_dir, categories:dict):
+    icons = []
+    for cat in categories['Type']: #for values in Type
+        icon = [icon for icon in icons_dir.glob(f'*{cat}*')]
+        if icon:
+            if len(icon) == 1:
+                f = icon[0]
+            else:
+                f = icon[0] # more than one file exists, return error or first file? TODO
+        else:
+            #no file exists, use default file 
+            f = icons_dir / 'default_icon.png'
+        
+        if f:
+            marker_width, marker_height = Image.open(f).size
+            icons.append({
+                'name': cat,
+                'file': '../assets/icons/' + f.name,
+                'height': marker_height,
+                'width': marker_width
+            })
+    return icons

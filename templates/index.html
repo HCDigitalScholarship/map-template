@@ -182,19 +182,16 @@
           };
     
         }; // End of for loop 
-        console.log('drop_items=',drop_items);
         // console.log('criteria: ', type,subject, location, medium,keywords,start_year, end_year)
     
     
         // add the categories as layers with their own icons
-        {% for category in site_data['types'] %} // switch to type values, not category names
-        //TODO add image and shadow field to category use those urls for icon
-        var cat_{{ category.id }}_icon = new L.Icon({
-    
-        iconUrl: '{{ category["marker_image_file"] }}',
-        shadowUrl: '{{ category["marker_shadow_file"] }}',
-        iconSize: [{{ category['marker_image_width'] }}, {{ category['marker_image_height'] }}],  // [25, 41],
-        iconAnchor: [{{ category['marker_image_width'] | half }}, {{ category['marker_image_height'] | half }}],
+        {% for category in site_data['icons'] %} 
+        var cat_{{loop.index}}_icon = new L.Icon({
+        iconUrl: '{{ category["file"] }}',
+        shadowUrl: '{{ category["file"] }}',
+        iconSize: [{{ category['width'] }}, {{ category['height'] }}],  // [25, 41],
+        iconAnchor: [{{ category['width'] | half }}, {{ category['height'] | half }}],
         popupAnchor: [1, -34],
         shadowSize: [{{ category['marker_shadow_width'] }}, {{ category['marker_shadow_height'] }}]
           });
@@ -208,10 +205,10 @@
       var k;
       var z;
       var t = 0;
-      var cat_{{ category.id }} = L.geoJSON(items, {
+      var cat_{{loop.index}} = L.geoJSON(items, {
         pointToLayer: function (feature, latlng) {
           return L.marker(latlng, {
-            icon: cat_{{ category.id }}_icon
+            icon: cat_{{loop.index}}_icon
       });
         },
       filter: function(feature, layer) {
