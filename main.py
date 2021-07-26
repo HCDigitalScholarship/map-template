@@ -38,7 +38,7 @@ def root(request: Request,):
     return templates.TemplateResponse("index.html", context)
 
 @app.get("/item/{slug}")
-def root(request: Request, slug:str):
+def item_page(request: Request, slug:str):
     context= {}
     items, site_data = load_data()
     context['site_data'] = site_data
