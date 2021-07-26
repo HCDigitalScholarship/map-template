@@ -24,22 +24,83 @@
                <div id="map" style="height: 600px;">This is the map</div>
               </div>
 
+            
+            
+            
+            
+            categories:
+              - Type:
+                - otters
+                - fancy poodles
+              - Area: null
+              - Language:
+                - German
+                - Chinese 
+              - Region: 
+                - Other
+              - Subject: null 
+              - Keyword: null
+            
+            
+              <div class="col-md-12">
+                <input type="text" name="name" class="form-control" {% if item.name %} value='{{ item.name }}' {% else %}placeholder="Item Name"{% endif %} required>
+              </div>
+              {% if item.image_file %}
+              <div class="col-md-12"><img style="width:100%;" src="../assets/items/{{ item.image_file }}"></div>
+              {% else %}
+              <div class="col-md-12">
+                <input type="file" class="form-control" name="image_file" placeholder="Image File" required>
+              </div>
+              {% endif %}
+
+              <div class="col-md-12">
+                <input type="text" class="form-control" name="organization" placeholder="Organization">
+              </div>
+
+              <div class="col-md-12">
+                <input type="email" class="form-control" name="contact" placeholder="Contact Email">
+              </div>
+
+              <div class="col-md-12">
+                <input type="text" class="form-control" name="haverford_office" placeholder="Haverford Office">
+              </div>
+
+              <div class="col-md-12">
+                <textarea class="form-control" name="description" rows="6" placeholder="Description"></textarea>
+              </div>
+              <div class="col-md-12">
+                <label for="type" class="form-label">Type</label>
+                <select style="width:100%;" class="select2-type" name="type[]" multiple="multiple"></select>
+              </div>
+              <div class="col-md-12">
+                <label for="area" class="form-label">Language</label>
+                <select style="width:100%;" class="select2-language" name="language[]" multiple="multiple"></select>
+              </div>
+              <div class="col-md-12">
+                <label for="area" class="form-label">Organization</label>
+                <select style="width:100%;" class="select2-organization" name="organization[]" multiple="multiple"></select>
+              </div>
+              <div class="col-md-12">
+                <label for="area" class="form-label">Area</label>
+                <select style="width:100%;" class="select2-area" name="area[]" multiple="multiple"></select>
+              </div>
+              <div class="col-md-12">
+                <label for="keyword" class="form-label">Keywords</label>
+                <select style="width:100%;" class="select2-keyword" name="keyword[]" multiple="multiple"></select>
+              </div>
               <div class="col-md-6">
-                <input type="text" name="name" class="form-control" placeholder="Your Name" required>
+                <label for="end_date" class="form-label">Start Date</label>
+                <input type="date" class="form-control" name="start_date">
               </div>
-
-              <div class="col-md-6 ">
-                <input type="email" class="form-control" name="email" placeholder="Your Email" required>
+              <div class="col-md-6">
+                <label for="end_date" class="form-label">End Date</label>
+                <input type="date" class="form-control" name="end_date">
               </div>
+              <div class="col-md-6">
+                <label for="publish" class="form-label">Publish</label>
 
-              <div class="col-md-12">
-                <input type="text" class="form-control" name="subject" placeholder="Subject" required>
+                <input type="checkbox" name="publish" value="false">
               </div>
-
-              <div class="col-md-12">
-                <textarea class="form-control" name="message" rows="6" placeholder="Message" required></textarea>
-              </div>
-
               <div class="col-md-12 text-center">
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
@@ -112,4 +173,43 @@
         }
     });
 </script> 
+<script>
+  $('.select2-type').select2({
+    ajax: {
+      url: '../assets/categories/type_autocomplete.json',
+      dataType: 'json',
+      theme: 'bootstrap4',
+    }
+  });
+
+  $('.select2-area').select2({
+    ajax: {
+      url: '../assets/categories/area_autocomplete.json',
+      dataType: 'json',
+      theme: 'bootstrap4',
+    }
+  });
+  $('.select2-language').select2({
+    ajax: {
+      url: '../assets/categories/language_autocomplete.json',
+      dataType: 'json',
+      theme: 'bootstrap4',
+    }
+  });
+  $('.select2-organization').select2({
+    ajax: {
+      url: '../assets/categories/organization_autocomplete.json',
+      dataType: 'json',
+      theme: 'bootstrap4',
+    }
+  });
+  $('.select2-keyword').select2({
+    ajax: {
+      url: '../assets/categories/keyword_autocomplete.json',
+      dataType: 'json',
+      theme: 'bootstrap4',
+    }
+  });
+
+</script>
 {% endblock %}
