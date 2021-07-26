@@ -11,115 +11,18 @@
         <h2>Add New Item</h2>
       </header>
 
+     
       <div class="row gy-4">
-
+        
+         
 
         <div class="col-lg-12">
           <form method="post" class="php-email-form">
+
             <div class="row gy-4">
-                <div class="form-row field-geom">
-            
-            
-                    <div>
-                        
-                        
-                            <label for="id_geom">Geom:</label>
-                            
-                                <div class="mw-wrap" id="geom-mw-wrap">
-        
-            <div class="mw-header">
-                
-                    <div class="mw-coordinates-wrap">
-                        <a  class="mw-btn mw-btn-primary mw-btn-coordinates">Coordinates <i class="icon-down-dir" ></i></a>
-                        <div class="mw-coordinates-overlay hide">
-                            <label for="geom-mw-overlay-latitude">
-                                Latitude:
-                                <input type="text" id="geom-mw-overlay-latitude" class="form-control mw-overlay-input mw-overlay-latitude" placeholder="Ex: 41.015137"/>
-                            </label>
-                            <label for="geom-mw-overlay-longitude">
-                                Longitude:
-                                <input type="text" id="geom-mw-overlay-longitude" class="form-control mw-overlay-input mw-overlay-longitude" placeholder="Ex: 28.979530"/>
-                            </label>
-                            <a class="mw-btn mw-btn-success mw-btn-coordinates-done pull-right">Done</a>
-                        </div>
-                    </div>
-    
-                    <a class="mw-btn mw-btn-info mw-btn-my-location" >Use My Location</a>
-                    <a class="mw-btn mw-btn-warning mw-btn-add-marker" ><i class="icon-location"></i></a>
-                    <div class="mw-adress-input-wrap pull-right">
-                        <input type="text" class="form-control pull-right" id="geom-mw-google-address-input" placeholder="Enter or update the address here"/>
-                    </div>
-                
-            </div>
-    
-            <div class="mw-map-wrapper">
-                <div class="mw-loader-overlay hide" >
-                    <div class="mw-loader"></div>
-                </div>
-                <div id="geom-map-elem" class="mw-map"></div>
-                <div style="display: none" class="hide">
-                    <textarea id="id_geom" name="geom">POINT (19.0379763 54.0361319)</textarea>
-                    
-                    
-    
-                </div>
-            </div>
-    
-            <div class="mw-footer">
-                <span class="mw-help-text help-text"></span>
-                <a class="mw-btn mw-btn-delete pull-right mw-btn-danger" ><i class="icon-trash-empty"></i></a>
-            </div>
-            <div class="animated-loader"></div>
-        
-    </div>
-    
-    
-        <script type="application/javascript">
-            (function($) {
-                var mapOptions = JSON.parse("{\u0022mapCenterLocationName\u0022: null, \u0022mapCenterLocation\u0022: [46.663902, 34.077525], \u0022zoom\u0022: 3, \u0022GooglePlaceAutocompleteOptions\u0022: {}, \u0022markerFitZoom\u0022: 15}");
-                var field_value = JSON.parse("{\u0022lng\u0022: 19.0379763, \u0022lat\u0022: 54.0361319}");
-    
-                var wrapElemSelector = "#geom-mw-wrap";
-                var mapElemID = "geom-map-elem";
-                var googleAutoInputID = "geom-mw-google-address-input";
-                var locationInputID = "#id_geom";
-    
-                var mapWidgetOptions = {
-                    locationInput: $(locationInputID),
-                    wrapElemSelector: wrapElemSelector,
-                    locationFieldValue: field_value,
-                    mapElement: document.getElementById(mapElemID),
-                    mapCenterLocationName: mapOptions.mapCenterLocationName,
-                    mapCenterLocation: mapOptions.mapCenterLocation,
-                    coordinatesOverlayToggleBtn: $(".mw-btn-coordinates", wrapElemSelector),
-                    coordinatesOverlayDoneBtn: $(".mw-btn-coordinates-done", wrapElemSelector),
-                    coordinatesOverlayInputs: $(".mw-overlay-input", wrapElemSelector),
-                    coordinatesOverlay: $(".mw-coordinates-overlay", wrapElemSelector),
-                    myLocationBtn: $(".mw-btn-my-location", wrapElemSelector),
-                    addressAutoCompleteInput: document.getElementById(googleAutoInputID),
-                    deleteBtn: $(".mw-btn-delete", wrapElemSelector),
-                    addMarkerBtn: $(".mw-btn-add-marker", wrapElemSelector),
-                    loaderOverlayElem: $(".mw-loader-overlay", wrapElemSelector),
-                    zoom: mapOptions.zoom,
-                    markerFitZoom: mapOptions.markerFitZoom,
-                    GooglePlaceAutocompleteOptions: mapOptions.GooglePlaceAutocompleteOptions,
-                    markerCreateTriggerNameSpace: "google_point_map_widget:marker_create",
-                    markerChangeTriggerNameSpace: "google_point_map_widget:marker_change",
-                    markerDeleteTriggerNameSpace: "google_point_map_widget:marker_delete",
-                    placeChangedTriggerNameSpace: "google_point_map_widget:place_changed"
-                };
-                var widget = new DjangoGooglePointFieldWidget(mapWidgetOptions);
-                
-    
-                
-            })(mapWidgets.jQuery);
-        </script>
-                            
-                        
-                        
-                    </div>
-                
-            </div>
+              <div class="col-md-12">
+               <div id="map" style="height: 600px;">This is the map</div>
+              </div>
 
               <div class="col-md-6">
                 <input type="text" name="name" class="form-control" placeholder="Your Name" required>
@@ -141,7 +44,11 @@
                 <div class="loading">Loading</div>
                 <div class="error-message"></div>
                 <div class="sent-message">Your message has been sent. Thank you!</div>
-
+                <div class="col-md-12 text-center">
+                  <div id="map"></div>
+                </div>
+                <input type="hidden" name="lat" id="lat" value="">
+                <input type="hidden" name="long" id="long" value="">
                 <button type="submit">Send Message</button>
               </div>
 
@@ -163,4 +70,46 @@
   <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
 {% endblock %}
 
-{% block extrajs %}{% endblock %}
+{% block extrajs %}
+<script>
+  
+    
+    var map = L.map('map', {
+        zoomControl: false,
+        zoomSnap: 0.25,
+        zoomDelta: 0.125,
+        wheelPxPerZoomLevel: 60,
+        zoomControl: false,
+      }).setView([36.26490471823096, -37.35054994598953], 3);
+      var wmsLayer = L.esri.basemapLayer('ImageryClarity').addTo(map);
+      // get current lat long, give default if none
+      {% if item %}
+      let lat = {{ item.lat|safe }};
+      $('#lat').val(lat);
+      let long = {{ item.long|safe }};
+      $('#long').val(long);
+      let marker = L.marker([lat,long]).addTo(map);
+      {% else %}
+      let marker = null;
+      {% endif %}
+      // add point to map 
+      // set lat long on click 
+      
+      map.on('click', function(e) {
+        if (marker){
+          marker.setLatLng(e.latlng);
+          lat = e.latlng.lat;
+          $('#lat').val(lat);
+          long = e.latlng.lng;
+          $('#long').val(long);
+        }
+        else {
+          marker = L.marker(e.latlng).addTo(map);
+          lat = e.latlng.lat;
+          $('#lat').val(lat);
+          long = e.latlng.lng;
+          $('#long').val(long);
+        }
+    });
+</script> 
+{% endblock %}

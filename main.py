@@ -46,15 +46,19 @@ async def item_page(request: Request, slug:str):
     context['item'] = [i for i in items if i.slug == slug][0].dict()
     return templates.TemplateResponse("item.html", context)
 
-@app.get("/new_item")
-async def new_item_form(request: Request):
+@app.get("/edit_item/")
+@app.get("/edit_item/{slug}")
+async def new_item_form(request: Request, slug:str=None):
     items, site_data = load_data()
     context = {}
+    if slug:
+        context['item'] = [i for i in items if i.slug == slug][0]
+    
     context['site_data'] = site_data
     context['request'] = request
     return templates.TemplateResponse("new_item.html", context)
 
-@app.post("/new_item")
+@app.post("/edit_item_form")
 async def new_item_post(request: Request): #, form: Form):
     #item = Item(slug=slug, title=form.title.data, description=form.description.data)
     #item.save()
