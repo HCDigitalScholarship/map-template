@@ -64,8 +64,10 @@
 
                 <textarea class="form-control" name="description" rows="6" {% if item.description %}>{{ item.description }}</textarea>{% else %}> placeholder="Description"</textarea>{% endif %}
               </div>
+
+              <!-- TODO How to load existing s2 values? -->
               <div class="col-md-12">
-                <label for="type" class="form-label">Type</label>
+                <label for="type" class="form-label">Type {{item.categories[0]['Type']}}</label>
                 <select style="width:100%;" class="select2-type" name="type_[]" multiple="multiple"></select>
               </div>
               <div class="col-md-12">
@@ -219,6 +221,7 @@ crossorigin=""></script>
 </script> 
 <script>
   $('.select2-type').select2({
+    tags: true,
     ajax: {
       url: '../assets/categories/type_autocomplete.json',
       dataType: 'json',
@@ -227,6 +230,7 @@ crossorigin=""></script>
   });
 
   $('.select2-area').select2({
+    tags: true,
     ajax: {
       url: '../assets/categories/area_autocomplete.json',
       dataType: 'json',
@@ -234,13 +238,15 @@ crossorigin=""></script>
     }
   });
   $('.select2-language').select2({
+    tags: true,
     ajax: {
       url: '../assets/categories/language_autocomplete.json',
       dataType: 'json',
-      theme: 'bootstrap4',
+      theme: 'bootstrap4',   
     }
   });
   $('.select2-region').select2({
+    tags: true,
     ajax: {
       url: '../assets/categories/region_autocomplete.json',
       dataType: 'json',
@@ -248,6 +254,7 @@ crossorigin=""></script>
     }
   });
   $('.select2-subject').select2({
+    tags: true,
     ajax: {
       url: '../assets/categories/subject_autocomplete.json',
       dataType: 'json',
@@ -255,6 +262,7 @@ crossorigin=""></script>
     }
   });
   $('.select2-keyword').select2({
+    tags: true,
     ajax: {
       url: '../assets/categories/keyword_autocomplete.json',
       dataType: 'json',

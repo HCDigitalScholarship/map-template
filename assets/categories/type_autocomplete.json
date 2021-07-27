@@ -2,7 +2,7 @@
   "results":[
     {
       "id":0,
-      "text":"volunteer"
+      "text":"residency"
     },
     {
       "id":1,
@@ -10,31 +10,31 @@
     },
     {
       "id":2,
-      "text":"fellowship"
-    },
-    {
-      "id":3,
       "text":"research"
     },
     {
+      "id":3,
+      "text":"volunteer"
+    },
+    {
       "id":4,
-      "text":"residency"
+      "text":"workshop"
     },
     {
       "id":5,
-      "text":"conferences"
+      "text":"fellowship"
     },
     {
       "id":6,
-      "text":"internship"
-    },
-    {
-      "id":7,
       "text":"partner"
     },
     {
+      "id":7,
+      "text":"conferences"
+    },
+    {
       "id":8,
-      "text":"workshop"
+      "text":"internship"
     }
   ],
   "pagination":{
