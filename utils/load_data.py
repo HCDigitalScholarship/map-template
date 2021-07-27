@@ -125,7 +125,8 @@ def update_select2_autocomplete_json(site_data):
         filename = Path(Path.cwd() / 'assets' / 'categories' / (name.lower() + '_autocomplete.json'))
         data = {"results": [], 
                 "pagination": {"more": "false"}}
-        for i, value in enumerate(site_data['categories'][cat]): 
+        values = set(site_data['categories'][cat])
+        for i, value in enumerate(values): 
             data['results'].append({
                 "id": i,
                 "text": value
