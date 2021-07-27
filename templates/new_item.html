@@ -1,4 +1,5 @@
 {% extends 'base.html' %}
+{% block site_title%}{{ site_data['name'] }}{% endblock %}
 {% block title%}{{ site_data['name'] }}{% endblock %}
 {% block logo %}{{ site_data['logo'] }}{% endblock %}
   {% block content %}
@@ -8,7 +9,7 @@
     <div class="container" data-aos="fade-up">
 
       <header class="section-header">
-        <h2>Add New Item</h2>
+        <h2>Add or Edit Item</h2>
       </header>
 
      
@@ -116,6 +117,18 @@
 {% endblock %}
 
 {% block extrajs %}
+<!-- Load Esri Leaflet from CDN -->
+<script src="https://unpkg.com/esri-leaflet@2.4.1/dist/esri-leaflet.js"
+integrity="sha512-xY2smLIHKirD03vHKDJ2u4pqeHA7OQZZ27EjtqmuhDguxiUvdsOuXMwkg16PQrm9cgTmXtoxA6kwr8KBy3cdcw=="
+crossorigin=""></script>
+
+<!-- Load Esri Leaflet Geocoder from CDN -->
+<link rel="stylesheet" href="https://unpkg.com/esri-leaflet-geocoder@2.3.3/dist/esri-leaflet-geocoder.css"
+  integrity="sha512-IM3Hs+feyi40yZhDH6kV8vQMg4Fh20s9OzInIIAc4nx7aMYMfo+IenRUekoYsHZqGkREUgx0VvlEsgm7nCDW9g=="
+  crossorigin="">
+<script src="https://unpkg.com/esri-leaflet-geocoder@2.3.3/dist/esri-leaflet-geocoder.js"
+  integrity="sha512-HrFUyCEtIpxZloTgEKKMq4RFYhxjJkCiF5sDxuAokklOeZ68U2NPfh4MFtyIVWlsKtVbK5GD2/JzFyAfvT5ejA=="
+  crossorigin=""></script>
 <script>
   
     
@@ -139,7 +152,30 @@
       {% endif %}
       // add point to map 
       // set lat long on click 
-      
+
+      // add geocoder and icon for search results
+      var LeafIcon = L.Icon.extend({
+        options: {
+           iconSize:     [38, 95],
+           shadowSize:   [50, 64],
+           iconAnchor:   [22, 94],
+           shadowAnchor: [4, 62],
+           popupAnchor:  [-3, -76]
+        }
+      });
+      var greenIcon = new LeafIcon({
+        iconUrl: 'http://leafletjs.com/examples/custom-icons/leaf-green.png',
+        shadowUrl: 'http://leafletjs.com/examples/custom-icons/leaf-shadow.png'
+      })
+      var searchControl = L.esri.Geocoding.geosearch().addTo(map);
+      var results = L.layerGroup().addTo(map);
+
+      searchControl.on('results', function (data) {
+        results.clearLayers();
+        for (var i = data.results.length - 1; i >= 0; i--) {
+          marker.setLatLng(data.results[i].latlng);
+        }
+      });
       map.on('click', function(e) {
         if (marker){
           marker.setLatLng(e.latlng);

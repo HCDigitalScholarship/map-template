@@ -73,7 +73,7 @@ def load_data():
         data['id'] = ii
         data['slug'] = data['name'].lower().replace(' ', '-')
         item_obj = Item(**data)
-        if item_obj:
+        if item_obj and item_obj.publish:
             items.append(item_obj)
             ii += 1
             item_type = [a for a in item_obj.categories if list(a.keys())[0]  == 'Type'][0]['Type']
@@ -87,12 +87,15 @@ def load_data():
             item_subject = [a for a in item_obj.categories if list(a.keys())[0]  == 'Subject'][0]['Subject']
 
             item_keyword = [a for a in item_obj.categories if list(a.keys())[0]  == 'Keyword'][0]['Keyword']
-
+            if item_obj.image_file:
+                popup = f"""<img style="max-width:120px" src="../assets/items/{item_obj.image_file}" /><br><strong><a href="../item/{item_obj.slug}">{item_obj.name}</a></strong><br>"""
+            else:
+                popup = f"""<strong><a href="../item/{item_obj.slug}">{item_obj.name}</a></strong><br>"""
             geo_json = {
                         "id": item_obj.id,
                         "type": "Feature",
                         "properties": {
-                            "popupcontent": f"""<img style="max-width:120px" src="../assets/items/{item_obj.image_file}" /><br><strong><a href="../item/{item_obj.slug}">{item_obj.name}</a></strong><br>""",
+                            "popupcontent": popup,
                             "Organization": item_obj.organization,
                             "Language": item_language,
                             "Region": item_region,
@@ -170,7 +173,7 @@ def get_cats(items_dir):
     """
     cats = {}
     for item in items_dir.iterdir():
-        data = srsly.read_yaml(item)
+        data = srsly.read_json(item)
         cat_names = [list(cat.keys())[0] for cat in data['categories']]
         for type_ in cat_names:
             try: 

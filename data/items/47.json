@@ -42,6 +42,6 @@
       ]
     }
   ],
-  "publish":true,
+  "publish":false,
   "geo_json":null
 }
