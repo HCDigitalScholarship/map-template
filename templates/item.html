@@ -1,5 +1,6 @@
 {% extends 'base.html' %}
-{% block title%}{{ site_data['name'] }}{% endblock %}
+{% block title%}{{ item.name }}{% endblock %}
+{% block site_title%}{{ site_data['name'] }}{% endblock %}
 {% block logo %}{{ site_data['logo'] }}{% endblock %}
   {% block content %}
  

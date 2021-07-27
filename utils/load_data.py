@@ -95,7 +95,7 @@ def load_data():
                             "popupcontent": f"""<img style="max-width:120px" src="../assets/items/{item_obj.image_file}" /><br><strong><a href="../item/{item_obj.slug}">{item_obj.name}</a></strong><br>""",
                             "Organization": item_obj.organization,
                             "Language": item_language,
-                            "regions": item_region,
+                            "Region": item_region,
                             "Area": item_area, 
                             "Type": item_type,
                             "Keyword": item_keyword,

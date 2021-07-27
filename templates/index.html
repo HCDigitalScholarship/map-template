@@ -1,5 +1,6 @@
 {% extends 'base.html' %}
 {% block title%}{{ site_data['name'] }}{% endblock %}
+{% block site_title%}{{ site_data['name'] }}{% endblock %}
 {% block logo %}{{ site_data['logo'] }}{% endblock %}
   {% block content %}
  
@@ -7,12 +8,16 @@
   <section id="map" class="hero d-flex align-items-center">
 
     <div class="container">
+     
       <div class="row">
         <div class=" d-flex flex-column justify-content-center">
             <section>
+              {{ site_data['about']}}
                 <div id="map" class="container" style="padding-top: 20px;">
                   <div class="row">
+                    
                     <div class="col-lg-2">
+                      
                       <form>
               
                         <div class="form-group">
@@ -35,7 +40,7 @@
                           
                           
                         
-                          <div class="card" style="background-color: #f3efef;">
+                          <!-- <div class="card" style="background-color: #f3efef;">
                             <div class="card-body">
                               <p>Legend</p>
                               {% for category in site_data['icons'] %}
@@ -46,7 +51,7 @@
                                 
                               {% endfor %}
                             </div>
-                          </div>
+                          </div> -->
                         </div>
               
               
@@ -192,7 +197,7 @@
         iconSize: [{{ category['width'] }}, {{ category['height'] }}],  // [25, 41],
         iconAnchor: [{{ category['width'] | half }}, {{ category['height'] | half }}],
         popupAnchor: [1, -34],
-        shadowSize: [{{ category['marker_shadow_width'] }}, {{ category['marker_shadow_height'] }}]
+        shadowSize: [{{ category['width'] }}, {{ category['height'] }}]
           });
     
       //create a layer for each category with filter
@@ -211,7 +216,7 @@
       });
         },
       filter: function(feature, layer) {
-        return  !(drop_items.includes(feature.id)) //&& feature.properties.{{ category['name'] }}.includes({{ category.name }})
+        return  !(drop_items.includes(feature.id)) && feature.properties.Type.includes({{loop.index}}-1)
         },
       onEachFeature: function(feature, layer) {
         c = [];

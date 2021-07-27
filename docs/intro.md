@@ -26,3 +26,7 @@ filters
     - form would need to calculate image midpoints
     - would need to request a manifest of all files in items directory, then load each file
     - save for template version, cpgc speed is priority
+
+Netlify CMS, form pushes file to repository, this triggers GitHub action for build, regenerates the site directory 
+
+for should be static page

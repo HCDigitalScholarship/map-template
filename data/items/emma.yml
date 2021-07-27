@@ -11,7 +11,7 @@ end_date: 2021-12-31
 categories:
   - Type:
     - otters
-    - fancy poodles
+    - fancy_poodles
   - Area: null
   - Language:
     - German
