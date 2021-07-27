@@ -5,4 +5,5 @@ about: This is a site for mapping things. All kinds of sorts of things.
 logo: 'cpgc.png' #file goes in assets/img
 email: null
 more_info: https://www.haverford.edu/peace-and-global-citizenship
-   
+#https://leaflet-extras.github.io/leaflet-providers/preview/
+base_layer: OpenStreetMap.Mapnik

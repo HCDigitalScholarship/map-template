@@ -21,8 +21,8 @@ class Item(BaseModel):
     id: int
     name: str
     slug: str
-    lat: float
-    long: float
+    lat: Optional[float]
+    long: Optional[float]
     image_file: Optional[str]
     organization: Optional[str]
     contact: Optional[str]
@@ -69,7 +69,7 @@ def load_data():
     items = []
     ii = 1
     for item in items_dir.iterdir():
-        data = srsly.read_yaml(item)
+        data = srsly.read_json(item)
         data['id'] = ii
         data['slug'] = data['name'].lower().replace(' ', '-')
         item_obj = Item(**data)
