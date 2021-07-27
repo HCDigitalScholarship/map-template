@@ -2,39 +2,39 @@
   "results":[
     {
       "id":0,
-      "text":"partner"
-    },
-    {
-      "id":1,
-      "text":"conferences"
-    },
-    {
-      "id":2,
-      "text":"internship"
-    },
-    {
-      "id":3,
-      "text":"post-bac fellowship"
-    },
-    {
-      "id":4,
-      "text":"workshop"
-    },
-    {
-      "id":5,
-      "text":"fellowship"
-    },
-    {
-      "id":6,
       "text":"volunteer"
     },
     {
-      "id":7,
+      "id":1,
+      "text":"post-bac fellowship"
+    },
+    {
+      "id":2,
+      "text":"fellowship"
+    },
+    {
+      "id":3,
+      "text":"research"
+    },
+    {
+      "id":4,
       "text":"residency"
     },
     {
+      "id":5,
+      "text":"conferences"
+    },
+    {
+      "id":6,
+      "text":"internship"
+    },
+    {
+      "id":7,
+      "text":"partner"
+    },
+    {
       "id":8,
-      "text":"research"
+      "text":"workshop"
     }
   ],
   "pagination":{

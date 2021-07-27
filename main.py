@@ -1,11 +1,12 @@
 import srsly
+from random import randint
 from utils.load_data import load_data
-from fastapi import FastAPI, Request, Form, Depends
+from fastapi import FastAPI, Request, Form, Depends,UploadFile, File
 from fastapi.templating import Jinja2Templates
 from fastapi.security import HTTPBasic, HTTPBasicCredentials
 from fastapi.staticfiles import StaticFiles
 from utils.login import get_current_username
-from utils.load_data import load_data
+from utils.load_data import load_data, Item
 from routers import (
     add_items, 
 )
@@ -53,14 +54,61 @@ async def new_item_form(request: Request, slug:str=None):
     context = {}
     if slug:
         context['item'] = [i for i in items if i.slug == slug][0]
-    
+        index = items.index(context['item'])
+        if index + 1 <= len(items):
+            next = items[index + 1].slug
+        else:
+            next = items[0].slug
+        if index - 1 >= 0:
+            prev = items[index - 1].slug
+        else:
+            prev = items[-1].slug
+    context['next'] = next
+    context['prev'] = prev    
     context['site_data'] = site_data
     context['request'] = request
     return templates.TemplateResponse("new_item.html", context)
 
-@app.post("/edit_item_form")
-async def new_item_post(request: Request): #, form: Form):
-    #item = Item(slug=slug, title=form.title.data, description=form.description.data)
+@app.post("/edit_item/")
+@app.post("/edit_item/{slug}")
+async def new_item_post(request: Request, 
+    slug:str=None,
+    name: str = Form(...),
+    image_file:bytes = File(None),
+    organization: str = Form(None),
+    contact: str = Form(None),
+    description: str = Form(None),
+    haverford_office: str = Form(None),
+    publish: bool = Form(False),
+    keyword: str = Form(None),
+    type: str = Form(None),
+    area: str = Form(None),
+    language: str = Form(None),
+    region: str = Form(None),
+    subject: str = Form(None),
+
+    ): 
+    categories = []
+    
+    if type:
+        types = [i.strip() for i in type.split(',')]
+        categories.append({'Type': types})
+    if area:
+        areas = [i.strip() for i in area.split(',')]
+        categories.append({'Area': areas})
+    if language:
+        languages = [i.strip() for i in language.split(',')]
+        categories.append({'Language': languages})
+    if region:
+        regions = [i.strip() for i in region.split(',')]
+        categories.append({'Region': regions})
+    if subject:
+        subjects = [i.strip() for i in subject.split(',')]
+        categories.append({'Subject': subjects})
+    if keyword:
+        keywords = [i.strip() for i in keyword.split(',')]
+        categories.append({'Keyword': keywords})
+    item = Item(id=randint(0,100),name=name,slug=name.lower().replace(' ','-'),image_file=image_file,organization=organization,contact=contact,description=description,haverford_office=haverford_office,language=language,categories=categories,publish=publish)
     #item.save()
-    return {'message': 'Item created'}
+    return  item.dict()
 

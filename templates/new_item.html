@@ -18,7 +18,9 @@
          
 
         <div class="col-lg-12">
-          <form method="post" class="php-email-form">
+          <a href="../edit_item/{{ prev }}" class="btn btn-light">Previous</a>
+          <a href="../edit_item/{{ next}}" class="btn btn-light float-end">Next</a>
+          <form action="../edit_item/{{ item['slug'] }}" method="post" class="php-email-form">
 
             <div class="row gy-4">
               <div class="col-md-12">
@@ -28,47 +30,61 @@
             
            
               <div class="col-md-12">
+                <label for="name" class="form-label">Name</label>
                 <input type="text" name="name" class="form-control" {% if item.name %} value='{{ item.name }}' {% else %}placeholder="Item Name"{% endif %} required>
               </div>
               {% if item.image_file %}
               <div class="col-md-12"><img style="width:100%;" src="../assets/items/{{ item.image_file }}"></div>
               {% else %}
               <div class="col-md-12">
-                <input type="file" class="form-control" name="image_file" placeholder="Image File" required>
+                <label for="image_file" class="form-label">Image</label>
+                <input type="file" class="form-control" name="image_file">
               </div>
               {% endif %}
 
               <div class="col-md-12">
-                <input type="text" class="form-control" name="organization" placeholder="Organization">
+                <label for="organization" class="form-label">Organization</label>
+                <input type="text" class="form-control" name="organization"{% if item.name %} value='{{ item.organization }}' {% else %}placeholder="Organization"{% endif %} >
               </div>
 
               <div class="col-md-12">
-                <input type="email" class="form-control" name="contact" placeholder="Contact Email">
+                <label for="contact" class="form-label">Contact</label>
+
+                <input type="email" class="form-control" name="contact" {% if item.contact %} value='{{ item.contact }}' {% else %}placeholder="Contact Email" {% endif %} >
               </div>
 
               <div class="col-md-12">
-                <input type="text" class="form-control" name="haverford_office" placeholder="Haverford Office">
+                <label for="haverford_office" class="form-label">Haverford Office</label>
+
+                <input type="text" class="form-control" name="haverford_office"{% if item.haverford_office %} value='{{ item.haverford_office }}' {% else %} placeholder="Haverford Office"{% endif %}>
               </div>
 
               <div class="col-md-12">
-                <textarea class="form-control" name="description" rows="6" placeholder="Description"></textarea>
+                <label for="description" class="form-label">Description</label>
+
+                <textarea class="form-control" name="description" rows="6" {% if item.description %}>{{ item.description }}</textarea>{% else %}> placeholder="Description"</textarea>{% endif %}
               </div>
               <div class="col-md-12">
                 <label for="type" class="form-label">Type</label>
-                <select style="width:100%;" class="select2-type" name="type[]" multiple="multiple"></select>
+                <select style="width:100%;" class="select2-type" name="type_[]" multiple="multiple"></select>
+              </div>
+              <div class="col-md-12">
+                <label for="area" class="form-label">Area</label>
+                <select style="width:100%;" class="select2-area" name="area[]" multiple="multiple"></select>
               </div>
               <div class="col-md-12">
                 <label for="area" class="form-label">Language</label>
                 <select style="width:100%;" class="select2-language" name="language[]" multiple="multiple"></select>
               </div>
               <div class="col-md-12">
-                <label for="area" class="form-label">Organization</label>
-                <select style="width:100%;" class="select2-organization" name="organization[]" multiple="multiple"></select>
+                <label for="area" class="form-label">Region</label>
+                <select style="width:100%;" class="select2-region" name="region[]" multiple="multiple"></select>
               </div>
               <div class="col-md-12">
-                <label for="area" class="form-label">Area</label>
-                <select style="width:100%;" class="select2-area" name="area[]" multiple="multiple"></select>
+                <label for="area" class="form-label">Subject</label>
+                <select style="width:100%;" class="select2-subject" name="subject[]" multiple="multiple"></select>
               </div>
+              
               <div class="col-md-12">
                 <label for="keyword" class="form-label">Keywords</label>
                 <select style="width:100%;" class="select2-keyword" name="keyword[]" multiple="multiple"></select>
@@ -83,8 +99,8 @@
               </div>
               <div class="col-md-6">
                 <label for="publish" class="form-label">Publish</label>
-
-                <input type="checkbox" name="publish" value="false">
+                
+                <input id="publish" type="checkbox" name="publish" {% if item.publish is sameas true %} checked value="true"{% else %}value="false"{% endif %}>
               </div>
               <div class="col-md-12 text-center">
                 <div class="loading">Loading</div>
@@ -95,6 +111,14 @@
                 </div>
                 <input type="hidden" name="lat" id="lat" value="">
                 <input type="hidden" name="long" id="long" value="">
+
+                <input type="hidden" name="type" id="type" value="">
+                <input type="hidden" name="area" id="area" value="">
+                <input type="hidden" name="language" id="language" value="">
+                <input type="hidden" name="region" id="region" value="">
+                <input type="hidden" name="subject" id="subject" value="">
+                <input type="hidden" name="keyword" id="keyword" value="">
+
                 <button type="submit">Send Message</button>
               </div>
 
@@ -216,9 +240,16 @@ crossorigin=""></script>
       theme: 'bootstrap4',
     }
   });
-  $('.select2-organization').select2({
+  $('.select2-region').select2({
     ajax: {
-      url: '../assets/categories/organization_autocomplete.json',
+      url: '../assets/categories/region_autocomplete.json',
+      dataType: 'json',
+      theme: 'bootstrap4',
+    }
+  });
+  $('.select2-subject').select2({
+    ajax: {
+      url: '../assets/categories/subject_autocomplete.json',
       dataType: 'json',
       theme: 'bootstrap4',
     }
@@ -231,5 +262,119 @@ crossorigin=""></script>
     }
   });
 
+  //select2-type
+  $('.select2-type').on('select2:select', function (e) {
+    let data = $('.select2-type').select2('data');
+    let result = []
+    for (i in data) {
+      result.push(data[i].text);
+    }
+    $('#type').val(result);
+  });
+
+  $('.select2-type').on('select2:unselect', function (e) {
+    let data = $('.select2-type').select2('data');
+    let result = []
+    for (i in data) {
+      result.push(data[i].text);
+    }
+    $('#type').val(result);
+  });
+
+  //select2-area
+  $('.select2-area').on('select2:select', function (e) {
+    let data = $('.select2-area').select2('data');
+    let result = []
+    for (i in data) {
+      result.push(data[i].text);
+    }
+    $('#area').val(result);
+  });
+
+  $('.select2-area').on('select2:unselect', function (e) {
+    let data = $('.select2-area').select2('data');
+    let result = []
+    for (i in data) {
+      result.push(data[i].text);
+    }
+    $('#area').val(result);
+  });
+
+  //select2-language
+  $('.select2-language').on('select2:select', function (e) {
+    let data = $('.select2-language').select2('data');
+    let result = []
+    for (i in data) {
+      result.push(data[i].text);
+    }
+    $('#language').val(result);
+  });
+
+  $('.select2-language').on('select2:unselect', function (e) {
+    let data = $('.select2-language').select2('data');
+    let result = []
+    for (i in data) {
+      result.push(data[i].text);
+    }
+    $('#language').val(result);
+  });
+  
+  //select2-region
+  $('.select2-region').on('select2:select', function (e) {
+    let data = $('.select2-region').select2('data');
+    let result = []
+    for (i in data) {
+      result.push(data[i].text);
+    }
+    $('#region').val(result);
+  });
+
+  $('.select2-region').on('select2:unselect', function (e) {
+    let data = $('.select2-region').select2('data');
+    let result = []
+    for (i in data) {
+      result.push(data[i].text);
+    }
+    $('#region').val(result);
+  });
+
+  //select2-subject
+  $('.select2-subject').on('select2:select', function (e) {
+    let data = $('.select2-subject').select2('data');
+    let result = []
+    for (i in data) {
+      result.push(data[i].text);
+    }
+    $('#subject').val(result);
+  });
+
+  $('.select2-subject').on('select2:unselect', function (e) {
+    let data = $('.select2-subject').select2('data');
+    let result = []
+    for (i in data) {
+      result.push(data[i].text);
+    }
+    $('#subject').val(result);
+  });
+
+  //select2-keyword
+  $('.select2-keyword').on('select2:select', function (e) {
+    let data = $('.select2-keyword').select2('data');
+    let result = []
+    for (i in data) {
+      result.push(data[i].text);
+    }
+    $('#keyword').val(result);
+  });
+
+  $('.select2-keyword').on('select2:unselect', function (e) {
+    let data = $('.select2-keyword').select2('data');
+    let result = []
+    for (i in data) {
+      result.push(data[i].text);
+    }
+    $('#keyword').val(result);
+  });
+  
 </script>
 {% endblock %}
