@@ -1,0 +1,53 @@
+{
+  "name":"American Friends Service Committee",
+  "lat":39.9559298,
+  "long":-75.1651247,
+  "image_file":null,
+  "organization":"American Friends Service Committee",
+  "contact":"ccleary@haverford.edu",
+  "haverford_office":"Calista Cleary",
+  "description":"<p>American Friends Servcie Committee organizes and advocates around five key social justice issues: building peace, ending discrimination, defending immigrant rights, ending mass incarceration, and building economic justice.</p>\r\n\r\n<p><a data-saferedirecturl=\"https://www.google.com/url?q=https://www.afsc.org/&amp;source=gmail&amp;ust=1552656016949000&amp;usg=AFQjCNGzUtxe21oO5w_fvsptwLYBzGwS0A\" href=\"https://www.afsc.org/\" target=\"_blank\">https://www.afsc.org/</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer",
+        "internship"
+      ]
+    },
+    {
+      "Area":[
+        "Human Rights",
+        "Civil Rights",
+        "Intercultural Issues",
+        "Justice and Prisons",
+        "Public Policy",
+        "Racism",
+        "Immigration"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "Philadelphia Area"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

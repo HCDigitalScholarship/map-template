@@ -1,0 +1,50 @@
+{
+  "name":"Mohonk Consultations",
+  "lat":41.7789912,
+  "long":-74.1261037,
+  "image_file":null,
+  "organization":"Mohonk Consultations",
+  "contact":"jmiller1@haverford.edu",
+  "haverford_office":"Julie Miller",
+  "description":"<p>Mohonk Consultations is a nonprofit organization aimed at helping communities thrive in practical ways. Their mission is to foster a clearer awareness of the interrelationship of all life on earth and to find practical means to sustain life.<br />\r\n<br />\r\nThey center their efforts most often within the Hudson Valley while incorporating global, national, and local perspectives. Their programs include conferences, forums, awards, publications, public meetings, and service projects. Embraced by the neutral and supportive venue of Mohonk Mountain House, attendees use their diverse viewpoints and experiences to brainstorm and develop practical solutions to problematic issues.</p>\r\n\r\n<p><a data-saferedirecturl=\"https://www.google.com/url?q=https://mohonk-consultations.org/&amp;source=gmail&amp;ust=1541603722445000&amp;usg=AFQjCNHIw2im--4AgDzPfEVexg4LPcsYGQ\" href=\"https://mohonk-consultations.org/\" target=\"_blank\">https://mohonk-consultations.<wbr />org/</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer",
+        "conferences"
+      ]
+    },
+    {
+      "Area":[
+        "Agriculture",
+        "Environment",
+        "Quaker Studies",
+        "Sustainability"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "United States"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

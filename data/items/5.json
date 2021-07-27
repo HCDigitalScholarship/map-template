@@ -1,0 +1,51 @@
+{
+  "name":"Haverfarm",
+  "lat":40.0046702381,
+  "long":-75.3079478826,
+  "image_file":null,
+  "organization":"Haverfarm",
+  "contact":"mtillman@haverford.edu",
+  "haverford_office":"Madison Tillman",
+  "description":"<p>The Haverfarm is a year round farming and educational space designed to integrate sustainable food and agriculture into the academic and extracurricular lives of Haverford students, faculty, staff, and community members. With a focus on interdisciplinary and experiential learning, the Haverfarm invites students and other members of the community to engage with issues of food justice and local, progressive agriculture. Produce is distributed to students, community members, the dining center and local food banks.</p>\r\n\r\n<p><img alt=\"\" src=\"/media/media/2018/09/18/img_6090.jpg\" style=\"width: 300px; height: 400px;\" /></p>\r\n\r\n<p><a href=\"https://www.haverford.edu/organization/haverfarm\">https://www.haverford.edu/organization/haverfarm</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer",
+        "fellowship"
+      ]
+    },
+    {
+      "Area":[
+        "Agriculture",
+        "Community Development",
+        "Environment",
+        "Hunger",
+        "Urban and Rural Development"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "Philadelphia Area"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

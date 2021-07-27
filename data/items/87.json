@@ -1,0 +1,49 @@
+{
+  "name":"Justice at Work",
+  "lat":42.3640075,
+  "long":-71.0599445,
+  "image_file":null,
+  "organization":"Justice at Work",
+  "contact":"sbursese@haverford.edu",
+  "haverford_office":"Stephanie Bursese",
+  "description":"<p>Justice at Work&rsquo;s mission is to provide strategic legal support for low-wage worker organizations and their members to strengthen organizing. Our staff provide our worker center partners and the people they serve with legal services, training, and legal counsel for collective action.</p>\r\n\r\n<p><a data-saferedirecturl=\"https://www.google.com/url?q=https://jatwork.org&amp;source=gmail&amp;ust=1545430688967000&amp;usg=AFQjCNHXy9o8ivs2CIJmO4zBrOj_ZZtmJQ\" href=\"https://jatwork.org\" target=\"_blank\">https://jatwork.org</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "partner"
+      ]
+    },
+    {
+      "Area":[
+        "Community Development",
+        "Economic Development",
+        "Poverty",
+        "Justice and Prisons"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "United States"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

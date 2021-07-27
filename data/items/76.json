@@ -1,0 +1,47 @@
+{
+  "name":"University of Navarra",
+  "lat":42.8054501,
+  "long":-1.6635271,
+  "image_file":null,
+  "organization":"University of Navarra Clinic",
+  "contact":"jdomsky@haverford.edu",
+  "haverford_office":"Jodi Domsky",
+  "description":"<p>A university hospital that is run with an Anglo-Saxon investigative model, referenced in medicine personalized to Spain.</p>\r\n\r\n<p><a data-saferedirecturl=\"https://www.google.com/url?q=https://www.cun.es&amp;source=gmail&amp;ust=1581432064065000&amp;usg=AFQjCNHxBaUX_qDsFbMvAW6Sh8oF79tQ4Q\" href=\"https://www.cun.es/\" target=\"_blank\">https://www.cun.es</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer"
+      ]
+    },
+    {
+      "Area":[
+        "Healthcare",
+        "Research"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "Spain\n"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

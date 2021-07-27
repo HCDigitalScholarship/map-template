@@ -1,0 +1,50 @@
+{
+  "name":"Woods Hole Oceanographic Institution",
+  "lat":41.5410922,
+  "long":-70.6468534,
+  "image_file":null,
+  "organization":"Woods Hole Oceanographic Institution",
+  "contact":"mlatrick@haverford.edu",
+  "haverford_office":"Marielle Latrick",
+  "description":"<p>The Woods Hole Oceanographic Institution is dedicated to advancing knowledge of the ocean and its connection with the Earth system through a sustained commitment to excellence in science, engineering, and education, and to the application of this knowledge to problems facing society.</p>\r\n\r\n<p>There are opportunities here for summer research internships for students and research collaborations.</p>\r\n\r\n<p><a data-saferedirecturl=\"https://www.google.com/url?q=http://www.whoi.edu/&amp;source=gmail&amp;ust=1544632936559000&amp;usg=AFQjCNHSkYZfBq6PTj9wMnoHvY35OdMDow\" href=\"http://www.whoi.edu/\" target=\"_blank\">http://www.whoi.edu/</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "internship",
+        "research"
+      ]
+    },
+    {
+      "Area":[
+        "Environment",
+        "Research",
+        "Sustainability"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "United States"
+      ]
+    },
+    {
+      "Subject":[
+        "Biology\n",
+        "Environmental studies and forestry\n"
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

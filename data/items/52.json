@@ -1,0 +1,51 @@
+{
+  "name":"North Philly Peace Park",
+  "lat":39.977472,
+  "long":-75.172155,
+  "image_file":null,
+  "organization":"North Philly Peace Park",
+  "contact":"sbursese@haverford.edu",
+  "haverford_office":"Stephanie Bursese",
+  "description":"<p>An open, fence-free, charitable, intergenerational, neighborhood-managed ecology campus championing food, education and community.</p>\r\n\r\n<p><a data-saferedirecturl=\"https://www.google.com/url?q=https://es-la.facebook.com/NorthPhillyPeacePark/&amp;source=gmail&amp;ust=1545430690621000&amp;usg=AFQjCNGDkNyoUEVXrXhV4ldHOWrOF8l1UQ\" href=\"https://es-la.facebook.com/NorthPhillyPeacePark/\" target=\"_blank\">https://es-la.facebook.com/<wbr />NorthPhillyPeacePark/</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer"
+      ]
+    },
+    {
+      "Area":[
+        "Agriculture",
+        "Community Development",
+        "Education",
+        "Hunger",
+        "Urban and Rural Development",
+        "Sustainability"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "Philadelphia Area"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

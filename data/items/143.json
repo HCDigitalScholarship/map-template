@@ -1,0 +1,52 @@
+{
+  "name":"The Abolition Law Center",
+  "lat":40.43795,
+  "long":-79.87407,
+  "image_file":null,
+  "organization":"Abolition Law Center",
+  "contact":"jlion@haverford.edu",
+  "haverford_office":"Janice Lion",
+  "description":"<p>The Abolitionist Law Center is a public interest law firm inspired by the struggle of political and politicized prisoners and organized for the purpose of abolishing class and race-based mass incarceration in the United States. &nbsp;Abolitionist Law Center litigates on behalf of people whose human rights have been violated in prison, educates the general public about the evils of mass incarceration, and works to&nbsp;develop a mass movement against the American punishment system by building alliances and&nbsp;nurturing solidarity across social divisions.</p>\r\n\r\n<p>This organization is part of the Philadephia Justice and Equity Fellowship!</p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer",
+        "fellowship"
+      ]
+    },
+    {
+      "Area":[
+        "Civil Rights",
+        "Justice and Prisons",
+        "Law"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+        "Restorative Justice",
+        "Philadelphia Justice and Equity Fellowship",
+        "Philly Justice and Equity Fellowship",
+        "PJ&E Fellowship"
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

@@ -1,0 +1,51 @@
+{
+  "name":"Community Action Agency of Delaware County",
+  "lat":39.830655,
+  "long":-75.4411186,
+  "image_file":null,
+  "organization":"Community Action Agency of Delaware County",
+  "contact":"jrash@haverford.edu",
+  "haverford_office":"Jason Rash",
+  "description":"<p>The Mission of the Community Action Agency of Delaware County, Inc. and its affiliate corporations and partnerships is to assist residents to move toward economic self-sufficiency and to strengthen the community through innovative approaches to programs including: housing, workforce development, energy conservation, social services and community and economic development.<br />\r\n<br />\r\nCommunity Action Agency of Delaware County, Inc. strives to prudently but creatively utilize all available resources and to develop community collaborations to reach their goals.</p>\r\n\r\n<p><a data-saferedirecturl=\"https://www.google.com/url?q=http://www.caadc.org&amp;source=gmail&amp;ust=1552660932747000&amp;usg=AFQjCNEDj86yK1dWLeKjrRfUvA-6fpXhiA\" href=\"http://www.caadc.org\" target=\"_blank\">http://www.caadc.org</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer"
+      ]
+    },
+    {
+      "Area":[
+        "Community Development",
+        "Economic Development",
+        "Environment",
+        "Housing & Homelessness",
+        "Poverty",
+        "Sustainability"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "Philadelphia Area"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

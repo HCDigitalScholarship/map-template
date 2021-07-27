@@ -1,0 +1,49 @@
+{
+  "name":"The Carter Center",
+  "lat":33.7675631,
+  "long":-84.3568733,
+  "image_file":null,
+  "organization":"The Carter Center",
+  "contact":"jlion@haverford.edu",
+  "haverford_office":"Janice Lion",
+  "description":"<p>The Carter Center, in partnership with Emory University, is guided by a fundamental commitment to human rights and the alleviation of human suffering. It seeks to prevent and resolve conflicts, enhance freedom and democracy, and improve health.<br />\r\n<br />\r\n-The Center emphasizes action and measurable results. Based on careful research and analysis, it is prepared to take timely action on important and pressing issues.<br />\r\n-The Center seeks to break new ground and not duplicate the effective efforts of others.<br />\r\n-The Center addresses difficult problems in difficult situations and recognizes the possibility of failure as an acceptable risk.<br />\r\n-The Center is nonpartisan, actively seeks complementary partnerships and works collaboratively with other organizations from the highest levels of government to local communities.<br />\r\n-The Center believes that people can improve their own lives when provided with the necessary skills, knowledge, and access to resources.</p>\r\n\r\n<p><a data-saferedirecturl=\"https://www.google.com/url?q=https://www.cartercenter.org&amp;source=gmail&amp;ust=1541603717250000&amp;usg=AFQjCNHU9aAZ9YCV62dHdH24reQMG0DYtg\" href=\"https://www.cartercenter.org\" target=\"_blank\">https://www.cartercenter.org</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "fellowship"
+      ]
+    },
+    {
+      "Area":[
+        "Government",
+        "Justice and Prisons",
+        "Law",
+        "Public Policy"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "United States"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

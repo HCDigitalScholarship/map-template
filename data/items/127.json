@@ -1,0 +1,46 @@
+{
+  "name":"Penn Medicine",
+  "lat":39.950044,
+  "long":-75.193131,
+  "image_file":null,
+  "organization":"Penn Medicine",
+  "contact":"jdomsky@haverford.edu",
+  "haverford_office":"Jodi Domsky",
+  "description":"<p>At Penn Medicine, they are dedicated to discoveries that advance science, to outstanding patient care throughout the world, and to the education of physicians and scientists who carry ontheir legacy of excellence.<br />\r\nThey are a world-renowned academic medical center, and strive to improve the health and well-being of people through research, education, clinical care and community service. They are proud of their&nbsp;commitment to service and strive to use discovery and rigorous research to benefit their neighborhoods, their&nbsp;city and their&nbsp;world. They embrace the opportunity to teach others, to learn from their&nbsp;partners, and to care for patients with skill and dignity.</p>\r\n\r\n<p><a href=\"http://www.pennmedicine.org\">https://www.pennmedicine.org</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer"
+      ]
+    },
+    {
+      "Area":[
+        "Healthcare"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "United States"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

@@ -1,0 +1,50 @@
+{
+  "name":"The Community-Based Global Learning Collaborative",
+  "lat":40.01683,
+  "long":-75.308884,
+  "image_file":null,
+  "organization":null,
+  "contact":"jlion@haverford.edu",
+  "haverford_office":"Janice Lion",
+  "description":"<p>Through a network of educational institutions and community organizations, The Collaborative advances ethical, critical, and aspirationally de-colonial community-based learning and research for more just, inclusive, and sustainable communities. The Collaborative promotes its goals through a specific mechanism such as:&nbsp;</p>\r\n\r\n<ul>\r\n\t<li><a href=\"http://globalsolidaritylocalaction.sites.haverford.edu/\">Interdependence: Global Solidarity and Local Actions</a>&nbsp;&ndash; a new, growing, and adapting the collection of online learning activities and critical civic tools designed to deepen college-level learners&rsquo; understanding of and engagement with ethical interdependence. The resources include tools that support ethical engagement across cultures and power differentials as learners, researchers, and organizers. We&rsquo;re building this right now, eager for additional collaborators, and iterating all summer long as we work with the first cohorts of students using this approach.&nbsp;</li>\r\n\t<li>The<a href=\"https://compact.org/global-sl/ges/\">&nbsp;Global Engagement Survey</a>, a multi-institutional study that examines the outcomes of high impact programming, such as engaged learning and study abroad, on local and global civic learning, cultural humility, and critical reflection&nbsp;</li>\r\n\t<li>Mobilizing and disseminating&nbsp;<a href=\"https://compact.org/global-sl/ftl/\">Fair Trade Learning</a>&nbsp;as a set of principles and practices that promote ethical community-campus partnership&nbsp;</li>\r\n\t<li><a href=\"https://compact.org/global-sl/\">A campus-community organizer and activist website</a>&nbsp;hosted by Campus Compact that collects and mobilizes tools, insights, and peer-reviewed research to support faculty, staff, administrators, and community workers in efforts to leverage pedagogy and partnerships toward more just, inclusive, sustainable communities.&nbsp;</li>\r\n</ul>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "fellowship",
+        "internship"
+      ]
+    },
+    {
+      "Area":[
+        "Community Development",
+        "Economic Development",
+        "Globalization",
+        "Education"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

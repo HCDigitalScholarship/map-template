@@ -1,0 +1,46 @@
+{
+  "name":"Pig Iron Theatre Company",
+  "lat":39.9731014,
+  "long":-75.1384602,
+  "image_file":null,
+  "organization":"Pig Iron Theatre Company",
+  "contact":"nfernandez@haverford.edu",
+  "haverford_office":"Noem\u00ed Fern\u00e1ndez",
+  "description":"<p>The mission of Pig Iron Theatre Company is to expand what is possible in performance by creating rigorous and unusual ensemble-devised works; by training the next generation of daring, innovative theatre artists; and by consistently asking the hardest questions, both in our art and in its relation to the world around us.</p>\r\n\r\n<p><a data-saferedirecturl=\"https://www.google.com/url?q=https://www.pigiron.org&amp;source=gmail&amp;ust=1545415827498000&amp;usg=AFQjCNH8QDLx_tdPBxLiDma6QK2oAUsIeQ\" href=\"https://www.pigiron.org\" target=\"_blank\">https://www.pigiron.org</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "internship"
+      ]
+    },
+    {
+      "Area":[
+        "Arts & Culture"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "Philadelphia Area"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

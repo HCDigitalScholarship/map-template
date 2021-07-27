@@ -1,0 +1,81 @@
+{
+  "name":"Haverford House",
+  "lat":39.9583741103,
+  "long":-75.2298442358,
+  "image_file":null,
+  "organization":"Haverford House",
+  "contact":"jlion@haverford.edu",
+  "haverford_office":"Janice Lion",
+  "description":"<p>Haverford House provides a venue for members of the Haverford College community to explore global citizenship in our own region and to strengthen connections between the College and the City of Philadelphia.</p>\r\n\r\n<p>Each spring, six graduating seniors committed to social justice and volunteer action are selected for one-year fellowships with non-profit host organizations. They serve as liaisons between Haverford and Philadelphia communities and as mentors to current Haverford students. The fellows live together cooperatively and actively participate in their neighborhood of West Philadelphia.</p>\r\n\r\n<p>Non-profit organizational hosts and Haverford&rsquo;s Center for Peace and Global Citizenship contribute funding toward a small stipend, health insurance, housing, transit passes, and professional development for each fellow.</p>\r\n\r\n<p><img alt=\"The incoming class of Haverford House fellows (from left) Jason Sanchez, Callie Kennedy, Sabea Evans, Claire Michel, Sara Ozawa, and TJ von Oehsen. Photo by Holden Blanco '17. \" src=\"https://www.haverford.edu/sites/default/files/styles/marquee_top_image/public/Office/Communications/haverfordhouse18.jpg?itok=JQSF-pqD\" style=\"width: 300px; height: 138px;\" /></p>\r\n\r\n<p>The incoming class of Haverford House fellows (from left) Jason Sanchez, Callie Kennedy, Sabea Evans, Claire Michel, Sara Ozawa, and&nbsp;TJ von Oehsen. Photo by Holden Blanco &#39;17.&nbsp;</p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "post-bac fellowship"
+      ]
+    },
+    {
+      "Area":[
+        "Research",
+        "Mental Health",
+        "Quaker Studies",
+        "Arts & Culture",
+        "Immigration",
+        "Technology",
+        "Other",
+        "Urban and Rural Development",
+        "Seniors Elders",
+        "Religion Interfaith",
+        "Racism",
+        "Public Policy",
+        "Conflict Resolution",
+        "Micro-Finance",
+        "Literacy",
+        "Law",
+        "Justice and Prisons",
+        "Intercultural Issues",
+        "Poverty",
+        "Civil Rights",
+        "Human Rights",
+        "Hunger",
+        "Housing & Homelessness",
+        "HIV/AIDS",
+        "Healthcare",
+        "Government",
+        "Gender & Sexuality",
+        "Environment",
+        "Education",
+        "Globalization",
+        "Economic Development",
+        "Disability Accessibility",
+        "Cooperative Solidarity Economy",
+        "Community Development",
+        "Children",
+        "Agriculture"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "Philadelphia Area"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

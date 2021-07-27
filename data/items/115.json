@@ -1,0 +1,47 @@
+{
+  "name":"Philadelphia Women's Center",
+  "lat":39.953759,
+  "long":-75.152743,
+  "image_file":null,
+  "organization":"Philadelphia Women's Center",
+  "contact":"jdomsky@haverford.edu",
+  "haverford_office":"Jodi Domsky",
+  "description":"<p>In 1972, Philadelphia Women&rsquo;s Center (PWC) opened as the first outpatient abortion provider in Pennsylvania. Since then, PWC has been continually meeting the needs of women and families by providing professional, confidential and compassionate abortion care.</p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer"
+      ]
+    },
+    {
+      "Area":[
+        "Healthcare",
+        "Civil Rights"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "United States"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

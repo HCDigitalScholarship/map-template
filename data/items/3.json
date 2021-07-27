@@ -1,0 +1,55 @@
+{
+  "name":"Nationality Service Center",
+  "lat":39.9539111,
+  "long":-75.1603454,
+  "image_file":null,
+  "organization":"Nationality Service Center",
+  "contact":"awolkoff@haverford.edu",
+  "haverford_office":"Alexandra Wolkoff",
+  "description":"<p>Nationalities Service Center prepares and empowers immigrants and refugees in the Philadelphia region to transcend challenging circumstances by providing comprehensive client-centered services to build a solid foundation for a self-sustaining and dignified future. Here at Nationalities Service Center (NSC), we believe that immigrants and refugees are a critical part of the fabric of life in the United States, and it is our vision that all immigrants and refugees achieve a life of dignity, safety, stability, sustainable opportunities and meaningful connections to their communities. To this end, NSC provides comprehensive services to immigrants and refugees, including legal protections, community integration, access to health and wellness services, and opportunities to achieve English language proficiency. Our dedicated staff are committed to ensuring that each of our clients receives high-quality holistic care and work together to refer clients to internal and external services based on the individual&rsquo;s needs.</p>\r\n\r\n<p><a data-saferedirecturl=\"https://www.google.com/url?q=https://nscphila.org/&amp;source=gmail&amp;ust=1544192958644000&amp;usg=AFQjCNHJ0CrTc9e48Z5cHUA7ISXevOAX0Q\" href=\"https://nscphila.org/\" target=\"_blank\">https://nscphila.org/</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer"
+      ]
+    },
+    {
+      "Area":[
+        "Seniors Elders",
+        "Public Policy",
+        "Literacy",
+        "Law",
+        "Healthcare",
+        "Education",
+        "Disability Accessibility",
+        "Mental Health",
+        "Children",
+        "Immigration"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "Philadelphia Area"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

@@ -1,0 +1,52 @@
+{
+  "name":"Puentes De Salud",
+  "lat":39.9291811,
+  "long":-75.1692716,
+  "image_file":null,
+  "organization":"Puentes de Salud",
+  "contact":"jlion@haverford.edu",
+  "haverford_office":"Janice Lion",
+  "description":"<p>Puentes de Salud (Bridges of Health) is a 501(c)3 nonprofit organization that promotes the health and wellness of Philadelphia&rsquo;s rapidly growing Latino immigrant population through high-quality health care, innovative educational programs, and community building.</p>\r\n\r\n<p>Students can volunteer in either the clinic or educational programming, and there are also opportunities for internships and fellowships.</p>\r\n\r\n<p><a href=\"http://www.puentesdesalud.org/\">http://www.puentesdesalud.org/</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer",
+        "fellowship",
+        "internship"
+      ]
+    },
+    {
+      "Area":[
+        "Community Development",
+        "Education",
+        "Healthcare",
+        "Intercultural Issues",
+        "Immigration"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "Philadelphia Area"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

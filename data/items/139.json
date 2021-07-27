@@ -1,0 +1,49 @@
+{
+  "name":"HIAS PA",
+  "lat":39.948959,
+  "long":-75.151466,
+  "image_file":null,
+  "organization":"HIAS PA",
+  "contact":"jlion@haverford.edu",
+  "haverford_office":"Janice Lion",
+  "description":"<p>&nbsp;</p>\r\n\r\n<p dir=\"ltr\">HIAS Pennsylvania provides legal, resettlement, citizenship, and supportive services to immigrants, refugees, and asylum seekers from all backgrounds in order to ensure their fair treatment and full integration into American society. HIAS Pennsylvania advocates for just and inclusive practices.</p>\r\n\r\n<p dir=\"ltr\"><a href=\"https://hiaspa.org/\">https://hiaspa.org/</a></p>\r\n\r\n<p><meta charset=\"utf-8\" /></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "fellowship",
+        "internship"
+      ]
+    },
+    {
+      "Area":[
+        "Human Rights",
+        "Law",
+        "Immigration"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

@@ -1,0 +1,46 @@
+{
+  "name":"Philadelphia FIGHT - Jonathan Lax Treatment Center",
+  "lat":39.9479863,
+  "long":-75.1618801,
+  "image_file":null,
+  "organization":"Philadelphia FIGHT - Jonathan Lax Treatment Center",
+  "contact":"jdomsky@haverford.edu",
+  "haverford_office":"Jodi Domsky",
+  "description":"<p>Their team offers compassionate, culturally competent, integrated, patient-centered medical care, and social services to people living with HIV. They&nbsp;see patients from all walks of life and their&nbsp;team of dedicated providers works to address the unique needs of each individual. Their&nbsp;goal is to provide comprehensive care to all patients in a &ldquo;one-stop-shop: setting. Inclusivity and respect for the dignity of their&nbsp;patients is at the center of all that they&nbsp;do here at FIGHT.</p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer"
+      ]
+    },
+    {
+      "Area":[
+        "Healthcare"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "United States"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

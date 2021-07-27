@@ -1,0 +1,47 @@
+{
+  "name":"ALS Association of Philadelphia",
+  "lat":40.1812529,
+  "long":-75.2091615,
+  "image_file":null,
+  "organization":"ALS Association of Philadelphia",
+  "contact":"jrash@haverford.edu",
+  "haverford_office":"Jason Rash",
+  "description":"<p>For more than 40 years, the Greater Philadelphia Chapter of the ALS Association has worked to improve the quality of life for people with ALS by supporting vital ALS research and direct care services to patients and their families, as well as engaging in advocacy at the state and federal levels. They serve more than 1,100 people each year and cover a broad service area that encompasses eastern and central Pennsylvania, central and southern New Jersey, and all of Delaware.</p>\r\n\r\n<p><a data-saferedirecturl=\"https://www.google.com/url?q=https://www.alsphiladelphia.org&amp;source=gmail&amp;ust=1552660932737000&amp;usg=AFQjCNHyA6bIaoodrOpMZRTpmC1a7WMVpQ\" href=\"https://www.alsphiladelphia.org\" target=\"_blank\">https://www.alsphiladelphia.<wbr />org</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer"
+      ]
+    },
+    {
+      "Area":[
+        "Disability Accessibility",
+        "Healthcare"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "Philadelphia Area"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

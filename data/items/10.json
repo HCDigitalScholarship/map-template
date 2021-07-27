@@ -1,0 +1,58 @@
+{
+  "name":"Public Citizens for Children and Youth",
+  "lat":39.9566589,
+  "long":-75.1681729,
+  "image_file":null,
+  "organization":"Public Citizens for Children and Youth",
+  "contact":"awolkoff@haverford.edu",
+  "haverford_office":"Alexandra Wolkoff",
+  "description":"<p>PCCY strives to improve the lives and life chances of our region&#39;s children through thoughtful and informed advocacy. Work spans child health, early learning, education, and family stability. An example of work that&#39;s been done in partnership with Haverford College is a project in which a group of students worked with PCCY to make progress on the Dream Care campaign to fight for health insurance for PA children who are undocumented and do not have insurance.</p>\r\n\r\n<p><a href=\"https://www.pccy.org/\">https://www.pccy.org/</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer"
+      ]
+    },
+    {
+      "Area":[
+        "Racism",
+        "Public Policy",
+        "Literacy",
+        "Poverty",
+        "Human Rights",
+        "Hunger",
+        "Healthcare",
+        "Education",
+        "Voting and politics",
+        "Research",
+        "Mental Health",
+        "Children",
+        "Immigration"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "Philadelphia Area"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

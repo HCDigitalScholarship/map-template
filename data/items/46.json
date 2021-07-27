@@ -1,0 +1,48 @@
+{
+  "name":"Zuckerberg San Francisco General Hospital and Trauma Center",
+  "lat":37.7555727,
+  "long":-122.4058444,
+  "image_file":null,
+  "organization":"Zuckerberg San Francisco General Hospital and Trauma Center",
+  "contact":"jdomsky@haverford.edu",
+  "haverford_office":"Jodi Domsky",
+  "description":"<p>Zuckerberg San Francisco General Hospital and Trauma Center is a community hospital and Level 1 trauma center dedicated to improving the health and wellness of our community. They&nbsp;provide world-class care for all the people of San Francisco, regardless of ability to pay or immigration status.</p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer"
+      ]
+    },
+    {
+      "Area":[
+        "Community Development",
+        "Healthcare",
+        "Immigration"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "United States"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

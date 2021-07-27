@@ -1,0 +1,49 @@
+{
+  "name":"Bethel Academy",
+  "lat":40.0041171,
+  "long":-75.2955258,
+  "image_file":null,
+  "organization":"Bethel Academy",
+  "contact":"ejohnson3@haverford.edu",
+  "haverford_office":"Emily Johnson",
+  "description":"<p><span>Bethel Academy provides a supportive and safe environment where students can complete homework and receive reinforcement in reading, writing and math. They also offer PSSA prep programs for their students. In addition to academic support, they also provide life skills and cultural enrichment activities for our students. Their staff consists of current and former educators, and talented student volunteers from surrounding high schools and colleges.</span></p>\r\n\r\n<p><span>Volunteers should commit to one day a week, Monday Tuesday or Wednesday, from 330pm-530pm to mentor students and help with homework, or to provide any kind of enrichment lesson, including arts &amp; crafts or music &amp; dance. Bethel Academy could also use administrative help and support, creating flyers and correspondence, cleaning, or helping coordinate food and drinks. </span></p>\r\n\r\n<p><a href=\"https://www.bethelacademy.net/\">https://www.bethelacademy.net/</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer"
+      ]
+    },
+    {
+      "Area":[
+        "Children",
+        "Community Development",
+        "Education",
+        "Literacy"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "Philadelphia Area"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

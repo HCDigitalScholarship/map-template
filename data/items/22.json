@@ -1,0 +1,49 @@
+{
+  "name":"Philadelphia Streets Department",
+  "lat":39.9541401,
+  "long":-75.1644017,
+  "image_file":null,
+  "organization":"Philadelphia Streets Department",
+  "contact":"jlion@haverford.edu",
+  "haverford_office":"Janice Lion",
+  "description":"<p>The Philadelphia Streets Department and the divisions within it are responsible for the City&#39;s vast network of streets and roadways. Included among our many duties are the ongoing collection and disposal of residential trash and recyclables, as well as the construction, cleanliness and maintenance of our entire street system. It&#39;s hard for the public to imagine all that goes into that general &quot;job description,&quot; but here are some facts and figures to put things in perspective.<br />\r\n<br />\r\nThe Streets Department&#39;s mission is to provide clean, green, and safe streets in a cost-effective and efficient manner. The department delivers a number of City services that are critical to maintaining the public health and safety in our communities. These essential services include, but are not limited to, curbside trash and recycling collection, maintaining all traffic control devices and street lighting, the construction and maintenance of 320 bridges and 2,525 miles of streets and highways and snow and ice removal.</p>\r\n\r\n<p><a data-saferedirecturl=\"https://www.google.com/url?q=https://www.philadelphiastreets.com/&amp;source=gmail&amp;ust=1541603721648000&amp;usg=AFQjCNEyut4lo3btSbcPqBkzJ7YY0vmq9g\" href=\"https://www.philadelphiastreets.com/\" target=\"_blank\">https://www.<wbr />philadelphiastreets.com/</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "fellowship"
+      ]
+    },
+    {
+      "Area":[
+        "Environment",
+        "Government",
+        "Public Policy",
+        "Urban and Rural Development"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "Philadelphia Area"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

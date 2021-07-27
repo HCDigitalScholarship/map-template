@@ -1,0 +1,48 @@
+{
+  "name":"Community Legal Services",
+  "lat":39.9506249,
+  "long":-75.1653503,
+  "image_file":null,
+  "organization":"Community Legal Services",
+  "contact":"jlion@haverford.edu",
+  "haverford_office":"Janice Lion",
+  "description":"<p>Founded in 1966 by the Philadelphia Bar Association, Community Legal Services (CLS) has provided free civil legal assistance to more than one million low-income Philadelphians. CLS assists clients when they face the threat of losing their homes, incomes, health care, and even their families. CLS attorneys and other staff provide a full range of legal services, from individual representation to administrative advocacy to class action litigation, as well as community education and social work. CLS is nationally recognized as a model legal services program.</p>\r\n\r\n<p><a href=\"https://clsphila.org/\">https://clsphila.org/</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer",
+        "internship"
+      ]
+    },
+    {
+      "Area":[
+        "Civil Rights",
+        "Law"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "Philadelphia Area"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

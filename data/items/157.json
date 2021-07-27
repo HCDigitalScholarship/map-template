@@ -1,0 +1,49 @@
+{
+  "name":"Louisiana Environmental Action Network",
+  "lat":30.4503,
+  "long":-91.11731,
+  "image_file":null,
+  "organization":"Louisiana Environmental Action Network",
+  "contact":"jmiller1@haverford.edu",
+  "haverford_office":"Julie Miller",
+  "description":"<p>The Louisiana Environmental Action Network (LEAN) is a community based not-for-profit organization that has been working since 1986 to resolve the unique environmental struggles present in Louisiana. Through education, empowerment, advocacy, and support; LEAN provides the necessary tools and services to individuals and communities facing environmental problems. Such problems that often threaten their health, safety and quality of life.</p>\r\n\r\n<p>The purpose of the Louisiana Environmental Action Network (LEAN) is to foster cooperation and communication between individual citizens and corporate and government organizations in an effort to assess and mend the environmental problems in Louisiana.</p>\r\n\r\n<p>&nbsp;</p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "fellowship",
+        "internship",
+        "research"
+      ]
+    },
+    {
+      "Area":[
+        "Community Development",
+        "Environment"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

@@ -1,0 +1,50 @@
+{
+  "name":"Physicians for Human Rights",
+  "lat":40.7541953,
+  "long":-73.9908946,
+  "image_file":null,
+  "organization":"Physicians for Human Rights",
+  "contact":"jmiller1@haverford.edu",
+  "haverford_office":"Julie Miller",
+  "description":"<p>Physician for Human Rights is a non-governmental organization located in New York City. Physicians for Human Rights investigate and document human rights violations give voice to&nbsp;survivors and witnesses, and plant seeds of reconciliation by ensuring that perpetrators can be held accountable for their crimes.&nbsp;They&nbsp;believe that medical ethics are deeply bound to the protection of human rights. PHR uses core disciplines &ndash; science, medicine, forensics, and public health &ndash; to inform research and investigations and to strengthen the skills of frontline human rights defenders.</p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "fellowship",
+        "internship"
+      ]
+    },
+    {
+      "Area":[
+        "Globalization",
+        "Healthcare",
+        "Intercultural Issues",
+        "Research"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

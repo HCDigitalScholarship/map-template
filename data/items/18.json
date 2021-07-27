@@ -1,0 +1,46 @@
+{
+  "name":"Data Arts",
+  "lat":39.9588922,
+  "long":-75.1458732,
+  "image_file":null,
+  "organization":"Data Arts",
+  "contact":"nfernandez@haverford.edu",
+  "haverford_office":"Noem\u00ed Fern\u00e1ndez",
+  "description":"<p>SMU DataArts will build a national culture of data-driven decision making for those who want to see the arts and culture sector thrive. We will make data useful and accessible to all in the arts and culture field, illuminating strengths, challenges and opportunities for individual arts organizations and for the sector as a whole, to help ensure long-term stability.</p>\r\n\r\n<p><a data-saferedirecturl=\"https://www.google.com/url?q=https://culturaldata.org&amp;source=gmail&amp;ust=1545415821604000&amp;usg=AFQjCNHFRar1yqSKj2FGqEX0MU7n-KkglA\" href=\"https://culturaldata.org\" target=\"_blank\">https://culturaldata.org</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "internship"
+      ]
+    },
+    {
+      "Area":[
+        "Arts & Culture"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "Philadelphia Area"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

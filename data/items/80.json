@@ -1,0 +1,48 @@
+{
+  "name":"Lund University",
+  "lat":55.7046601,
+  "long":13.1910073,
+  "image_file":null,
+  "organization":"Lund University",
+  "contact":"mlatrick@haverford.edu",
+  "haverford_office":"Marielle Latrick",
+  "description":"<p>Lund is the most popular study location in Sweden. The University offers one of the broadest ranges of programmes and courses in Scandinavia, based on cross-disciplinary and cutting-edge research. The University has a distinct international profile, with partner universities in over 70 countries.</p>\r\n\r\n<p><a data-saferedirecturl=\"https://www.google.com/url?q=https://www.lunduniversity.lu.se/&amp;source=gmail&amp;ust=1545430690122000&amp;usg=AFQjCNHhQoFvTkehXzys5ekClsFxGzVBzQ\" href=\"https://www.lunduniversity.lu.se/\" target=\"_blank\">https://www.lunduniversity.lu.<wbr />se/</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "internship",
+        "research"
+      ]
+    },
+    {
+      "Area":[
+        "Education",
+        "Research"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "Sweden\n"
+      ]
+    },
+    {
+      "Subject":[
+        "Chemistry\n"
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

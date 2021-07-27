@@ -1,0 +1,48 @@
+{
+  "name":"Common Space",
+  "lat":40.0062558,
+  "long":-75.2896824,
+  "image_file":null,
+  "organization":"Common Space",
+  "contact":"ejohnson3@haverford.edu",
+  "haverford_office":"Emily Johnson",
+  "description":"<p class=\"font_8\" style=\"line-height:1.6em;\">Common Space provides a shared space where people of all ages, races, abilities, ethnicities, and economic backgrounds make connections and cross boundaries. They offer creative programming that includes classes, workshops, and discussion groups, as well as a community space to learn, meet, share, and enjoy a tasty treat. They create fair-wage jobs for community members with many talents and abilities who are seeking part-time/flexible employment and appreciate a place to belong. They partner with school and educational institutions, small businesses, and organizations to achieve our mission.</p>\r\n\r\n<p class=\"font_8\" style=\"line-height:1.6em;\">Their vision is that community members know each other and value diversity with an open mind, kind heart, and thoughtful conversation.</p>\r\n\r\n<p class=\"font_8\" style=\"line-height:1.6em;\">Common Space would love for Haverford students to come visit.On their website, they state that &quot;Common Space is for you, so come on in and grab a cup of coffee. And a pastry. Attend an event. Suggest an event. Host a meeting. Have another cup of coffee. Bring a friend. Make a friend. Read. Have a conversation. Change someone&#39;s mind. Change your mind. Laugh. Just come in and see what happens!&quot;</p>\r\n\r\n<p class=\"font_8\" style=\"line-height:1.6em;\"><a href=\"https://www.commonspaceardmore.org/\"><cite class=\"iUh30\">https://www.commonspaceardmore.org/</cite></a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer"
+      ]
+    },
+    {
+      "Area":[
+        "Community Development",
+        "Intercultural Issues",
+        "Arts & Culture"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "Philadelphia Area"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

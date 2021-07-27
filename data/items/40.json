@@ -1,0 +1,51 @@
+{
+  "name":"Philadelphia Futures",
+  "lat":39.9484149,
+  "long":-75.1650424,
+  "image_file":null,
+  "organization":"Philadelphia Futures",
+  "contact":"jlion@haverford.edu",
+  "haverford_office":"Janice Lion",
+  "description":"<p>Philadelphia Futures is a nonprofit organization that provides Philadelphia&rsquo;s low-income, first-generation-to-college students with the tools, resources and opportunities necessary for admission to and success in college. The organization transforms lives by breaking down the barriers that have historically excluded this population of students from achieving college success. The students Philadelphia Futures serves are provided with a comprehensive, time-tested array of programs designed to reduce the institutional, academic, social and financial barriers to college success.<br />\r\n<br />\r\nThrough its two direct service programs, Sponsor-A-Scholar (SAS) and College Connection, Philadelphia Futures annually serves nearly 600 high school and college students with academic enrichment services, personalized college guidance, placement and retention services and financial resources. Unique in their depth and duration, these intensive, individualized programs support students from high school through college completion.<br />\r\n<br />\r\nFellows from Haverford College have worked as instructional support for one of the many summer programs taking place on various college campuses (Drexel, Temple, Eastern) in the Philadelphia area. They worked alongside dedicated professionals and award-winning professors to lead small group work, provide one-on-one technical and writing support, and promote a positive learning environment for the students participating in the program. They also engaged in one-on-one work with individual students, as well as administrative support in the Center City Philadelphia office.<br />\r\n<br />\r\nhttp://www.philadelphiafutures.org/</p>\r\n\r\n<div>&nbsp;</div>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer",
+        "fellowship"
+      ]
+    },
+    {
+      "Area":[
+        "Children",
+        "Education",
+        "Poverty",
+        "Intercultural Issues",
+        "Literacy"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "Philadelphia Area"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

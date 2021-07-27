@@ -1,0 +1,47 @@
+{
+  "name":"PALM Center for Positive Aging",
+  "lat":40.0066011,
+  "long":-75.2965282,
+  "image_file":null,
+  "organization":"PALM Center for Positive Aging",
+  "contact":"ejohnson3@haverford.edu",
+  "haverford_office":"Emily Johnson",
+  "description":"<p>The PALM Center mission is to assist adults 50 years of age and older to maintain a healthy, satisfying quality of life by providing services and activities in a nurturing environment that enables them to function more independently in the community. The Center is an advocate of unmet needs of older adults and is a repository of information to assure them their rights, benefits and opportunities.</p>\r\n\r\n<p>Students can volunteer at the Center in a variety of ways, including committing weekly to go and lead a class, or participating in a one time event where students and seniors work together on an activity like making a blanket or discussing current events.</p>\r\n\r\n<p><a href=\"https://www.palmseniors.org/\"><cite class=\"iUh30\">https://www.palmseniors.org/</cite></a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer"
+      ]
+    },
+    {
+      "Area":[
+        "Community Development",
+        "Seniors Elders"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "Philadelphia Area"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

@@ -1,0 +1,46 @@
+{
+  "name":"FringeArts",
+  "lat":39.9532864,
+  "long":-75.1404276,
+  "image_file":null,
+  "organization":"FringeArts",
+  "contact":"nfernandez@haverford.edu",
+  "haverford_office":"Noem\u00ed Fern\u00e1ndez",
+  "description":"<p>FringeArts is Philadelphia&rsquo;s home for contemporary performance, presenting progressive, world-class art that expands the imagination and boldly defies expectation. Our programming exposes audiences to genre-defying dance, theater, and music performances by accomplished and emerging innovators who push the boundaries of art-making and redefine the artistic landscape worldwide.</p>\r\n\r\n<p><a data-saferedirecturl=\"https://www.google.com/url?q=https://fringearts.com&amp;source=gmail&amp;ust=1545415821596000&amp;usg=AFQjCNE_rCAYIz9RAE8Upl_DTRnMVygRCA\" href=\"https://fringearts.com\" target=\"_blank\">https://fringearts.com</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "internship"
+      ]
+    },
+    {
+      "Area":[
+        "Arts & Culture"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "Philadelphia Area"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

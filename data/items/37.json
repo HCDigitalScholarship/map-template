@@ -1,0 +1,47 @@
+{
+  "name":"Early Novels Database (END)",
+  "lat":40.0117553,
+  "long":-75.2994395,
+  "image_file":null,
+  "organization":"Early Novels Database (END)",
+  "contact":"nfernandez@haverford.edu",
+  "haverford_office":"Noem\u00ed Fern\u00e1ndez",
+  "description":"<p>The Early Novels Database (END) project generates high-quality metadata about novels published between 1660 and 1850 in order to make early works of fiction more available to both traditional and computational modes of humanistic study. By uniting twenty-first-century database and search technologies with the sensibility of eighteenth-century indexing practices, END creates several innovative access points to a dataset that currently includes over two thousand richly detailed records. END metadata records and encodes information about how early novels instruct readers about themselves, carefully noting prefaces, introductions, and dedications; tables of contents and indexes; full titles and footnotes buried deep within the text. Each record includes both discursive descriptions of copy-specific information and codified languages that enable nimble search</p>\r\n\r\n<p><a data-saferedirecturl=\"https://www.google.com/url?q=https://earlynovels.github.io&amp;source=gmail&amp;ust=1545415821589000&amp;usg=AFQjCNHkkyWh5pkUcK-P2GClrGEO6LOtMA\" href=\"https://earlynovels.github.io\" target=\"_blank\">https://earlynovels.github.io</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "internship"
+      ]
+    },
+    {
+      "Area":[
+        "Arts & Culture",
+        "Research"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "Philadelphia Area"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

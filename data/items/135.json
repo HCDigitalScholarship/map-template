@@ -1,0 +1,47 @@
+{
+  "name":"St. Francis Memorial Hospital",
+  "lat":37.7893799,
+  "long":-122.4167294,
+  "image_file":null,
+  "organization":"St. Francis Memorial Hospital",
+  "contact":"jdomsky@haverford.edu",
+  "haverford_office":"Jodi Domsky",
+  "description":"<p>Excellent, affordable health care, delivered with compassion, is what they&nbsp;stand for. Since their&nbsp;founding in 1986, they&#39;ve&nbsp;made it their&nbsp;goal to create environments that meet each patient&#39;s physical, mental, and spiritual needs. They&nbsp;also believe this healing philosophy promotes the wellbeing of their&nbsp;staff and the places they serve.<br />\r\n<br />\r\nDignity Health is made up of more than 60,000 caregivers and staff who deliver excellent care to diverse communities in 21 states. Headquartered in San Francisco, Dignity Health is the fifth largest health system in the nation and the largest hospital provider in California.<br />\r\n<br />\r\nThrough teamwork and innovation, faith and compassion, advocacy and action, they&nbsp;endeavor every day to keep you happy, healthy, and whole.</p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer"
+      ]
+    },
+    {
+      "Area":[
+        "Community Development",
+        "Healthcare"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "United States"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

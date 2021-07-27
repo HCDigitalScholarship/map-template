@@ -1,0 +1,50 @@
+{
+  "name":"Casa Refugiados",
+  "lat":19.3994843,
+  "long":-99.1910554,
+  "image_file":null,
+  "organization":"Casa Refugiados",
+  "contact":"szukerma@haverford.edu",
+  "haverford_office":"Stephanie Zukerman",
+  "description":"<p>Programa Casa Refugiados is a non-profit that collaborates with the United Nations High Commissioner for Refugees&nbsp; (UNHCR) to promote and protect&nbsp;the rights of&nbsp;asylum seekers. The program highlights their commitment to asylum seekers by emphasizing their support for integration through a frame based on cultural diffusion, respect for human rights, and solidarity. Its mission is to be an active organization with the goal of creating a world with global citizenship, human rights, and respect for the environment.&nbsp;</p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "fellowship",
+        "internship"
+      ]
+    },
+    {
+      "Area":[
+        "Human Rights",
+        "Intercultural Issues",
+        "Immigration"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "Mexico\n"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+        "Immigration",
+        "Refugees"
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

@@ -1,0 +1,48 @@
+{
+  "name":"A Better Chance",
+  "lat":40.0101037,
+  "long":-75.2795581,
+  "image_file":null,
+  "organization":"A Better Chance",
+  "contact":"ejohnson3@haverford.edu",
+  "haverford_office":"Emily Johnson",
+  "description":"<p>A Better Chance is a college preparatory program that offers a challenging educational opportunity to academically talented, economically disadvantaged minority students who are determined to succeed. Founded in 1973, A Better Chance in Lower Merion, is part of the Community Schools Program (CSP) of the national A Better Chance organization. CSP scholars attend highly-ranked public high schools in suburban settings. ABC-LM scholars attend Lower Merion High School.</p>\r\n\r\n<p>ABC-LM is an all-male boarding program, with a house in Ardmore that can accommodate up to nine students. A resident director manages the house and three live-in tutors supervise mandatory study halls five nights per week and arrange for weekend activities and social events. Each ABC-LM student has a support network that includes an academic advisor, a host family and a house relations committee. Students have full access to all resources and opportunities available in Lower Merion School District. ABC-LM also provides private SAT tutoring for all juniors and seniors.</p>\r\n\r\n<p>Students have helped ABC by helping prepare the house before residents moved in, and would like to build on our relationship, having students come prepare and share meals or help with studying and lessons, or host residents on campus for events.</p>\r\n\r\n<p><a href=\"https://www.lmsd.org/community/partners/better-chance\">https://www.lmsd.org/community/partners/better-chance</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer"
+      ]
+    },
+    {
+      "Area":[
+        "Children",
+        "Community Development",
+        "Education"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "Philadelphia Area"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

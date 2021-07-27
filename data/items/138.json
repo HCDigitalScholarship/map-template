@@ -1,0 +1,47 @@
+{
+  "name":"Pennsylvanians for Modern Courts",
+  "lat":39.95338,
+  "long":-75.1659,
+  "image_file":null,
+  "organization":null,
+  "contact":"jlion@haverford.edu",
+  "haverford_office":"Janice Lion",
+  "description":"<p>&nbsp;</p>\r\n\r\n<p><meta charset=\"utf-8\" /></p>\r\n\r\n<p>Pennsylvanians for Modern Courts (&quot;PMC&quot;), a nonpartisan nonprofit, envisions a Pennsylvania judicial system in which everyone who participates is assured impartiality, fairness, accessibility and respect.</p>\r\n\r\n<p><span style=\"font-size: 13px;\">PMC works tirelessly to educate all Pennsylvanians about our courts and how to navigate them with confidence, provide resources to make that possible for all residents of the Commonwealth, and advocate for judicial reforms that promote inclusion and access to justice. We engage in a wide variety of initiatives to accomplish these goals and are constantly developing new programming based on community feedback.</span></p>\r\n\r\n<p><a href=\"https://www.pmconline.org/\"><span style=\"font-size: 13px;\">https://www.pmconline.org/</span></a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "fellowship"
+      ]
+    },
+    {
+      "Area":[
+        "Justice and Prisons",
+        "Law"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

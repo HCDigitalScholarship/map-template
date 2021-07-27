@@ -1,0 +1,53 @@
+{
+  "name":"Applied Mechanics",
+  "lat":39.9519254,
+  "long":-75.1604495,
+  "image_file":null,
+  "organization":"Applied Mechanics",
+  "contact":"nfernandez@haverford.edu",
+  "haverford_office":"Noem\u00ed Fern\u00e1ndez",
+  "description":"<p>Applied Mechanics is a radical theater collective. We create intricate, immersive worlds and invite our audience in to watch all the stories that unfold there. We believe that there is more than one story to tell about any given thing: our work depicts many stories at once and invites the audience to choose what to watch. Our work asks performers and audience to share space, and gives audience members agency and freedom of movement. Our art is an exercise in empathy and transformation. We believe that art can be a powerful force in the struggle against nationalism, fascism, misogyny, racism, xenophobia, and bigotry. The art we make is part of that fight.</p>\r\n\r\n<p><a data-saferedirecturl=\"https://www.google.com/url?q=http://www.appliedmechanics.us&amp;source=gmail&amp;ust=1545415825615000&amp;usg=AFQjCNG8_wL4S0t1pwtULViJ-ntlxKYlaQ\" href=\"http://www.appliedmechanics.us\" target=\"_blank\">http://www.appliedmechanics.us</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "residency"
+      ]
+    },
+    {
+      "Area":[
+        "Community Development",
+        "Education",
+        "Human Rights",
+        "Poverty",
+        "Conflict Resolution",
+        "Racism",
+        "Arts & Culture",
+        "Research"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "Philadelphia Area"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

@@ -1,0 +1,49 @@
+{
+  "name":"Woody Guthrie Center",
+  "lat":36.1586461,
+  "long":-95.9922413,
+  "image_file":null,
+  "organization":"Woody Guthrie Center",
+  "contact":"jlion@haverford.edu",
+  "haverford_office":"Janice Lion",
+  "description":"<p>The Woody Guthrie Center is a public museum and archive located in Tulsa, Oklahoma that is dedicated to the life and legacy of American folk musician and singer-songwriter Woody Guthrie. The Center also contains the archives of folk singer, songwriter, and fellow social activist Phil Ochs.</p>\r\n\r\n<p>Students working here focus on a community outreach/public engagement program and/or exhibit, utilizing materials available in their archives to develop their theme. The archival collections of Woody Guthrie, Phil Ochs, and other special collections will serve as a basis for promoting social awareness of a selected issue still present in current social affairs.</p>\r\n\r\n<p><a data-saferedirecturl=\"https://www.google.com/url?q=http://woodyguthriecenter.org/&amp;source=gmail&amp;ust=1541603719991000&amp;usg=AFQjCNEM3NLki4nie7MIIu6vu0eeYIwtAw\" href=\"http://woodyguthriecenter.org/\" target=\"_blank\">http://woodyguthriecenter.org/</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer",
+        "fellowship"
+      ]
+    },
+    {
+      "Area":[
+        "Community Development",
+        "Education",
+        "Arts & Culture"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "United States"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

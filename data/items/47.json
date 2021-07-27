@@ -1,0 +1,47 @@
+{
+  "name":"Mayor's Office of Education",
+  "lat":null,
+  "long":null,
+  "image_file":null,
+  "organization":"Mayor's Office of Education",
+  "contact":"jlion@haverford.edu",
+  "haverford_office":"Janice Lion",
+  "description":"<p style=\"margin:0in 0in 10pt\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">The Mayor&rsquo;s Office of Education (MOE) provides leadership to improve education in the City of Philadelphia.<br />\r\n<br />\r\nTo achieve this mission, MOE creates policies and programs to:<br />\r\n<br />\r\n-Expand access to quality pre-K for Philadelphia families;<br />\r\n-Support students and residents through Community Schools;<br />\r\n-Facilitate collaboration and partnership among many stakeholders to strengthen the local education landscape; and<br />\r\n-Advance key educational policy.<br />\r\n<br />\r\nThey work with public and private partners to support local schools and make educational opportunities more accessible for all.</span></span></span></p>\r\n\r\n<p style=\"margin:0in 0in 10pt\"><a data-saferedirecturl=\"https://www.google.com/url?q=https://www.phila.gov/departments/mayors-office-of-education/&amp;source=gmail&amp;ust=1541603722681000&amp;usg=AFQjCNGbPWBHZLUzJvMl4wngPQ-oYSf_OQ\" href=\"https://www.phila.gov/departments/mayors-office-of-education/\" target=\"_blank\">https://www.phila.gov/<wbr />departments/mayors-office-of-<wbr />education/</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "fellowship"
+      ]
+    },
+    {
+      "Area":[
+        "Education",
+        "Public Policy"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "Philadelphia Area"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

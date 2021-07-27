@@ -1,0 +1,47 @@
+{
+  "name":"Haverford College Special Collections",
+  "lat":40.0092906945,
+  "long":-75.3080135023,
+  "image_file":null,
+  "organization":"Haverford College Special Collections",
+  "contact":null,
+  "haverford_office":null,
+  "description":"<p><img alt=\"\" src=\"/media/media/2018/05/14/founderscrop.jpg\" style=\"width: 300px; height: 138px;\" /></p>\r\n\r\n<p>Quaker &amp; Special Collections contains Haverford College&rsquo;s rare books, manuscripts, and the college archives. We seek to collect, preserve, and make available materials which serve the research and teaching needs of the Haverford community as well as the wider scholarly community.</p>\r\n\r\n<p>Our world-renowned Quaker collections, which illuminate Quaker life, faith, and practice from the earliest days of the Society of Friends to the present is the highlight of the collection, while our&nbsp;<a href=\"https://www.haverford.edu/library/quaker-special-collections/collections-by-subject\">varied collecting foci</a>&nbsp;provide many opportunities for researchers.</p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+
+      ]
+    },
+    {
+      "Area":[
+        "Education",
+        "Arts & Culture"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

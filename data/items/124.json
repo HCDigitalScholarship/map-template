@@ -1,0 +1,47 @@
+{
+  "name":"University of Rochester",
+  "lat":43.1229458,
+  "long":-77.6235808,
+  "image_file":null,
+  "organization":"University of Rochester Medical Center",
+  "contact":"jdomsky@haverford.edu",
+  "haverford_office":"Jodi Domsky",
+  "description":"<p>The University of Rochester Medical Center (URMC) is one of the nation&rsquo;s leading academic medical centers. It forms the centerpiece of the University of Rochester&rsquo;s health research, teaching and patient care missions.<br />\r\n<br />\r\nThe University of Rochester Medical Center is a private, coeducational, nonsectarian, and nonprofit research university.<br />\r\n<br />\r\nThe medical center includes Strong Memorial Hospital, the Eastman Institute for Oral Health, the University of Rochester School of Medicine and Dentistry, with its faculty practice (University of Rochester Medical Faculty Group), and the University of Rochester School of Nursing.</p>\r\n\r\n<p><a data-saferedirecturl=\"https://www.google.com/url?q=https://www.urmc.rochester.edu&amp;source=gmail&amp;ust=1581432065280000&amp;usg=AFQjCNGCOlZyLJ3vgepKps0vGeKBgU4KRQ\" href=\"https://www.urmc.rochester.edu/\" target=\"_blank\">https://www.urmc.rochester.edu</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer"
+      ]
+    },
+    {
+      "Area":[
+        "Healthcare",
+        "Research"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "United States"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

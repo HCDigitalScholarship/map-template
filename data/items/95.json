@@ -1,0 +1,49 @@
+{
+  "name":"Greensgrow Farm",
+  "lat":39.978297,
+  "long":-75.120979,
+  "image_file":null,
+  "organization":"Greensgrow Farm",
+  "contact":"jrash@haverford.edu",
+  "haverford_office":"Jason Rash",
+  "description":"<p>Greensgrow is a nonprofit and nationally recognized leader in urban agriculture. They are dedicated to promoting social entrepreneurship through the reuse of land once deemed useless. In the process they are reconnecting city dwellers with rural food producers and promoting the greening of Philadelphia&rsquo;s homes and gardens. Together they are building a better, more progressive and sustainable Philadelphia.</p>\r\n\r\n<p><a data-saferedirecturl=\"https://www.google.com/url?q=https://www.greensgrow.org&amp;source=gmail&amp;ust=1552660932063000&amp;usg=AFQjCNEtB8_zWPy797GzZNIoSeDWL7g3nA\" href=\"https://www.greensgrow.org\" target=\"_blank\">https://www.greensgrow.org</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer"
+      ]
+    },
+    {
+      "Area":[
+        "Agriculture",
+        "Environment",
+        "Urban and Rural Development",
+        "Sustainability"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "Philadelphia Area"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

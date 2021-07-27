@@ -1,0 +1,47 @@
+{
+  "name":"Chester County Food Bank",
+  "lat":40.064668,
+  "long":-75.685166,
+  "image_file":null,
+  "organization":"Chester County Food Bank",
+  "contact":"jrash@haverford.edu",
+  "haverford_office":"Jason Rash",
+  "description":"<p>The Chester County Food Bank was formed in 2009 to address the escalating hunger problem in the county. Their primary goal was, and still is, to have a viable, sustainable organization that secures, manages and distributes food to those in need.<br />\r\n<br />\r\nToday, they are the central hunger relief organization serving more than 120 partner agencies in Chester County, PA. Through their network of food cupboards, hot meal sites, shelters and other social service organizations, they distribute over 2.7 million pounds to our neighbors with limited or uncertain access to adequate food.<br />\r\n<br />\r\nThey are, however, more than food drives that put cans on shelves. They take a steadfast approach to provide food and build support in the neediest communities, while raising awareness and engagement among our community. Visit their Food Security Initiatives to learn about how their programs are making inroads in the fight against hunger.</p>\r\n\r\n<p><a data-saferedirecturl=\"https://www.google.com/url?q=https://chestercountyfoodbank.org&amp;source=gmail&amp;ust=1552660932732000&amp;usg=AFQjCNHMnr2LBj5Xcg1VHZBWYgvssoDjwQ\" href=\"https://chestercountyfoodbank.org\" target=\"_blank\">https://chestercountyfoodbank.<wbr />org</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer"
+      ]
+    },
+    {
+      "Area":[
+        "Human Rights",
+        "Hunger"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "Philadelphia Area"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

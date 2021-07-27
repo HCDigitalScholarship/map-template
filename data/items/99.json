@@ -1,0 +1,48 @@
+{
+  "name":"Delaware Riverkeeper Network",
+  "lat":40.1038916,
+  "long":-74.8515191,
+  "image_file":null,
+  "organization":"Delaware Riverkeeper Network",
+  "contact":"nfernandez@haverford.edu",
+  "haverford_office":"Noem\u00ed Fern\u00e1ndez",
+  "description":"<p>Established in 1988 upon the appointment of the Delaware Riverkeeper, the Delaware Riverkeeper Network (DRN) is a nonprofit 501(c)(3) membership organization. DRN&#39;s professional staff and volunteers work throughout the entire Delaware River Watershed. We also work throughout the four states that comprise the Watershed -- including Pennsylvania, New Jersey, Delaware and New York -- and at the federal level on the issues, actions, regulations, legislation, policies, programs and decisions that impact the health of our Delaware River Watershed waterways and our ability to protect and restore them for the benefit of all.</p>\r\n\r\n<p><a data-saferedirecturl=\"https://www.google.com/url?q=http://www.delawareriverkeeper.org&amp;source=gmail&amp;ust=1545415825364000&amp;usg=AFQjCNFSfRQBVDcD6u4vBG11JSFZcX71-Q\" href=\"http://www.delawareriverkeeper.org\" target=\"_blank\">http://www.<wbr />delawareriverkeeper.org</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "residency"
+      ]
+    },
+    {
+      "Area":[
+        "Environment",
+        "Public Policy",
+        "Sustainability"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "Philadelphia Area"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

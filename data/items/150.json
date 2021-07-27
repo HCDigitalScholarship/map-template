@@ -1,0 +1,51 @@
+{
+  "name":"City Council",
+  "lat":39.953194,
+  "long":-75.163345,
+  "image_file":null,
+  "organization":"City Council",
+  "contact":"jlion@haverford.edu",
+  "haverford_office":"Janice Lion",
+  "description":"<p>Students interested in working with the City of Philadelphia will have the opportunity to work in public service, civic leadership, restorative justice, and/or social services.&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><a href=\"http://phlcouncil.com/#_ga=2.239891530.851723381.1597762957-1610541926.1584115247\">http://phlcouncil.com/#_ga=2.239891530.851723381.1597762957-1610541926.1584115247</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "fellowship"
+      ]
+    },
+    {
+      "Area":[
+        "Community Development",
+        "Government",
+        "Civil Rights",
+        "Justice and Prisons",
+        "Public Policy",
+        "Voting and politics"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

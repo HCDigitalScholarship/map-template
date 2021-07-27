@@ -1,0 +1,51 @@
+{
+  "name":"The Village of Arts & Humanities",
+  "lat":39.9908966,
+  "long":-75.1485867,
+  "image_file":null,
+  "organization":"The Village of Arts & Humanities",
+  "contact":"sbursese@haverford.edu",
+  "haverford_office":"Stephanie Bursese",
+  "description":"<p>The mission of The Village of Arts and Humanities is to support the voices and aspirations of the community through providing opportunities for self-expression rooted in art and culture. The Village inspires people to be agents of positive change through programs that encompass arts and culture, engage youth, revitalize community, preserve heritage and respect the environment.</p>\r\n\r\n<p><a data-saferedirecturl=\"https://www.google.com/url?q=http://villagearts.org&amp;source=gmail&amp;ust=1545430688977000&amp;usg=AFQjCNFpha9LlRMNxtFij8HKiWH79KM8uA\" href=\"http://villagearts.org\" target=\"_blank\">http://villagearts.org</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer",
+        "partner"
+      ]
+    },
+    {
+      "Area":[
+        "Children",
+        "Community Development",
+        "Environment",
+        "Intercultural Issues",
+        "Arts & Culture"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "Philadelphia Area"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

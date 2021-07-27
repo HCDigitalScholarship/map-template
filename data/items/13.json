@@ -1,0 +1,47 @@
+{
+  "name":"Committee of Seventy",
+  "lat":39.9499258,
+  "long":-75.1636861,
+  "image_file":null,
+  "organization":"Committee of Seventy",
+  "contact":"jlion@haverford.edu",
+  "haverford_office":"Janice Lion",
+  "description":"<p>The Committee of Seventy is the only nonpartisan and independent advocate for better government in Philadelphia, founded in 1904 to fight for honest and effective government, fair elections and better informed citizens.</p>\r\n\r\n<p><a href=\"https://www.seventy.org/\">https://www.seventy.org/</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer",
+        "internship"
+      ]
+    },
+    {
+      "Area":[
+        "Voting and politics"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "Philadelphia Area"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

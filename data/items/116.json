@@ -1,0 +1,49 @@
+{
+  "name":"Bartram's Garden",
+  "lat":39.933609,
+  "long":-75.215057,
+  "image_file":null,
+  "organization":null,
+  "contact":"jlion@haverford.edu",
+  "haverford_office":"Janice Lion",
+  "description":"<p>Bartram&rsquo;s Garden is a 45-acre National Historic Landmark, operated by the John Bartram Association in cooperation with Philadelphia Parks and Recreation. It is a destination and an outdoor classroom, living laboratory, and membership organization for ever-expanding audiences\u2015over 95,000 each year and counting.</p>\r\n\r\n<p><a href=\"https://bartramsgarden.org/\">https://bartramsgarden.org/</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer",
+        "fellowship",
+        "internship"
+      ]
+    },
+    {
+      "Area":[
+        "Community Development",
+        "Sustainability"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

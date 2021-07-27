@@ -1,0 +1,51 @@
+{
+  "name":"Philadelphia Legal Assistance",
+  "lat":39.95301,
+  "long":-75.15221,
+  "image_file":null,
+  "organization":null,
+  "contact":"jlion@haverford.edu",
+  "haverford_office":"Janice Lion",
+  "description":"<p>For more than 20 years, Philadelphia Legal Assistance (PLA) has provided free civil legal assistance to low-income individuals and families in Philadelphia.</p>\r\n\r\n<p>About 30% of the people in Philadelphia live in families with incomes below the federal poverty level.&nbsp; For those who are low-income, elderly, or disabled, our legal assistance is often crucial for them to protect their&nbsp;homes, their&nbsp;children, their&nbsp;safety, and their&nbsp;livelihood.&nbsp; PLA is dedicated to helping those who cannot afford legal counsel navigate the legal system and understand and safeguard their rights.</p>\r\n\r\n<p><a href=\"https://www.latlong.net/\">https://www.latlong.net/</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "fellowship",
+        "internship"
+      ]
+    },
+    {
+      "Area":[
+        "Community Development",
+        "Housing & Homelessness",
+        "Human Rights",
+        "Justice and Prisons",
+        "Law"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

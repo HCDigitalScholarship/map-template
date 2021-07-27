@@ -1,0 +1,46 @@
+{
+  "name":"Friends of Mauerpark",
+  "lat":52.5200066,
+  "long":13.404954,
+  "image_file":null,
+  "organization":"Friends of Mauerpark",
+  "contact":"nfernandez@haverford.edu",
+  "haverford_office":"Noem\u00ed Fern\u00e1ndez",
+  "description":"<p>Situated in what was once the militarized &ldquo;death strip&rdquo; of the Berlin Wall (or Mauer) that divided East and West, Mauerpark is now a social, cultural, and artistic center of the city.<br />\r\n<br />\r\nFor over 15 years Friends of Mauerpark has been committed to preserving and promoting Mauerpark and its unique vision of a free and vibrant public space.</p>\r\n\r\n<p><a data-saferedirecturl=\"https://www.google.com/url?q=https://www.mauerpark.info/?lang%3Den&amp;source=gmail&amp;ust=1545430693260000&amp;usg=AFQjCNFt-1vz1hcFv04KqJ7YMoyYS-EKUg\" href=\"https://www.mauerpark.info/?lang=en\" target=\"_blank\">https://www.mauerpark.info/?<wbr />lang=en</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "internship"
+      ]
+    },
+    {
+      "Area":[
+        "Arts & Culture"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "Germany\n"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

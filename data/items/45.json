@@ -1,0 +1,47 @@
+{
+  "name":"KC Care Health Center",
+  "lat":39.0633446,
+  "long":-94.5900535,
+  "image_file":null,
+  "organization":"KC Care Health Center",
+  "contact":"jdomsky@haverford.edu",
+  "haverford_office":"Jodi Domsky",
+  "description":"<p>The mission of KC CARE is to promote health and wellness by providing quality care, access, research, and education to the underserved and all people in our community.</p>\r\n\r\n<p><a href=\"http://kccare.org\">https://kccare.org</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer"
+      ]
+    },
+    {
+      "Area":[
+        "Healthcare",
+        "Research"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "United States"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

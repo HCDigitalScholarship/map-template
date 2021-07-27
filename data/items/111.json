@@ -1,0 +1,48 @@
+{
+  "name":"Tufts Medical Center",
+  "lat":42.3503543,
+  "long":-71.0637529,
+  "image_file":null,
+  "organization":"Tufts Medical Center",
+  "contact":"jdomsky@haverford.edu",
+  "haverford_office":"Jodi Domsky",
+  "description":"<p>Tufts Medical Center is an internationally-respected academic medical center &ndash; a teaching hospital where they&nbsp;pride themselves&nbsp;not only in the sophistication of the care they&nbsp;provide but the compassionate way in which they&nbsp;provide it. They&nbsp;care for all patients from the tiniest newborns at their&nbsp;full-service pediatric hospital, Floating Hospital for Children to centenarians in their&nbsp;specialized Geriatrics clinic.</p>\r\n\r\n<p><a data-saferedirecturl=\"https://www.google.com/url?q=https://www.tuftsmedicalcenter.org&amp;source=gmail&amp;ust=1581432064058000&amp;usg=AFQjCNFfvvdeIjv4eYPshUkJBhNM6dt-Kg\" href=\"https://www.tuftsmedicalcenter.org/\" target=\"_blank\">https://www.<wbr />tuftsmedicalcenter.org</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer"
+      ]
+    },
+    {
+      "Area":[
+        "Children",
+        "Healthcare",
+        "Research"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "United States"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

@@ -1,0 +1,47 @@
+{
+  "name":"Children's of Alabama",
+  "lat":33.5053682,
+  "long":-86.8058712,
+  "image_file":null,
+  "organization":"Children's of Alabama",
+  "contact":"jdomsky@haverford.edu",
+  "haverford_office":"Jodi Domsky",
+  "description":"<p>Children&rsquo;s of Alabama is the only medical center in Alabama dedicated solely to the care and treatment of children. It is a private, not-for-profit medical center that serves as the primary site of the University of Alabama at Birmingham (UAB) pediatric medicine, surgery, psychiatry, research and residency programs. More information is available at&nbsp;<a data-saferedirecturl=\"https://www.google.com/url?q=http://childrensal.org&amp;source=gmail&amp;ust=1581702771912000&amp;usg=AFQjCNGiOdhnqKySA_XHTQlGcv4fIo9iOw\" href=\"http://childrensal.org/\" target=\"_blank\">childrensal.org</a>.</p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer"
+      ]
+    },
+    {
+      "Area":[
+        "Children",
+        "Healthcare"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "United States"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

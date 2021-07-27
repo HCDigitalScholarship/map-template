@@ -1,0 +1,51 @@
+{
+  "name":"New Sanctuary Movement of Philadelphia",
+  "lat":39.98941,
+  "long":-75.12707,
+  "image_file":null,
+  "organization":null,
+  "contact":"jlion@haverford.edu",
+  "haverford_office":"Janice Lion",
+  "description":"<p>New Sanctuary Movement of Philadelphia builds community across faith, ethnicity, and class in our work to end injustices against immigrants regardless of immigration status, express radical welcome for all, and ensure that values of dignity, justice, and hospitality are lived out in practice and upheld in policy.</p>\r\n\r\n<p>We work together to bend the arc of the moral universe towards justice and transform our communities into a place where immigrants, families, friends, and neighbors are safe, respected, and welcomed; where economic, spiritual, and emotional wholeness are realized; and where borders and divisions disappear as we build a community welcoming to everyone. Read our 2017 Statement on Sanctuary.<br />\r\n<br />\r\nThrough grassroots organizing led by affected immigrants, we fight and win immigrant justice campaigns with our members across nationality, faith, class, and immigration status. Our community organizing in Philadelphia builds power in immigrant communities to alter the power imbalance, organizes direct action campaigns, builds the individual and collective capacity of the immigrant community and brings immigrant and ally communities together in solidarity to work for change. Read more about our organizing model here.</p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+
+      ]
+    },
+    {
+      "Area":[
+        "Globalization",
+        "Housing & Homelessness",
+        "Human Rights",
+        "Intercultural Issues",
+        "Justice and Prisons",
+        "Immigration"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+
+      ]
+    },
+    {
+      "Subject":[
+        "Spanish"
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

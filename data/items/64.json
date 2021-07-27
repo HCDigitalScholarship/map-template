@@ -1,0 +1,48 @@
+{
+  "name":"Slought Foundation",
+  "lat":39.9543492,
+  "long":-75.2035036,
+  "image_file":null,
+  "organization":"Slought Foundation",
+  "contact":"nfernandez@haverford.edu",
+  "haverford_office":"Noem\u00ed Fern\u00e1ndez",
+  "description":"<p>Slought is a non-profit organization on the campus of the University of Pennsylvania that engages publics in dialogue about cultural and socio-political change in Philadelphia, the world, and the cloud. We are a new form of institution that builds relationships and social trust through collaboration and the exchange of ideas. For over fifteen years, we have worked with artists, communities, and institutions worldwide to develop projects that encourage inclusiveness, advocacy, and the sharing of knowledge.</p>\r\n\r\n<p><a data-saferedirecturl=\"https://www.google.com/url?q=https://slought.org&amp;source=gmail&amp;ust=1545415825586000&amp;usg=AFQjCNHq5uCMc8KpNpqP5rXhDLdYJKqtCw\" href=\"https://slought.org\" target=\"_blank\">https://slought.org</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "partner"
+      ]
+    },
+    {
+      "Area":[
+        "Community Development",
+        "Public Policy",
+        "Arts & Culture"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "Philadelphia Area"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

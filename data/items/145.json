@@ -1,0 +1,52 @@
+{
+  "name":"Firsthand- University City Science Center",
+  "lat":39.9566794,
+  "long":-75.1974077,
+  "image_file":null,
+  "organization":"Firsthand- University City Science Center",
+  "contact":"jlion@haverford.edu",
+  "haverford_office":"Janice Lion",
+  "description":"<p>This isn&rsquo;t your typical science class. At FirstHand, an educational initiative at the University City Science Center, classroom lessons are brought to life through engaging projects and real-life lab environments. By adding the Arts to the STEM disciplines of Science, Technology, Engineering and Math, FirstHand provides a gateway to creative, design-based applications of science and technology. Students learn what it means to experiment and determine things firsthand alongside scientists and educators. As a result, they gain personal experiences that allow them to fully grasp the power of STEM subjects and get excited about how to apply the subjects in their own lives.</p>\r\n\r\n<p><a href=\"https://firsthandphilly.org/\">https://firsthandphilly.org/</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "fellowship",
+        "internship"
+      ]
+    },
+    {
+      "Area":[
+        "Children",
+        "Community Development",
+        "Education",
+        "Urban and Rural Development",
+        "Technology",
+        "Sustainability"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

@@ -1,0 +1,48 @@
+{
+  "name":"Stephen Klein Wellness Center",
+  "lat":39.9802174,
+  "long":-75.1707949,
+  "image_file":null,
+  "organization":"Stephen Klein Wellness Center",
+  "contact":"jdomsky@haverford.edu",
+  "haverford_office":"Jodi Domsky",
+  "description":"<p>The Stephen Klein Wellness Center is committed to addressing the health and wellness needs of people who are currently homeless, formerly homeless, and people living in our North Philadelphia community. Stephen Klein Wellness Center offers primary medical care, psychiatric services, nurse care management, individual, couples and group counseling, peer-led outreach and care coordination, healing touch, on-site legal counseling, and assistance with applying for health insurance benefits.</p>\r\n\r\n<p><a href=\"http://www.projecthome.org/skwc\">https://www.projecthome.org/skwc</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer"
+      ]
+    },
+    {
+      "Area":[
+        "Community Development",
+        "Healthcare",
+        "Housing & Homelessness"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "United States"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

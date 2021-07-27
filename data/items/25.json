@@ -1,0 +1,47 @@
+{
+  "name":"The Junior League",
+  "lat":40.008746,
+  "long":-75.292041,
+  "image_file":null,
+  "organization":"The Junior League",
+  "contact":"ejohnson3@haverford.edu",
+  "haverford_office":"Emily Johnson",
+  "description":"<p>The Junior League of Philadelphia, Inc. (JLP) is an organization of women committed to promoting voluntarism, developing the potential of women, and improving communities through the effective action and leadership of trained volunteers. Its purpose is exclusively educational and charitable.</p>\r\n\r\n<p>The JLP is one of the leading community service organizations in the Greater Philadelphia area, with a diverse membership contributing a range of personal and professional experiences. It offers tested and groundbreaking programs that focus on the intersection of wellness and the natural environment.&nbsp; Programs are developed to have maximum impact, using experts in the field and innovative partnerships.</p>\r\n\r\n<p>Students can shop at the Junior League Thrift Shop located on Ardmore Avenue. All proceeds from this shop go right back into the Junior League organizations. The shop is also always looking for volunteers to help staff the store and process donations.</p>\r\n\r\n<p>https://www.jlphiladelphia.org/</p>\r\n\r\n<p>https://www.jlphiladelphia.org/thrift-shop/</p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer"
+      ]
+    },
+    {
+      "Area":[
+        "Community Development",
+        "Economic Development"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "Philadelphia Area"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

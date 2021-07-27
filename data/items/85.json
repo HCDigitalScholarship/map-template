@@ -1,0 +1,49 @@
+{
+  "name":"American Philosophical Society",
+  "lat":39.9484167,
+  "long":-75.1489288,
+  "image_file":null,
+  "organization":"American Philosophical Society",
+  "contact":"sbursese@haverford.edu",
+  "haverford_office":"Stephanie Bursese",
+  "description":"<p>The American Philosophical Society, the oldest learned society in the United States, was founded in 1743 by Benjamin Franklin for the purpose of &ldquo;promoting useful knowledge.&rdquo; In the 21st century we sustain this mission in three principal ways. We honor and engage leading scholars, scientists, and professionals through elected membership and opportunities for interdisciplinary, intellectual fellowship, particularly in our semi-annual Meetings. We support research and discovery through grants and fellowships, lectures, publications, prizes, exhibitions, and public education. We serve scholars through a research library of manuscripts and other collections internationally recognized for their enduring historic value. The American Philosophical Society&rsquo;s current activities reflect the founder&rsquo;s spirit of inquiry, provide a forum for the free exchange of ideas, and convey our conviction that intellectual inquiry and critical thought are inherently in the best interest of the public.</p>\r\n\r\n<p><a data-saferedirecturl=\"https://www.google.com/url?q=https://www.amphilsoc.org&amp;source=gmail&amp;ust=1545430690601000&amp;usg=AFQjCNFjJLOeHEEP8A_PSG3Qj34sRBqk4A\" href=\"https://www.amphilsoc.org\" target=\"_blank\">https://www.amphilsoc.org</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer",
+        "partner"
+      ]
+    },
+    {
+      "Area":[
+        "Public Policy",
+        "Arts & Culture",
+        "Research"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "Philadelphia Area"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

@@ -1,0 +1,50 @@
+{
+  "name":"Education Law Center",
+  "lat":39.9493005,
+  "long":-75.1629684,
+  "image_file":null,
+  "organization":"Education Law Center",
+  "contact":"jlion@haverford.edu",
+  "haverford_office":"Janice Lion",
+  "description":"<p>The Education Law Center&rsquo;s mission is to ensure access to a quality public education for all children in Pennsylvania. We pursue this mission by advocating on behalf of the most vulnerable students &mdash; children living in poverty, children of color, children in the foster care and juvenile justice systems, children with disabilities, English Language Learners, LGBTQ students, and children experiencing homelessness.</p>\r\n\r\n<p><br />\r\n<a href=\"https://www.elc-pa.org/about/\">https://www.elc-pa.org/about/</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer",
+        "internship"
+      ]
+    },
+    {
+      "Area":[
+        "Children",
+        "Community Development",
+        "Education",
+        "Law"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "Philadelphia Area"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

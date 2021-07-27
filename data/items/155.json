@@ -1,0 +1,52 @@
+{
+  "name":"UNICEF",
+  "lat":40.7310624,
+  "long":-73.99519,
+  "image_file":null,
+  "organization":"UNICEF",
+  "contact":"jlion@haverford.edu",
+  "haverford_office":"Janice Lion",
+  "description":"<p>The United Nations Children&#39;s Fund, a United Nations agency responsible for providing humanitarian and developmental aid for children worldwide. The agency is among the most widespread and recognizable social welfare organizations in the world, with a presence in 192 countries and territories.&nbsp;</p>\r\n\r\n<p>The UNICEF Internship Programme offers students and recent graduates the opportunity to gain direct practical experience with UNICEF&#39;s work. Internship opportunities are available worldwide.</p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "fellowship",
+        "internship"
+      ]
+    },
+    {
+      "Area":[
+        "Children",
+        "Community Development",
+        "Cooperative Solidarity Economy",
+        "Globalization",
+        "Intercultural Issues",
+        "Research"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

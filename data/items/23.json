@@ -1,0 +1,58 @@
+{
+  "name":"SEAMAAC",
+  "lat":39.9287019,
+  "long":-75.1683325,
+  "image_file":null,
+  "organization":"SEAMAAC",
+  "contact":"awolkoff@haverford.edu",
+  "haverford_office":"Alexandra Wolkoff",
+  "description":"<p>SEAMAAC stands as one of the oldest and largest refugee-founded agencies in the region with a workforce of over 80% bi/multi-lingual staff serving constituencies from as many as 18 distinct linguistic communities.<br />\r\n<br />\r\nSEAMAAC acknowledges the challenges immigrants and refugees have faced in their pursuit of freedom from war, tyranny, and oppression and our work and mission seek to recapture the resilient spirit and strengths of immigrants and refugees to adapt, survive, and flourish in the United States.<br />\r\n<br />\r\nSEAMAAC affirms that immigrants and refugees are the foundation of our nation&rsquo;s prosperity and freedom. Our staff and board work to create an equitable society where the contributions of immigrants, refugees and native born are equally valued and appreciated.</p>\r\n\r\n<p><a href=\"https://seamaac.org/\">https://seamaac.org/</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer"
+      ]
+    },
+    {
+      "Area":[
+        "Urban and Rural Development",
+        "Seniors Elders",
+        "Racism",
+        "Micro-Finance",
+        "Intercultural Issues",
+        "Poverty",
+        "Education",
+        "Economic Development",
+        "Voting and politics",
+        "Community Development",
+        "Children",
+        "Arts & Culture",
+        "Immigration"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "Philadelphia Area"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

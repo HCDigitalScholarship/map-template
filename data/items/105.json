@@ -1,0 +1,48 @@
+{
+  "name":"Esperanza Health Center",
+  "lat":40.0189545,
+  "long":-75.1364983,
+  "image_file":null,
+  "organization":"Esperanza Health Center",
+  "contact":"jdomsky@haverford.edu",
+  "haverford_office":"Jodi Domsky",
+  "description":"<p>Since their founding in 1989, Esperanza has been committed to providing access to affordable, high-quality bilingual health care and wellness services, as they&nbsp;pursue health together with their&nbsp;patients and their&nbsp;community.</p>\r\n\r\n<p><a href=\"http://esperanzahealth.com\">https://esperanzahealth.com</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer"
+      ]
+    },
+    {
+      "Area":[
+        "Community Development",
+        "Healthcare",
+        "Poverty"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "United States"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

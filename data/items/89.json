@@ -1,0 +1,47 @@
+{
+  "name":"Boyer Sudduth Environmental Consultants",
+  "lat":40.0471934,
+  "long":-75.1950065,
+  "image_file":null,
+  "organization":"Boyer Sudduth Environmental Consultants",
+  "contact":"jciborowsk@haverford.edu",
+  "haverford_office":"Jennie Ciborowski",
+  "description":"<p>Boyer Sudduth Environmental Consultants helps educational communities and businesses formulate and achieve their &ldquo;green&rdquo; goals through planning, assessment and analysis, team building, project implementation, measurement, and reporting. BSEC partners with business owners and school leaders, faculty, staff, and their communities to promote sustainable choices. Haverford students have worked with students from the John Heinz National Wildlife Refuge, teaching them lessons related to agriculture and climate change.</p>\r\n\r\n<p><a data-saferedirecturl=\"https://www.google.com/url?q=https://boyersudduth.com/&amp;source=gmail&amp;ust=1552660929351000&amp;usg=AFQjCNGRwTVM4dIVZ-RBtQf02Z6B5cF8oA\" href=\"https://boyersudduth.com/\" target=\"_blank\">https://boyersudduth.com/</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer"
+      ]
+    },
+    {
+      "Area":[
+        "Children",
+        "Environment"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "Philadelphia Area"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

@@ -1,0 +1,52 @@
+{
+  "name":"Department of Public Health  Philadelphia",
+  "lat":39.953194,
+  "long":-75.163345,
+  "image_file":null,
+  "organization":"Department of Public Health",
+  "contact":"jlion@haverford.edu",
+  "haverford_office":"Janice Lion",
+  "description":"<p>The Department of Public Health works to make Philadelphia a healthy place to live, work, and play.</p>\r\n\r\n<p>The department:</p>\r\n\r\n<ul>\r\n\t<li>Provides high-quality medical care at City health centers.</li>\r\n\t<li>Prevents the spread of illness and infectious disease.</li>\r\n\t<li>Protects against environmental hazards.</li>\r\n\t<li>Encourages healthy behaviors to prevent chronic disease.</li>\r\n\t<li>Plans and responds to health emergencies.</li>\r\n\t<li>Ensures the quality and accessibility of health services.</li>\r\n\t<li>Sets health policy.</li>\r\n\t<li>Collects, analyzes, and reports on a variety of public health data.</li>\r\n</ul>\r\n\r\n<p>Students interested in working with the City of Philadelphia will have the opportunity to work in public service, civic leadership, restorative justice, and/or social services.&nbsp;</p>\r\n\r\n<p><a href=\"https://www.phila.gov/departments/department-of-public-health/\">https://www.phila.gov/departments/department-of-public-health/</a></p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p>This organization is part of the <a href=\"https://docs.google.com/document/d/1OfDCZariSv_iSX2cfcG5dbq-7_poHzwyPbeGM_H9y78/edit#heading=h.m9gdb6sgs64i\"><b>Philadelphia Justice and Equity Fellowship&nbsp;</b></a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "fellowship"
+      ]
+    },
+    {
+      "Area":[
+        "Community Development",
+        "Government",
+        "Healthcare",
+        "HIV/AIDS",
+        "Public Policy"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+        "Philadelphia Justice and Equity Fellowship",
+        "Philly Justice and Equity Fellowship",
+        "PJ&E Fellowship"
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

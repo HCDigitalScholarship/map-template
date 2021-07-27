@@ -1,0 +1,48 @@
+{
+  "name":"Dr. Jorge Prieto Health Center",
+  "lat":41.8471282,
+  "long":-87.7249191,
+  "image_file":null,
+  "organization":"Dr. Jorge Prieto Health Center",
+  "contact":"jdomsky@haverford.edu",
+  "haverford_office":"Jodi Domsky",
+  "description":"<p>Their priority has always been the health and well-bring of those we serve. They aim to elevate the health of Cook County, secure the future of the health system and build a place where everyone will want to receive care regardless of a patient&rsquo;s ability to pay.</p>\r\n\r\n<p><a href=\"http://cookcountyhealth.org/es/locations/dr-jorge-prieto-health-center/\">https://cookcountyhealth.org/es/locations/dr-jorge-prieto-health-center/</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer"
+      ]
+    },
+    {
+      "Area":[
+        "Community Development",
+        "Healthcare",
+        "Poverty"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "United States"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

@@ -1,0 +1,48 @@
+{
+  "name":"Mainline Greenway/ Bike Delaware County",
+  "lat":40.0121616,
+  "long":-75.3076796,
+  "image_file":null,
+  "organization":"Mainline Greenway / Bike Delaware County",
+  "contact":"jlion@haverford.edu",
+  "haverford_office":"Janice Lion",
+  "description":"<p>The Mainline Greenway/Bike Delaware County is project-based on Lancaster Ave, Haverford. This project aims to create a bike line for all of the residents that use their bicycle as their primary mode of transportation, the Mainline Greenway. The general goal of the project is to get Haverford&#39;s residents involved in the infrastructure of their own town. It aims to re-imagine the street infrastructure of Haverford Township as well as the Delaware and Montgomery County to accommodate healthier ways of transportation.&nbsp;</p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer",
+        "internship"
+      ]
+    },
+    {
+      "Area":[
+        "Community Development",
+        "Environment"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

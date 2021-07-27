@@ -1,0 +1,48 @@
+{
+  "name":"Special Olympics Philadelphia",
+  "lat":40.106008,
+  "long":-74.9873313,
+  "image_file":null,
+  "organization":"Special Olympics Philadelphia",
+  "contact":"jrash@haverford.edu",
+  "haverford_office":"Jason Rash",
+  "description":"<p>All of the Special Olympics&#39; programs are completely free to registered athletes. They offer year-round sports training and competition through school-based programming and at community training sites throughout Philadelphia. Their school-based programming focuses on students in elementary, middle and high schools and our community program works with individuals with intellectual disabilities over 8 years of age. For those individuals who are between the ages of 2 and 7 with an intellectual disability, they have their Young Athletes program that helps these individuals build up their sports skills so they can become the next generation of athletes!<br />\r\n<br />\r\nIn addition to providing sports training and competition, they are making strides in areas like healthcare, leadership and community-building, right here in Philadelphia. Many Haverford College athletic teams volunteer during competition days.</p>\r\n\r\n<p><a data-saferedirecturl=\"https://www.google.com/url?q=https://www.sopaphilly.org&amp;source=gmail&amp;ust=1552660932752000&amp;usg=AFQjCNHggGo7TP21L3IL7LMIuITAES4WXQ\" href=\"https://www.sopaphilly.org\" target=\"_blank\">https://www.sopaphilly.org</a></p>\r\n\r\n<p><img alt=\"Fall 2018 Villanova Special Olympics\" src=\"/media/media/2019/03/14/special-olympics.jpg\" style=\"width: 300px; height: 173px;\" /></p>\r\n\r\n<p><em>Fall 2018 Villanova Special Olympics </em></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer"
+      ]
+    },
+    {
+      "Area":[
+        "Children",
+        "Community Development",
+        "Disability Accessibility"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "Philadelphia Area"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

@@ -1,0 +1,48 @@
+{
+  "name":"Support Center for Child Advocates",
+  "lat":39.9543006,
+  "long":-75.1678751,
+  "image_file":null,
+  "organization":"Support Center for Child Advocates",
+  "contact":"jrash@haverford.edu",
+  "haverford_office":"Jason Rash",
+  "description":"<p>The Support Center for Child Advocates mission is to advocate for victims of child abuse and neglect with the goal of securing safety, justice, well-being and a permanent, nurturing environment for every child.</p>\r\n\r\n<p><a data-saferedirecturl=\"https://www.google.com/url?q=https://sccalaw.org&amp;source=gmail&amp;ust=1552660932742000&amp;usg=AFQjCNHeS_X1Q8CWkOOxDbJJQldZAYvgQA\" href=\"https://sccalaw.org\" target=\"_blank\">https://sccalaw.org</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer"
+      ]
+    },
+    {
+      "Area":[
+        "Children",
+        "Community Development",
+        "Human Rights"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "Philadelphia Area"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

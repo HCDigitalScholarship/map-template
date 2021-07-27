@@ -1,0 +1,48 @@
+{
+  "name":"University of Pennsylvania School of Design",
+  "lat":39.9517604,
+  "long":-75.1923087,
+  "image_file":null,
+  "organization":"University of Pennsylvania School of Design",
+  "contact":"nfernandez@haverford.edu",
+  "haverford_office":"Noem\u00ed Fern\u00e1ndez",
+  "description":"<p>PennDesign prepares students to address complex sociocultural and environmental issues through thoughtful inquiry, creative expression, and innovation. As a diverse community of scholars and practitioners, we are committed to advancing the public good&ndash;both locally and globally&ndash;through art, design, planning, and preservation.</p>\r\n\r\n<p><a data-saferedirecturl=\"https://www.google.com/url?q=https://www.design.upenn.edu&amp;source=gmail&amp;ust=1545415827287000&amp;usg=AFQjCNFdCwkV47sJ5Q5KXddixltgAXF-Iw\" href=\"https://www.design.upenn.edu\" target=\"_blank\">https://www.design.upenn.edu</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "internship"
+      ]
+    },
+    {
+      "Area":[
+        "Environment",
+        "Public Policy",
+        "Arts & Culture"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "Philadelphia Area"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

@@ -1,0 +1,51 @@
+{
+  "name":"Cultural Survival",
+  "lat":42.3915915,
+  "long":-71.1228954,
+  "image_file":null,
+  "organization":"Cultural Survival",
+  "contact":"jlion@haverford.edu",
+  "haverford_office":"Janice Lion",
+  "description":"<p>Cultural Survival advocates for Indigenous Peoples&#39; rights and supports Indigenous communities&rsquo; self-determination, cultures and political resilience since 1972.<br />\r\n<br />\r\nCultural Survival supports a movement of empowered Indigenous Peoples organizing their communities to engage the international processes, national policies and human rights bodies to respect, protect, and fulfill their rights. Our organization is Indigenous-led and has a diverse board of directors bringing experiences from the Indigenous and non-Indigenous worlds to inform our perspectives and scope of work.</p>\r\n\r\n<p><a data-saferedirecturl=\"https://www.google.com/url?q=http://www.culturalsurvival.org&amp;source=gmail&amp;ust=1541603717292000&amp;usg=AFQjCNEjnSuTsZidp-dAvjzbx0QbEDd92g\" href=\"http://www.culturalsurvival.org\" target=\"_blank\">www.culturalsurvival.org</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "fellowship"
+      ]
+    },
+    {
+      "Area":[
+        "Community Development",
+        "Education",
+        "Human Rights",
+        "Civil Rights",
+        "Intercultural Issues",
+        "Arts & Culture"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "United States"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

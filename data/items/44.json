@@ -1,0 +1,47 @@
+{
+  "name":"Kasr Alainy - Cairo University Medical School",
+  "lat":30.0444196,
+  "long":31.2357116,
+  "image_file":null,
+  "organization":"Kasr Alainy - Cairo University Medical School",
+  "contact":"szukerma@haverford.edu",
+  "haverford_office":"Stephanie Zukerman",
+  "description":"<p><img alt=\"\" src=\"https://www.medicine.cu.edu.eg/\" /><img alt=\"\" src=\"https://medicine.cu.edu.eg/images/logos/Logo-Kasr-Alainy-Faculty-of-Medicine.png\" style=\"width: 340px; height: 400px;\" /></p>\r\n\r\n<p>***more information is on its way***</p>\r\n\r\n<p><a href=\"https://medicine.cu.edu.eg/index.php/en/\">https://medicine.cu.edu.eg/index.php/en/</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "internship"
+      ]
+    },
+    {
+      "Area":[
+
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "East North Africa",
+        "Egypt\n"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

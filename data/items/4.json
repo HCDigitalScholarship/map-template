@@ -1,0 +1,49 @@
+{
+  "name":"Research for Action",
+  "lat":39.9502943,
+  "long":-75.1645249,
+  "image_file":null,
+  "organization":"Research for Action",
+  "contact":"jmiller1@haverford.edu",
+  "haverford_office":"Julie Miller",
+  "description":"<p>Research for Action (RFA) seeks to use research as the basis for the improvement of educational opportunities and outcomes for traditionally underserved students. Our work is designed to strengthen public schools and postsecondary institutions; provide research-based recommendations to policymakers, practitioners and the public at the local, state and national levels; and enrich the civic and community dialogue about public education.</p>\r\n\r\n<p>The Center for Peace and Global Citizenship has funded Haverford students for summer internships and academic year community engagement projects with Research for Action.</p>\r\n\r\n<p><a data-saferedirecturl=\"https://www.google.com/url?q=https://www.researchforaction.org/&amp;source=gmail&amp;ust=1545415821300000&amp;usg=AFQjCNEjIiqW_VLEPT8S64waqDPBBOu4Uw\" href=\"https://www.researchforaction.org/\" target=\"_blank\">https://www.researchforaction.<wbr />org/</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer",
+        "fellowship",
+        "internship"
+      ]
+    },
+    {
+      "Area":[
+        "Education",
+        "Research"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "Philadelphia Area"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

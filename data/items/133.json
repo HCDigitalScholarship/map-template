@@ -1,0 +1,48 @@
+{
+  "name":"Children's Hospital of Philadelphia",
+  "lat":39.9486113,
+  "long":-75.1935368,
+  "image_file":null,
+  "organization":"Children's Hospital of Philadelphia",
+  "contact":"jdomsky@haverford.edu",
+  "haverford_office":"Jodi Domsky",
+  "description":"<p>Children&#39;s Hospital of Philadelphia (CHOP) is the nation&#39;s first hospital devoted exclusively to the care of children. Since our start in 1855, CHOP has been the birthplace for countless breakthroughs and dramatic firsts in pediatric medicine. Built on a foundation of delivering safe, high-quality, family-centered care, the Hospital has fostered medical discoveries and innovations that have improved pediatric healthcare and saved countless children&rsquo;s lives. Today, families facing complex conditions come to CHOP from all over the world, and our compassionate care and innovation has repeatedly earned us a spot on the U.S. News &amp; World Report&#39;s Honor Roll of the nation&#39;s best children&#39;s hospitals.</p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer"
+      ]
+    },
+    {
+      "Area":[
+        "Children",
+        "Healthcare",
+        "Research"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "United States"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

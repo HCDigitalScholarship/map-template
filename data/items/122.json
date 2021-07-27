@@ -1,0 +1,48 @@
+{
+  "name":"Yale New Haven Hospital",
+  "lat":41.3101643,
+  "long":-72.9428479,
+  "image_file":null,
+  "organization":"Yale New Haven Hospital",
+  "contact":"jdomsky@haverford.edu",
+  "haverford_office":"Jodi Domsky",
+  "description":"<p>Yale New Haven Health is committed to innovation and excellence in patient care, teaching, research and service to our communities.</p>\r\n\r\n<p><a href=\"http://www.ynhh.org\">https://www.ynhh.org</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer"
+      ]
+    },
+    {
+      "Area":[
+        "Children",
+        "Healthcare",
+        "Research"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "United States"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

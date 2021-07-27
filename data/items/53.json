@@ -1,0 +1,47 @@
+{
+  "name":"Library Company of Philadelphia",
+  "lat":39.9477602,
+  "long":-75.1631569,
+  "image_file":null,
+  "organization":"Library Company of Philadelphia",
+  "contact":"nfernandez@haverford.edu",
+  "haverford_office":"Noem\u00ed Fern\u00e1ndez",
+  "description":"<p>The Library Company of Philadelphia is an independent research library concentrating on American society and culture from the 17th through the 19th centuries. Free and open to the public, the Library Company houses an extensive non-circulating collection of rare books, manuscripts, broadsides, ephemera, prints, photographs, and works of art. Our mission is to foster scholarship in and increase public understanding of American history before 1900 by preserving and interpreting the valuable materials in our care. The Library Company connects with thousands of visitors annually, ensuring that the lessons of the past will continue to amaze, instruct, and inspire future generations. We serve a diverse constituency throughout Philadelphia and the nation, offering comprehensive reader services, an internationally renowned fellowship program, online catalogs, and regular exhibitions and public programs.</p>\r\n\r\n<p><a data-saferedirecturl=\"https://www.google.com/url?q=https://librarycompany.org&amp;source=gmail&amp;ust=1545415822524000&amp;usg=AFQjCNFPYl3aeTjle1DqeZb6NtVz1CJxBw\" href=\"https://librarycompany.org\" target=\"_blank\">https://librarycompany.org</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "internship"
+      ]
+    },
+    {
+      "Area":[
+        "Arts & Culture",
+        "Research"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "Philadelphia Area"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

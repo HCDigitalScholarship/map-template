@@ -1,0 +1,46 @@
+{
+  "name":"Reach Out of Montgomery",
+  "lat":39.7470136,
+  "long":-84.1874695,
+  "image_file":null,
+  "organization":"Reach Out of Montgomery",
+  "contact":"jdomsky@haverford.edu",
+  "haverford_office":"Jodi Domsky",
+  "description":"<p>Reach Out&#39;s mission is to provide access to health care services for the underserved/uninsured population in Montgomery County, without restraints, utilizing the professional skills of volunteer physicians, nurses, and other health care professionals.</p>\r\n\r\n<p><a href=\"http://www.daytonreachout.org\">http://www.daytonreachout.org</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer"
+      ]
+    },
+    {
+      "Area":[
+        "Healthcare"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "United States"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

@@ -1,0 +1,48 @@
+{
+  "name":"RAIR (Recycled Artist in Residency)",
+  "lat":40.023789,
+  "long":-75.0290333,
+  "image_file":null,
+  "organization":"RAIR (Recycled Artist in Residency)",
+  "contact":"nfernandez@haverford.edu",
+  "haverford_office":"Noem\u00ed Fern\u00e1ndez",
+  "description":"<p>RAIR&#39;s mission is to challenge the perception of waste culture by providing a unique platform for artists at the intersection of art and industry. Situated inside a construction and demolition waste recycling company in northeast Philadelphia, RAIR offers artists studio space and access to more than 450 tons of materials per day.</p>\r\n\r\n<p><a data-saferedirecturl=\"https://www.google.com/url?q=http://rairphilly.org&amp;source=gmail&amp;ust=1545415824578000&amp;usg=AFQjCNGR1shiaFWuHhvsmcG9TXAdZWITNA\" href=\"http://rairphilly.org\" target=\"_blank\">http://rairphilly.org</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "partner"
+      ]
+    },
+    {
+      "Area":[
+        "Environment",
+        "Arts & Culture",
+        "Sustainability"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "Philadelphia Area"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

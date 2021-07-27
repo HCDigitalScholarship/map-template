@@ -1,0 +1,47 @@
+{
+  "name":"Prevention Point Philadelphia",
+  "lat":null,
+  "long":null,
+  "image_file":null,
+  "organization":"Prevention Point Philadelphia",
+  "contact":"jdomsky@haverford.edu",
+  "haverford_office":"Jodi Domsky",
+  "description":"<p>They seek to promote health, empowerment and safety for communities affected by drug use and poverty.&nbsp;PPP regularly provides HIV and HCV testing and linkage to care. Free medical clinics are also available multiple times per week. The John Paul Hammond Drop-In Center provides participants with a safe place to find shelter from the street and become linked to social and medical services. As the longest-running service provided by PPP, the Syringe Service Program has been a major factor in reducing the number of new HIV infections in Philadelphia.</p>\r\n\r\n<p><a href=\"http://ppponline.org\">https://ppponline.org</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer"
+      ]
+    },
+    {
+      "Area":[
+        "Healthcare",
+        "Poverty"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "United States"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

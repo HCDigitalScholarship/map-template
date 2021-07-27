@@ -1,0 +1,50 @@
+{
+  "name":"Philadelphia Area Cooperative Alliance",
+  "lat":39.9493249,
+  "long":-75.1629106,
+  "image_file":null,
+  "organization":"Philadelphia Area Cooperative Alliance",
+  "contact":"sbursese@haverford.edu",
+  "haverford_office":"Stephanie Bursese",
+  "description":"<p>Our mission is to improve the lives of people in the Philadelphia region by supporting democratically organized businesses, promoting the principles of the international cooperative movement, and growing the cooperative economy.</p>\r\n\r\n<p><a data-saferedirecturl=\"https://www.google.com/url?q=https://philadelphia.coop&amp;source=gmail&amp;ust=1545430688972000&amp;usg=AFQjCNEfgOkKn95RlqZVN7neELjqm7JQtw\" href=\"https://philadelphia.coop\" target=\"_blank\">https://philadelphia.coop</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer",
+        "partner"
+      ]
+    },
+    {
+      "Area":[
+        "Community Development",
+        "Cooperative Solidarity Economy",
+        "Public Policy",
+        "Voting and politics"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "Philadelphia Area"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

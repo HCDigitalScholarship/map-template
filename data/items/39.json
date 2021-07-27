@@ -1,0 +1,53 @@
+{
+  "name":"Metropolitan Community Church of New York",
+  "lat":40.7553583,
+  "long":-73.997488,
+  "image_file":null,
+  "organization":"Metropolitan Community Church of New York",
+  "contact":"jlion@haverford.edu",
+  "haverford_office":"Janice Lion",
+  "description":"<p>Metropolitan Community Church of New York is a spiritual home for the Lesbian, Gay, Bisexual and Transgender Community, open to all. Through the practices of worship and prayer, social action and human rights work, education, fellowship and generosity we believe all people can experience God&rsquo;s liberating love, learn to live in right relationship with all creation, and gain the courage to change the world.</p>\r\n\r\n<p><a data-saferedirecturl=\"https://www.google.com/url?q=http://www.mccny.org/&amp;source=gmail&amp;ust=1541603717994000&amp;usg=AFQjCNF5aIRnTFr1mAUDpGEB1D7U2VOaZg\" href=\"http://www.mccny.org/\" target=\"_blank\">http://www.mccny.org/</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer",
+        "fellowship"
+      ]
+    },
+    {
+      "Area":[
+        "Gender & Sexuality",
+        "Human Rights",
+        "Civil Rights",
+        "Poverty",
+        "Intercultural Issues",
+        "Racism",
+        "Religion Interfaith"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "United States"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

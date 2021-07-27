@@ -1,0 +1,50 @@
+{
+  "name":"Historical Society of Pennsylvania",
+  "lat":39.9477798,
+  "long":-75.1626819,
+  "image_file":null,
+  "organization":"Historical Society of Pennsylvania",
+  "contact":"nfernandez@haverford.edu",
+  "haverford_office":"Noem\u00ed Fern\u00e1ndez",
+  "description":"<p>The Historical Society of Pennsylvania, founded in 1824, is one of the nation&rsquo;s largest archives of historical documents. We are proud to serve as Philadelphia&rsquo;s Library of American History, with over 21 million manuscripts, books, and graphic images encompassing centuries of US history. HSP serves more than 4,000 on-site researchers annually and millions more around the globe who use its online resources. HSP is also a leading center for the documentation and study of ethnic communities and immigrant experiences in the 20th century, and one of the largest family history libraries in the country. Through educator workshops, research opportunities, public programs and lectures throughout the year, we strive to make history relevant and exhilarating to all.</p>\r\n\r\n<p><a data-saferedirecturl=\"https://www.google.com/url?q=https://hsp.org&amp;source=gmail&amp;ust=1545415821611000&amp;usg=AFQjCNGE2JpU-4f98brIOKa2jjYzjnwKVQ\" href=\"https://hsp.org\" target=\"_blank\">https://hsp.org</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "internship"
+      ]
+    },
+    {
+      "Area":[
+        "Community Development",
+        "Education",
+        "Immigration",
+        "Arts & Culture",
+        "Research"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "Philadelphia Area"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

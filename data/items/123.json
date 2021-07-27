@@ -1,0 +1,46 @@
+{
+  "name":"Providence Little Company of Mary Medical Center San Pedro",
+  "lat":33.7380101,
+  "long":-118.3076177,
+  "image_file":null,
+  "organization":"Providence Little Company of Mary Medical Center San Pedro",
+  "contact":"jdomsky@haverford.edu",
+  "haverford_office":"Jodi Domsky",
+  "description":"<p>&quot;As expressions of God&rsquo;s healing love, witnessed through the ministry of Jesus,&quot; they are steadfast in serving all, especially those who are poor and vulnerable.</p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer"
+      ]
+    },
+    {
+      "Area":[
+        "Healthcare"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "United States"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

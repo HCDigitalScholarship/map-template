@@ -1,0 +1,47 @@
+{
+  "name":"Haverford Partnership for Economic Development (HPED)",
+  "lat":39.9763656,
+  "long":-75.3149796,
+  "image_file":null,
+  "organization":"Haverford Partnership for Economic Development (HPED)",
+  "contact":"afeifer@haverford.edu",
+  "haverford_office":"Amy Feifer",
+  "description":"<p>The Haverford Partnership for Economic Development (HPED) is a 501c3 nonprofit organization through which government, businesses, commercial property owners and residents can work together to facilitate economic growth throughout Haverford Township. HPED promotes economic growth by supporting local businesses, enhancing the image of Haverford Township, and revitalizing our business districts and public spaces.</p>\r\n\r\n<p><a href=\"https://hped.org/\">https://hped.org/</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "internship"
+      ]
+    },
+    {
+      "Area":[
+        "Economic Development",
+        "Government"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "Philadelphia Area"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

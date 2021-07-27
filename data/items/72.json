@@ -1,0 +1,49 @@
+{
+  "name":"Center for Cross Cultural Learning",
+  "lat":33.9715904,
+  "long":-6.8498129,
+  "image_file":null,
+  "organization":"Center for Cross Cultural Learning",
+  "contact":"szukerma@haverford.edu",
+  "haverford_office":"Stephanie Zukerman",
+  "description":"<p>The CCCL organizes a variety of cultural and educational activities which include language courses, seminars and lecture series on Moroccan society and Arab and Islamic cultures. The CCCL also sponsors art exhibits and musical performances and organizes educational excursions to various parts of Morocco. The aim of these activities is to provide participants with opportunities to learn from the rich cultural diversity of Morocco and to better understand and appreciate the country&rsquo;s cultural heritage.</p>\r\n\r\n<p><img alt=\"\" src=\"/media/media/2018/12/20/cccl.jpg\" style=\"width: 300px; height: 300px;\" /></p>\r\n\r\n<p><a data-saferedirecturl=\"https://www.google.com/url?q=http://www.cccl.ma/&amp;source=gmail&amp;ust=1545428783533000&amp;usg=AFQjCNFTLP7OA08tlWQGJwJCdDgWmZXZiw\" href=\"http://www.cccl.ma/\" target=\"_blank\">http://www.cccl.ma/</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "fellowship"
+      ]
+    },
+    {
+      "Area":[
+        "Education",
+        "Intercultural Issues",
+        "Arts & Culture",
+        "Language training"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "Morocco\n"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

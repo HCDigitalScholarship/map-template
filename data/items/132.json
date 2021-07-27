@@ -1,0 +1,46 @@
+{
+  "name":"HSC Pediatric Center",
+  "lat":38.8999318,
+  "long":-77.0456073,
+  "image_file":null,
+  "organization":"HSC Pediatric Center",
+  "contact":"jdomsky@haverford.edu",
+  "haverford_office":"Jodi Domsky",
+  "description":"<p>As a nonprofit health care organization committed to serving families with complex health care needs and eliminating barriers to health services, the System&rsquo;s mission and services are designed to offer a comprehensive approach to caring, serving and empowering people with disabilities.<br />\r\n<br />\r\nThe mission of The HSC Health Care System is to provide and coordinate innovative, high quality, community-based care for individuals with complex needs and their families. HSC empowers all we serve to improve the quality of their lives.</p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer"
+      ]
+    },
+    {
+      "Area":[
+        "Healthcare"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "United States"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

@@ -1,0 +1,54 @@
+{
+  "name":"Mayor's Office",
+  "lat":39.953194,
+  "long":-75.163345,
+  "image_file":null,
+  "organization":"Mayor's Office",
+  "contact":"jlion@haverford.edu",
+  "haverford_office":"Janice Lion",
+  "description":"<p>The Mayor&rsquo;s Office works to strengthen every neighborhood by focusing on:</p>\r\n\r\n<ul>\r\n\t<li>Improving educational opportunities and outcomes for all of Philadelphia&rsquo;s children.</li>\r\n\t<li>Improving economic opportunities for all Philadelphians.</li>\r\n\t<li>Improving public safety for all Philadelphians while treating residents with respect and dignity.</li>\r\n\t<li>Operating government efficiently and effectively.</li>\r\n\t<li>Developing a diverse workforce that looks like Philadelphia.</li>\r\n</ul>\r\n\r\n<p>Students interested in working with the City of Philadelphia will have the opportunity to work in public service, civic leadership, restorative justice, and/or social services.&nbsp;</p>\r\n\r\n<p>&nbsp;</p>\r\n\r\n<p><a href=\"https://www.phila.gov/departments/mayor/\">https://www.phila.gov/departments/mayor/</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer",
+        "fellowship",
+        "internship"
+      ]
+    },
+    {
+      "Area":[
+        "Community Development",
+        "Government",
+        "Human Rights",
+        "Justice and Prisons",
+        "Public Policy",
+        "Urban and Rural Development",
+        "Voting and politics"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

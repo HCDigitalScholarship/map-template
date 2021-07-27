@@ -1,0 +1,49 @@
+{
+  "name":"Mural Arts Philadelphia",
+  "lat":39.9654251,
+  "long":-75.1668589,
+  "image_file":null,
+  "organization":"Mutual Arts Philadelphia",
+  "contact":"jmiller1@haverford.edu",
+  "haverford_office":"Julie Miller",
+  "description":"<p><strong>Mural Arts Philadelphia is the nation&rsquo;s largest public art program, dedicated to the belief that art ignites change.</strong></p>\r\n\r\n<p>For over 35 years, Mural Arts has united artists and communities through a collaborative process, rooted in the traditions of mural-making, to create art that transforms public spaces and individual lives. Mural Arts engages communities in 50&ndash;100 public art projects each year, and maintains its growing collection through a restoration initiative. Our core program areas&mdash;<a href=\"https://www.muralarts.org/program/art-education/\">Art Education</a>,&nbsp;<a href=\"https://www.muralarts.org/program/restorative-justice/\">Restorative Justice</a>, and&nbsp;<a href=\"https://www.muralarts.org/program/porch-light/\">Porch Light</a>&mdash;yield unique, project-based learning opportunities for thousands of youth and adults.</p>\r\n\r\n<p><a href=\"https://www.muralarts.org/about/\">https://www.muralarts.org/about/</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "fellowship",
+        "internship"
+      ]
+    },
+    {
+      "Area":[
+        "Community Development",
+        "Education",
+        "Arts & Culture"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

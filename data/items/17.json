@@ -1,0 +1,52 @@
+{
+  "name":"Justice at Work",
+  "lat":39.9614572,
+  "long":-75.1541475,
+  "image_file":null,
+  "organization":"Justice at Work",
+  "contact":"jlion@haverford.edu",
+  "haverford_office":"Janice Lion",
+  "description":"<p>Justice at Work supports low-wage workers as they pursue economic and social justice through the provision of free legal services, education, and advocacy. Justice at Work serves communities of workers that include workers in industries that rely heavily on seasonal foreign guest-workers brought in under H-2B visas, who often return to work for the same Pennsylvania employers year after year. We also provide legal assistance to income eligible worker organizations.</p>\r\n\r\n<p><a data-saferedirecturl=\"https://www.google.com/url?q=https://www.justiceatworklegalaid.org/&amp;source=gmail&amp;ust=1541603721675000&amp;usg=AFQjCNEE3jI2RXDZX3T9VFRmDs_zOpND_g\" href=\"https://www.justiceatworklegalaid.org/\" target=\"_blank\">https://www.<wbr />justiceatworklegalaid.org/</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "fellowship"
+      ]
+    },
+    {
+      "Area":[
+        "Agriculture",
+        "Environment",
+        "Human Rights",
+        "Civil Rights",
+        "Law",
+        "Immigration",
+        "Sustainability"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "Philadelphia Area"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

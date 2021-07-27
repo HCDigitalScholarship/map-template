@@ -1,0 +1,48 @@
+{
+  "name":"Penn Wharton China Summit",
+  "lat":39.9522188,
+  "long":-75.1932137,
+  "image_file":null,
+  "organization":"Penn Wharton China Summit",
+  "contact":"jlion@haverford.edu",
+  "haverford_office":"Janice Lion",
+  "description":"<p>Hosted by the China Summit Foundation and the Penn Wharton China Center, and further supported by the Chinese embassy and the government of Pennsylvania, PWCS is committed to build an influential platform that promotes communications between the two countries and establish connections among students oversea in the United States. With over 1500 attendees coming from 4 countries, 34 States and over 70 Cities, the inaugural PWCS in April 2016 has already become the largest student organized summit in the United States.<br />\r\n<br />\r\nThe Wharton China Summit invites various industry leaders from China to discuss the current trends and issues surrounding their industries, including include tech, finance, healthcare, and entertainment etc. There are also panels on international relations between China and the U.S. As an economics minor and in response to the recent moves toward a trade war between the two countries, Edison was interested in hearing from former world leaders and the current Chinese ambassador to the U.S. about the state of Chinese-American relations and how a trade war would affect the different industries. (April 13-15, 2018)<br />\r\n<br />\r\n<a href=\"http://whartonsummit.org\" target=\"_blank\">http://whartonsummit.org</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer"
+      ]
+    },
+    {
+      "Area":[
+        "Healthcare",
+        "Conflict Resolution",
+        "Technology"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "Philadelphia Area"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

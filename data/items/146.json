@@ -1,0 +1,49 @@
+{
+  "name":"Benefits Data Trust",
+  "lat":39.9523167,
+  "long":-75.1686744,
+  "image_file":null,
+  "organization":null,
+  "contact":"jlion@haverford.edu",
+  "haverford_office":"Janice Lion",
+  "description":"<p>BDT works to modernize the health and human services ecosystem toward interconnected, human-centered, data-driven design so that everyone has the resources they need most. We&rsquo;re making benefits access simple and cost-effective through&nbsp;<b>data analytics and technology, direct service, partner engagement, and policy and practice solutions</b>.</p>\r\n\r\n<p><a href=\"https://bdtrust.org/\">https://bdtrust.org/</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "fellowship",
+        "internship"
+      ]
+    },
+    {
+      "Area":[
+        "Community Development",
+        "Urban and Rural Development",
+        "Technology"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

@@ -1,0 +1,52 @@
+{
+  "name":"Food Moxie",
+  "lat":40.0465949,
+  "long":-75.1960997,
+  "image_file":null,
+  "organization":"Food Moxie",
+  "contact":"jlion@haverford.edu",
+  "haverford_office":"Janice Lion",
+  "description":"<p>Food Moxie works to empower local disenfranchised youth and families, especially those at Stenton Family Manor, through food-based education and assistance. Food Moxie&rsquo;s farm and nutrition education programs center on sustainable urban farming, promoting the value of locally produced food grown without pesticides, the cooperative economy, and the importance of maintaining a healthy diet.<br />\r\n<br />\r\nThe Hope Garden at Stenton Family Manor was established in 2009 to improve the nutritional value of meals for residents by growing fresh produce for the kitchen, as well as to provide a safe space where young residents could take part in structured gardening and nutrition activities in Garden Club.The Hope Farm at Martin Luther King High School began in 2014 to teach life skills related to urban farming and nutrition to students with intellectual disabilities (ID) and autism. This horticultural therapy program provides experiential learning that connects classroom lessons with real-life application, focusing on practical and vocational life skills that lead to increased independence.<br />\r\n<br />\r\nThe Center for Peace &amp; Global Citizenship at Haverford has provided fellowships to students who work at Food Moxie, and there are also individual and group volunteer opportunities available.<br />\r\n<br />\r\n<a href=\"http://www.foodmoxie.org/\">http://www.foodmoxie.org/</a></p>\r\n\r\n<div>&nbsp;</div>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer",
+        "fellowship"
+      ]
+    },
+    {
+      "Area":[
+        "Agriculture",
+        "Children",
+        "Community Development",
+        "Education",
+        "Hunger",
+        "Poverty"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "Philadelphia Area"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

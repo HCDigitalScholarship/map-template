@@ -1,0 +1,48 @@
+{
+  "name":"Play-On Philly",
+  "lat":39.9482048,
+  "long":-75.1671697,
+  "image_file":null,
+  "organization":"Play-On Philly",
+  "contact":"nfernandez@haverford.edu",
+  "haverford_office":"Noem\u00ed Fern\u00e1ndez",
+  "description":"<p>Play On, Philly! (POP) provides intensive music education to K-12 students, who would typically lack access, as a vehicle for life skills and academic achievement.<br />\r\n<br />\r\nFor 2&frac12; hours every day, students enjoy instrument instruction and ensemble practice completely tuition-free.</p>\r\n\r\n<p><a data-saferedirecturl=\"https://www.google.com/url?q=http://www.playonphilly.org&amp;source=gmail&amp;ust=1545415826470000&amp;usg=AFQjCNGQKRxdw1r2d5dHA0IsfOEZ3N2Uqg\" href=\"http://www.playonphilly.org\" target=\"_blank\">http://www.playonphilly.org</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "internship"
+      ]
+    },
+    {
+      "Area":[
+        "Community Development",
+        "Education",
+        "Arts & Culture"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "Philadelphia Area"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

@@ -1,0 +1,52 @@
+{
+  "name":"Philadelphia Public School Notebook",
+  "lat":39.9500635,
+  "long":-75.1520433,
+  "image_file":null,
+  "organization":"Philadelphia Public School Notebook",
+  "contact":"jlion@haverford.edu",
+  "haverford_office":"Janice Lion",
+  "description":"<p style=\"margin:0in 0in 10pt\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">The Philadelphia Public School Notebook is an independent, award-winning newspaper and news service with a 19-year track record of helping families and communities in Philadelphia learn more about their public schools. The Notebook is known for its in-depth analysis of issues in urban public education as well as its connection to Philadelphia&rsquo;s education activist community. The newspaper is seen as a key player in efforts to improve the city&rsquo;s public schools. The paper has shown a unique ability to reach diverse audiences, and is widely read at the grassroots level and among local officials.</span></span></span></p>\r\n\r\n<p style=\"margin:0in 0in 10pt\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Opportunities exist for Haverford students to intern, volunteer, or apply for a fellowship here. </span></span></span></p>\r\n\r\n<p style=\"margin:0in 0in 10pt\"><a data-saferedirecturl=\"https://www.google.com/url?q=http://thenotebook.org/&amp;source=gmail&amp;ust=1540564680378000&amp;usg=AFQjCNH6QM6RqTvwvwl1gFELbUbA1waMag\" href=\"http://thenotebook.org/\" target=\"_blank\">http://thenotebook.org/</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer",
+        "fellowship",
+        "internship"
+      ]
+    },
+    {
+      "Area":[
+        "Children",
+        "Education",
+        "Government",
+        "Literacy",
+        "Public Policy"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "Philadelphia Area"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

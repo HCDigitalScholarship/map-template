@@ -1,0 +1,51 @@
+{
+  "name":"Pennsylvania Horticultural Society",
+  "lat":39.9559945,
+  "long":-75.1730153,
+  "image_file":null,
+  "organization":"Pennsylvania Horticultural Society",
+  "contact":"jlion@haverford.edu",
+  "haverford_office":"Janice Lion",
+  "description":"<p>The Pennsylvania Horticultural Society is a nonprofit membership organization founded in 1827 that offers programs, activities, workshops, and publications for gardeners of all levels and interests.</p>\r\n\r\n<p>PHS serves as a partner site for one of our 2018-19 Haverford House Fellows.</p>\r\n\r\n<p><img alt=\"\" src=\"https://blogs.haverford.edu/haverblog/files/2017/10/blog-tree-planting-0113-sarah-jennings-21-1080x675.jpg\" style=\"width: 300px; height: 188px;\" /></p>\r\n\r\n<p>October 2017 - The College partnered with the <a href=\"https://phsonline.org/\">Pennsylvania Horticultural Society</a> through the <a href=\"https://phsonline.org/programs/plant-one-million/treevitalize-watersheds-grant-program/\">TreeVitalize Watersheds Grant Program</a> to restore part of the stream bank.</p>\r\n\r\n<p><a href=\"https://phsonline.org/\">https://phsonline.org/</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer",
+        "internship"
+      ]
+    },
+    {
+      "Area":[
+        "Agriculture",
+        "Community Development",
+        "Environment",
+        "Urban and Rural Development",
+        "Sustainability"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "Philadelphia Area"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

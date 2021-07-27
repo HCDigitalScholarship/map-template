@@ -1,0 +1,52 @@
+{
+  "name":"Shift Capital",
+  "lat":40.0099427,
+  "long":-75.1527574,
+  "image_file":null,
+  "organization":null,
+  "contact":"jlion@haverford.edu",
+  "haverford_office":"Janice Lion",
+  "description":"<p>At SHIFT, we are on a mission to&nbsp;create inclusive, equitable communities who thrive. Through our Whole Neighborhood approach, we&nbsp;invest in places AND people&nbsp;to create opportunity and shared prosperity for all. We deploy&nbsp;integrated development strategies&nbsp;that connect the economic and social dots across sectors, partners, and neighborhoods. To better serve people. And, to help create better lives</p>\r\n\r\n<p><a href=\"http://shiftcapital.us/\">http://shiftcapital.us/</a></p>\r\n\r\n<p>This organization is part of the<strong> <a href=\"https://docs.google.com/document/d/1OfDCZariSv_iSX2cfcG5dbq-7_poHzwyPbeGM_H9y78/edit#\">Philadelphia Justice and Equity Fellowship</a>:&nbsp;</strong></p>\r\n\r\n<p>&nbsp;</p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "fellowship",
+        "internship"
+      ]
+    },
+    {
+      "Area":[
+        "Community Development",
+        "Cooperative Solidarity Economy",
+        "Economic Development",
+        "Micro-Finance"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+        "Philadelphia Justice and Equity Fellowship",
+        "Philly Justice and Equity Fellowship",
+        "PJ&E Fellowship"
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

@@ -1,0 +1,48 @@
+{
+  "name":"Ashland Christian Health Center",
+  "lat":40.8708861,
+  "long":-82.3079891,
+  "image_file":null,
+  "organization":"Ashland Christian Health Center",
+  "contact":"jdomsky@haverford.edu",
+  "haverford_office":"Jodi Domsky",
+  "description":"<p>The Ashland Christian Health Center is a non-profit 501(c)3 faith-based organization. ACHC is a ministry of the people of the churches of Ashland County. Their&nbsp;volunteers use their gifts and abilities as physicians, nurses, and support personnel. These volunteers are dedicated to serving the whole person just as Christ loves us.</p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer"
+      ]
+    },
+    {
+      "Area":[
+        "Community Development",
+        "Healthcare",
+        "Religion Interfaith"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "United States"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

@@ -1,0 +1,51 @@
+{
+  "name":"East Park Revitalization Alliance",
+  "lat":39.9831061,
+  "long":-75.1847588,
+  "image_file":null,
+  "organization":"East Park Revitalization Alliance",
+  "contact":"sbursese@haverford.edu",
+  "haverford_office":"Stephanie Bursese",
+  "description":"<p>Established in 2003 by residents, the East Park Revitalization Alliance (EPRA) seeks to build a healthy community in the Strawberry Mansion neighborhood, focusing on environmental improvement and health promotion. We turn vacant land into community gardens, operate programming to connect neighborhood residents to the adjacent park, have planted over 700 trees in the community and run the successful &ldquo;Healthy Choices&rdquo; Youth Program, an after school and summer program for neighborhood youth ages 6-18 at our local recreation center that is based on giving youth the skills to make the healthy choices that will help them become healthy adults. EPRA also focuses on food and land access by supporting and training community gardeners, running two weekly food pantries, operating a weekly farmstand, and distributing fresh, neighborhood-grown produce to expand access.</p>\r\n\r\n<p><a data-saferedirecturl=\"https://www.google.com/url?q=http://epralliance.org&amp;source=gmail&amp;ust=1545430690607000&amp;usg=AFQjCNH86iPk9QPCF5R2qqai346Jlz_JpA\" href=\"http://epralliance.org\" target=\"_blank\">http://epralliance.org</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer",
+        "partner"
+      ]
+    },
+    {
+      "Area":[
+        "Agriculture",
+        "Community Development",
+        "Environment",
+        "Hunger",
+        "Sustainability"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "Philadelphia Area"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

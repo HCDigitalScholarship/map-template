@@ -1,0 +1,46 @@
+{
+  "name":"St. Michael's Medical Center",
+  "lat":40.7438855,
+  "long":-74.1747061,
+  "image_file":null,
+  "organization":"St. Michael's Medical Center",
+  "contact":"jdomsky@haverford.edu",
+  "haverford_office":"Jodi Domsky",
+  "description":"<p>They aim to provide care that is consistently excellent, responsive and centered around each and every patient.</p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer"
+      ]
+    },
+    {
+      "Area":[
+        "Healthcare"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "United States"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

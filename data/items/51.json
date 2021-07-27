@@ -1,0 +1,48 @@
+{
+  "name":"Pennsylvania Humanities Council",
+  "lat":39.949088,
+  "long":-75.147154,
+  "image_file":null,
+  "organization":"Pennsylvania Humanities Council",
+  "contact":"nfernandez@haverford.edu",
+  "haverford_office":"Noem\u00ed Fern\u00e1ndez",
+  "description":"<p>The Pennsylvania Humanities Council is an independent partner of the National Endowment for the Humanities and part of a network of 56 state humanities councils that spans the nation and U.S. jurisdictions.<br />\r\n<br />\r\nToday, across the commonwealth, we put the humanities in action to create positive change. Our programs and grants bring Pennsylvanians together to build avenues for civic involvement and community development, and for youth and adult learners to strengthen skills for school, work, and personal improvement.</p>\r\n\r\n<p><a data-saferedirecturl=\"https://www.google.com/url?q=https://pahumanities.org&amp;source=gmail&amp;ust=1545415822312000&amp;usg=AFQjCNHdaNlFfcZwxz6cRnpaHuQFobgIHg\" href=\"https://pahumanities.org\" target=\"_blank\">https://pahumanities.org</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "internship"
+      ]
+    },
+    {
+      "Area":[
+        "Children",
+        "Community Development",
+        "Education"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "Philadelphia Area"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

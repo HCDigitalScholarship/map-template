@@ -1,0 +1,52 @@
+{
+  "name":"Southeast by Southeast",
+  "lat":39.92291,
+  "long":-75.15999,
+  "image_file":null,
+  "organization":"Southeast by Southeast",
+  "contact":"ejohnson3@haverford.edu",
+  "haverford_office":"Emily Johnson",
+  "description":"<p>Through public art and a vibrant neighborhood hub, Southeast by Southeast creates a welcoming, supportive community space for immigrant and refugee families. Started in 2011, this initiative has grown and evolved, welcoming in neighbors, helping new families connect to support systems, and becoming a focal point for community activities and social services.<br />\r\n<br />\r\nIn the hub space, volunteers, neighbors, and artists teach classes on a range of subjects, stretching from sewing and weaving to English as a Second Language. Entrepreneurship and highly skilled craft making are culturally significant to many of the immigrant and refugee families, and providing a warm, inviting hub space with familiar activities has opened doors for other social services.</p>\r\n\r\n<p>Most recently, the Office of Service partnered with SExSE to offer students an Alternative Spring Break program in 2020. Students helped with art projects, after school homework help, language lessons, and more.</p>\r\n\r\n<p><a href=\"https://www.muralarts.org/program/porch-light/sexse/\">https://www.muralarts.org/program/porch-light/sexse/</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "internship"
+      ]
+    },
+    {
+      "Area":[
+        "Children",
+        "Community Development",
+        "Education",
+        "Intercultural Issues",
+        "Literacy",
+        "Immigration",
+        "Arts & Culture"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

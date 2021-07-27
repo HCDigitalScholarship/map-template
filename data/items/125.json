@@ -1,0 +1,46 @@
+{
+  "name":"OptumCare Medical Group",
+  "lat":33.8096283,
+  "long":-118.0373171,
+  "image_file":null,
+  "organization":"OptumCare Medical Group",
+  "contact":"jdomsky@haverford.edu",
+  "haverford_office":"Jodi Domsky",
+  "description":"<p>At OptumCare, we&rsquo;re not just imagining a world where health care works better for everyone &mdash; we&rsquo;re creating it.<br />\r\n<br />\r\nOptumCare and care services bring the full power of Optum&reg; to advance high-quality, physician-led ambulatory care across three areas: primary care, specialty care and post-acute care.&nbsp;<br />\r\n<br />\r\nWe are also focused on bringing back the joy of medicine for physicians and clinicians, so they can focus on what matters most: caring for their patients.</p>\r\n\r\n<p><a href=\"http://www.optumcare.com\">https://www.optumcare.com</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer"
+      ]
+    },
+    {
+      "Area":[
+        "Healthcare"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "United States"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

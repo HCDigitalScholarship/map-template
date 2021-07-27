@@ -1,0 +1,55 @@
+{
+  "name":"Equal Access Legal Services",
+  "lat":39.9489949,
+  "long":-75.1663033,
+  "image_file":null,
+  "organization":"Equal Access Legal Services",
+  "contact":"jlion@haverford.edu",
+  "haverford_office":"Janice Lion",
+  "description":"<p>Equal Access Legal Services is a non-profit law firm founded on the belief that everyone has the right to legal representation, and no one should suffer severe economic loss as the result of needing an attorney. The firm charges hourly rates on a sliding scale to support family stability and ensure that unexpected legal fees do not cause a person or family to fall below the poverty line.&nbsp;By providing affordable access to legal services, they ensure families can prepare for the future, instead of only trying to fix the past.</p>\r\n\r\n<p>A client&#39;s&nbsp;hourly rate&nbsp;is determined on a case-by-case basis,&nbsp;based on family size and verified annual income. Equal Access Legal Services uses these same&nbsp;considerations when deciding&nbsp;whether a client is required to make court-ordered payments such as alimony and child support.&nbsp;The firm also&nbsp;offers services on a fixed fee basis at drastically lower rates than &quot;for-profit&quot; law firms for certain services in immigration and estate planning.<br />\r\n<br />\r\nMost law firms in the Philadelphia region charge $250 - $750 an hour. At Equal Access Legal Services, the&nbsp;lowest rates start at $50 per hour.&nbsp;To determine eligibility, the firm&nbsp;requires proof of income, assets, and certain expenses. These documents may include copies of current pay stubs, benefit statements, support or maintenance orders, and account balances.<br />\r\n&nbsp;</p>\r\n\r\n<p>(more information to come).</p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "fellowship",
+        "internship",
+        "partner"
+      ]
+    },
+    {
+      "Area":[
+        "Government",
+        "Human Rights",
+        "Civil Rights",
+        "Law",
+        "Racism",
+        "Immigration"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "Philadelphia Area",
+        "United States",
+        "Pennsylvania"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

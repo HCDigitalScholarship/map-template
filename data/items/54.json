@@ -1,0 +1,48 @@
+{
+  "name":"M\u00fctter Museum of The College of Physicians of Philadelphia",
+  "lat":39.9532011,
+  "long":-75.1766375,
+  "image_file":null,
+  "organization":"M\u00fctter Museum of The College of Physicians of Philadelphia",
+  "contact":"nfernandez@haverford.edu",
+  "haverford_office":"Noem\u00ed Fern\u00e1ndez",
+  "description":"<p>America&rsquo;s finest museum of medical history, the M&uuml;tter Museum displays its beautifully preserved collections of anatomical specimens, models, and medical instruments in a 19th-century &ldquo;cabinet museum&rdquo; setting. The museum helps the public understand the mysteries and beauty of the human body and to appreciate the history of diagnosis and treatment of disease.</p>\r\n\r\n<p><a data-saferedirecturl=\"https://www.google.com/url?q=http://muttermuseum.org&amp;source=gmail&amp;ust=1545415822531000&amp;usg=AFQjCNEElh4UsLf13o6S9vJA7MaRN6RaHg\" href=\"http://muttermuseum.org\" target=\"_blank\">http://muttermuseum.org</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "internship"
+      ]
+    },
+    {
+      "Area":[
+        "Education",
+        "Healthcare",
+        "Arts & Culture"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "Philadelphia Area"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

@@ -1,0 +1,50 @@
+{
+  "name":"Girard College",
+  "lat":39.9733979,
+  "long":-75.1712281,
+  "image_file":null,
+  "organization":"Girard College",
+  "contact":"ejohnson3@haverford.edu",
+  "haverford_office":"Emily Johnson",
+  "description":"<p><img alt=\"\" src=\"https://upload.wikimedia.org/wikipedia/en/6/64/Girard-College-ColumnLogo-Garnet.png\" style=\"width: 316px; height: 316px;\" /></p>\r\n\r\n<p>Girard College is a boarding school for academically capable students, grades 1 through 12, from families with limited financial resources, each headed by a single parent or guardian. All Girard students receive full scholarships to take part in the school&#39;s strong academic program and to live safely on its enclosed 43-acre campus in Philadelphia, Pennsylvania. Girard&#39;s mission is to prepare students for advanced education and life as informed, ethical and productive citizens through a rigorous educational program that promotes intellectual, social and emotional growth.</p>\r\n\r\n<p><a href=\"https://www.girardcollege.edu/\">https://www.girardcollege.edu/</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "partner"
+      ]
+    },
+    {
+      "Area":[
+        "Children",
+        "Community Development",
+        "Education"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "Philadelphia Area",
+        "United States",
+        "Pennsylvania"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

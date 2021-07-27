@@ -1,0 +1,50 @@
+{
+  "name":"Asian University for Women",
+  "lat":null,
+  "long":null,
+  "image_file":null,
+  "organization":"Asian University for Women",
+  "contact":"szukerma@haverford.edu",
+  "haverford_office":"Stephanie Zukerman",
+  "description":"<p style=\"margin:0in 0in 10pt\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">The Asian University for Women is the first of its kind: an independent, regional institution dedicated to excellence, women&rsquo;s education and leadership development &ndash; global in outlook, but rooted in the contexts and aspirations of the people of Asia. Located in Chittagong, Bangladesh, AUW exists solely to educate and empower a rising network of women leaders through the transformative power of liberal arts and sciences education. Open to women from all walks of life, AUW particularly encourages women who are the first in their family to get university education. More than 90% of AUW students are on full scholarship. Additional information about AUW is available here: <a data-saferedirecturl=\"https://www.google.com/url?q=http://asian-university.org/&amp;source=gmail&amp;ust=1540564949313000&amp;usg=AFQjCNGH3xmzCPlis37w7yeebfSvjWxkZg\" href=\"http://asian-university.org/\" style=\"color:blue; text-decoration:underline\" target=\"_blank\">http://asian-university.org/</a></span></span></span></p>\r\n\r\n<p style=\"margin:0in 0in 10pt\"><span style=\"font-size:11pt\"><span style=\"line-height:115%\"><span style=\"font-family:&quot;Calibri&quot;,&quot;sans-serif&quot;\">Through a unique partnership opportunity beginning in 2019, Haverford students are invited to apply to serve as undergraduate fellows at AUW, supporting incoming and early career students in College-level mathematics and English reading and writing skills. Haverford students will serve as tutors. &nbsp;Throughout their time in Chittagong, Haverford students will primarily be teaching at the AUW campus and their residence will be in nearby faculty apartments. During national holidays and after the end of their internship, students may have the opportunity to travel regionally at their own expense. </span></span></span></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "fellowship"
+      ]
+    },
+    {
+      "Area":[
+        "Community Development",
+        "Globalization",
+        "Education",
+        "Human Rights",
+        "Poverty"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "Bangladesh\n"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

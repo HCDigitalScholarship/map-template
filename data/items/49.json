@@ -1,0 +1,48 @@
+{
+  "name":"Skidmore College",
+  "lat":43.0953761,
+  "long":-73.7858549,
+  "image_file":null,
+  "organization":"Skidmore College",
+  "contact":"mlatrick@haverford.edu",
+  "haverford_office":"Marielle Latrick",
+  "description":"<p>Skidmore is a highly ranked, residential, liberal arts college situated on 1,000 acres of natural beauty in Saratoga Springs, New York. With 2,500 students from 67 countries, 43 majors, 120 student clubs, funded research and internship opportunities, and 100+ study abroad programs, it offers a dynamic college experience. There are opportunities here for student research internships and research collaboration.</p>\r\n\r\n<p><a data-saferedirecturl=\"https://www.google.com/url?q=https://www.skidmore.edu/&amp;source=gmail&amp;ust=1544632936539000&amp;usg=AFQjCNEEg-XO6R4p-0MiYNXGhTKzXq2Vag\" href=\"https://www.skidmore.edu/\" target=\"_blank\">https://www.skidmore.edu/</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "internship",
+        "research"
+      ]
+    },
+    {
+      "Area":[
+        "Environment",
+        "Research"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "United States"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

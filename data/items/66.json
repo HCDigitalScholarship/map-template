@@ -1,0 +1,48 @@
+{
+  "name":"Philadelphia Mural Arts, Restorative Justice",
+  "lat":39.965425,
+  "long":-75.166859,
+  "image_file":null,
+  "organization":"Philadelphia Mural Arts, Restorative Justice",
+  "contact":"nfernandez@haverford.edu",
+  "haverford_office":"Noem\u00ed Fern\u00e1ndez",
+  "description":"<p>Art is the thread that connects all Restorative Justice projects and programs, uniting neighbors who have been affected by crime or violence through shared creative expression. The program facilitates the forging and growth of strong, positive bonds between incarcerated and formerly incarcerated individuals, young adults on probation, and their respective communities. We place a strong emphasis on work readiness with our Guild program and give creative voice to people who have consistently felt disconnected from society.</p>\r\n\r\n<p><a data-saferedirecturl=\"https://www.google.com/url?q=https://www.muralarts.org/program/restorative-justice/&amp;source=gmail&amp;ust=1545415824571000&amp;usg=AFQjCNG65wxnjlLj12QplGbR1bz-oWpO6A\" href=\"https://www.muralarts.org/program/restorative-justice/\" target=\"_blank\">https://www.muralarts.org/<wbr />program/restorative-justice/</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer",
+        "partner"
+      ]
+    },
+    {
+      "Area":[
+        "Justice and Prisons",
+        "Arts & Culture"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "Philadelphia Area"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

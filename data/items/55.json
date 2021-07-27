@@ -1,0 +1,47 @@
+{
+  "name":"Philadelphia Museum of Art",
+  "lat":39.9657704,
+  "long":-75.1813367,
+  "image_file":null,
+  "organization":"Philadelphia Museum of Art",
+  "contact":"nfernandez@haverford.edu",
+  "haverford_office":"Noem\u00ed Fern\u00e1ndez",
+  "description":"<p>The PMA is Philadelphia&rsquo;s art museum. A world-renowned collection. A landmark building. A place that welcomes everyone.<br />\r\nThey bring the arts to life, inspiring visitors&mdash;through scholarly study and creative play&mdash;to discover the spirit of imagination that lies in everyone. The PMA connects people with the arts in rich and varied ways, making the experience of the Museum surprising, lively, and always memorable, and they are committed to inviting visitors to see the world&mdash;and themselves&mdash;anew through the beauty and expressive power of the arts.</p>\r\n\r\n<p><a data-saferedirecturl=\"https://www.google.com/url?q=https://www.philamuseum.org&amp;source=gmail&amp;ust=1545415827511000&amp;usg=AFQjCNEbNHz0MtZk_-hdEs7rljolEeVcgA\" href=\"https://www.philamuseum.org\" target=\"_blank\">https://www.philamuseum.org</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer",
+        "internship"
+      ]
+    },
+    {
+      "Area":[
+        "Arts & Culture"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "Philadelphia Area"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

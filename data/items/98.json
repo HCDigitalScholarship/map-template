@@ -1,0 +1,50 @@
+{
+  "name":"Velos Youth Center",
+  "lat":37.9865394,
+  "long":23.7319145,
+  "image_file":null,
+  "organization":"Velos Youth",
+  "contact":"szukerma@haverford.edu",
+  "haverford_office":"Stephanie Zukerman",
+  "description":"<p><img alt=\"\" src=\"https://velosathens.files.wordpress.com/2019/08/cropped-velos-logo-cropped.png\" style=\"width: 217px; height: 100px;\" /></p>\r\n\r\n<p>Velos Youth Center offers a safe space for displaced, unaccompanied children and young people on the move. The Center meets basic needs such as food and showers.&nbsp;Through a team of local professionals, they also help youth to access state-run services, including protection, asylum, accommodation, and education. Velos Youth Center&#39;s holistic support strategies combine physical health and safety with programs for education, empowerment, and community building. The center&#39;s goal is to support unaccompanied children and young people&nbsp;as they re-start their lives in a place. They help young people to safely and legally build a life in Athens or an alternative destination that is in their better interest.</p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+
+      ]
+    },
+    {
+      "Area":[
+        "Community Development",
+        "Human Rights",
+        "Poverty",
+        "Intercultural Issues",
+        "Immigration"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "Greece\n"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

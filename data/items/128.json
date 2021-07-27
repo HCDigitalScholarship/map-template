@@ -1,0 +1,46 @@
+{
+  "name":"Lake Area Free Clinic",
+  "lat":43.1051423,
+  "long":-88.4831845,
+  "image_file":null,
+  "organization":"Lake Area Free Clinic",
+  "contact":"jdomsky@haverford.edu",
+  "haverford_office":"Jodi Domsky",
+  "description":"<p>Since 2001 the Lake Area Free Clinic has been serving residents of Waukesha County who lack health insurance and the ability to pay for health care. LAFC patients receive the medical attention, medication, and practical information they need to maintain their health. The Clinic also serves as a valuable resource helping to locate follow-up medical services and offers help determining eligibility and assistance with enrollment in the Affordable Care Act&rsquo;s insurance Marketplace or BadgerCare. LAFC is an independent 501(c)(3) organization funded solely by donations and grants.</p>\r\n\r\n<p><a href=\"http://www.lakeareafreeclinic.org\">https://www.lakeareafreeclinic.org</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer"
+      ]
+    },
+    {
+      "Area":[
+        "Healthcare"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "United States"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

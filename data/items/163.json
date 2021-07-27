@@ -1,0 +1,49 @@
+{
+  "name":"Caribbean Community in Philadelphia",
+  "lat":39.9488638,
+  "long":-75.167404,
+  "image_file":null,
+  "organization":"Caribbean Community in Philadelphia",
+  "contact":"jlion@haverford.edu",
+  "haverford_office":"Janice Lion",
+  "description":"<p>Caribbean Community in Philadelphia is a non-profit organization dedicated to&nbsp;building a well-represented image of Caribbean Diaspora People. The focus on&nbsp;reframing&nbsp;the&nbsp;multi-cultural and multi-linguistic&nbsp;identity narrative through culture, education, trauma and grief support, natural disaster, entrepreneurship, sports, employment, housing. The organization aims to&nbsp;cultivate and present the Caribbean Islands, as more than a tourist&nbsp;destination.&nbsp;</p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer",
+        "internship"
+      ]
+    },
+    {
+      "Area":[
+        "Community Development",
+        "Intercultural Issues",
+        "Immigration"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

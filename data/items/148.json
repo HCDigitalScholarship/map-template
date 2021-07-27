@@ -1,0 +1,52 @@
+{
+  "name":"College Together",
+  "lat":39.9566794,
+  "long":-75.1974077,
+  "image_file":null,
+  "organization":null,
+  "contact":"jlion@haverford.edu",
+  "haverford_office":"Janice Lion",
+  "description":"<p>College Together is an entirely new college experience where youth earn an accelerated college degree and learn professional skills in a supportive job placement at the same time. Without having to choose between working on learning, they finish a degree in as little as a year and earn an income instead of taking on debt- all while in a learning community with daily mentorship and holistic support.&nbsp;</p>\r\n\r\n<p><a href=\"https://www.collegetogether.org/\">https://www.collegetogether.org/</a></p>\r\n\r\n<p>This organization is part of the <a href=\"https://docs.google.com/document/d/1OfDCZariSv_iSX2cfcG5dbq-7_poHzwyPbeGM_H9y78/edit#heading=h.m9gdb6sgs64i\"><b>Philadelphia Justice and Equity Fellowship&nbsp;</b></a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "fellowship",
+        "internship"
+      ]
+    },
+    {
+      "Area":[
+        "Community Development",
+        "Economic Development",
+        "Education",
+        "Literacy"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+        "Philadelphia Justice and Equity Fellowship",
+        "Philly Justice and Equity Fellowship",
+        "PJ&E Fellowship"
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

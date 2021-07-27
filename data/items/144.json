@@ -1,0 +1,50 @@
+{
+  "name":"Community Partnership School",
+  "lat":39.9814206,
+  "long":-75.1877836,
+  "image_file":null,
+  "organization":null,
+  "contact":"jlion@haverford.edu",
+  "haverford_office":"Janice Lion",
+  "description":"<p dir=\"ltr\">Community Partnership School is an independently operating PAIS accredited school that provides a well-rounded, affordable education, while fostering a supportive network among students, school, family and community. This partnership prepares our graduates to flourish in some of the highest performing middle schools and high schools in the region &mdash; academically, socially and emotionally.</p>\r\n\r\n<p dir=\"ltr\">Community Partnership School was founded in 2006 by a partnership between Germantown Academy and Project H.O.M.E. to attend to the educational needs of children from an underserved North Central Philadelphia neighborhood characterized by high rates of poverty and low rates of graduation.</p>\r\n\r\n<p dir=\"ltr\"><a href=\"http://communitypartnershipschool.org/\">http://communitypartnershipschool.org/</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer",
+        "fellowship",
+        "internship"
+      ]
+    },
+    {
+      "Area":[
+        "Children",
+        "Community Development",
+        "Education"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

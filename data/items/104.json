@@ -1,0 +1,48 @@
+{
+  "name":"HealthPoint",
+  "lat":47.76092,
+  "long":-122.2006239,
+  "image_file":null,
+  "organization":"HealthPoint",
+  "contact":"jdomsky@haverford.edu",
+  "haverford_office":"Jodi Domsky",
+  "description":"<p>HealthPoint is a community-based, community-supported and community-governed network of non-profit health centers dedicated to providing expert, high-quality care to all who need it, regardless of circumstances. Founded in 1971, they&nbsp;believe that the quality of your health care should not depend on how much money you make, what language you speak or what your health is. Because everyone deserves great care.</p>\r\n\r\n<p><a data-saferedirecturl=\"https://www.google.com/url?q=http://www.healthpointchc.org&amp;source=gmail&amp;ust=1581432064052000&amp;usg=AFQjCNGIX1UDjROxXIhXhxEC86F2Vun0Kw\" href=\"http://www.healthpointchc.org/\" target=\"_blank\">http://www.healthpointchc.org</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer"
+      ]
+    },
+    {
+      "Area":[
+        "Children",
+        "Healthcare",
+        "Research"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "United States"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

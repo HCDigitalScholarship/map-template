@@ -1,0 +1,49 @@
+{
+  "name":"Philadelphia Orchard Project",
+  "lat":39.94878,
+  "long":-75.204788,
+  "image_file":null,
+  "organization":null,
+  "contact":"jlion@haverford.edu",
+  "haverford_office":"Janice Lion",
+  "description":"<p>The Philadelphia Orchard Project is a nonprofit organization that plants and supports community orchards in the city of Philadelphia.</p>\r\n\r\n<p>In partnership with communities, we envision urban ecosystems that create beautiful green spaces, connect neighbors, provide hands-on learning experiences, and grow fresh fruit for generations to come.</p>\r\n\r\n<p>Since 2007, POP has worked with community-based groups and volunteers to plan and plant orchards filled with useful and edible plants in neighborhoods&nbsp;across the city. POP provides orchard design assistance, plant materials, and training in orchard care. Community organizations own, maintain, and harvest the orchards, expanding community-based food production. Orchards are planted in formerly vacant lots, community gardens, schoolyards, and other urban spaces, almost exclusively in low-wealth neighborhoods where people experience limited access to fresh fruit.&nbsp;</p>\r\n\r\n<p><a href=\"https://www.phillyorchards.org/\">https://www.phillyorchards.org/</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "fellowship",
+        "internship"
+      ]
+    },
+    {
+      "Area":[
+        "Agriculture",
+        "Community Development",
+        "Sustainability"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

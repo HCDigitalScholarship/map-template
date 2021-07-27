@@ -1,0 +1,49 @@
+{
+  "name":"The Petey Greene Program",
+  "lat":40.3480882,
+  "long":-74.6639343,
+  "image_file":null,
+  "organization":"The Petey Greene Program",
+  "contact":"ejohnson3@haverford.edu",
+  "haverford_office":"Emily Johnson",
+  "description":"<p><img alt=\"\" src=\"https://media.licdn.com/dms/image/C510BAQF3BBhbTIR80A/company-logo_200_200/0?e=2159024400&amp;v=beta&amp;t=KZGgcEtadTmcmtkFgG1R0iVXPdmmFDS1aPO7MUnWxXc\" style=\"width: 200px; height: 200px;\" /></p>\r\n\r\n<p>The Petey Greene Program supplements education in jails, prisons, and detention centers by preparing volunteers to provide free, quality tutoring and related programming to support the academic achievement of incarcerated people. The Petey Greene Program inspires its&nbsp;alumni to become advocates and to take on leadership roles that will re-imagine the criminal justice system. Petey Grene envisions a world in which all incarcerated people have access to high-quality academic programs. Haverford students apply to&nbsp;volunteer as tutors at prisons in the Philadelphia area through Petey Greene&#39;s program.&nbsp;</p>\r\n\r\n<p><a href=\"https://www.peteygreene.org/\">https://www.peteygreene.org/</a>&nbsp;&nbsp;</p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer"
+      ]
+    },
+    {
+      "Area":[
+        "Education",
+        "Justice and Prisons"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "Philadelphia Area",
+        "United States",
+        "Pennsylvania"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

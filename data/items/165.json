@@ -1,0 +1,52 @@
+{
+  "name":"Kensington Corridor Trust",
+  "lat":39.9940792,
+  "long":-75.1209216,
+  "image_file":null,
+  "organization":"Kensington Corridor Trust",
+  "contact":"jlion@haverford.edu",
+  "haverford_office":"Janice Lion",
+  "description":"<p dir=\"ltr\"><b id=\"docs-internal-guid-d6c26e85-7fff-21f0-c1be-636fb716bbeb\">The Kensington Corridor Trust (KCT) is a neighborhood trust focused on protecting and maintaining long-term affordability on commercial corridors such as Kensington Avenue. Through local partnerships, strategic real-estate planning, and long-term trust vehicle, KCT aims to ensure the survival and revitalization of small local neighborhoods.&nbsp;</b></p>\r\n\r\n<p dir=\"ltr\">This organization part of the <a href=\"https://docs.google.com/document/d/1OfDCZariSv_iSX2cfcG5dbq-7_poHzwyPbeGM_H9y78/edit?usp=sharing\">Philadelphia Justice and Equity Fellowship</a></p>\r\n\r\n<p dir=\"ltr\"><a href=\"https://kensingtoncorridortrust.org/\">https://kensingtoncorridortrust.org/</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer",
+        "fellowship",
+        "internship"
+      ]
+    },
+    {
+      "Area":[
+        "Community Development",
+        "Cooperative Solidarity Economy",
+        "Economic Development"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+        "Philadelphia Justice and Equity Fellowship",
+        "Philly Justice and Equity Fellowship",
+        "PJ&E Fellowship"
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

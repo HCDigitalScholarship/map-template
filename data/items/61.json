@@ -1,0 +1,48 @@
+{
+  "name":"Lightbox Film Center",
+  "lat":39.9552474,
+  "long":-75.1969099,
+  "image_file":null,
+  "organization":"Lightbox Film Center",
+  "contact":"nfernandez@haverford.edu",
+  "haverford_office":"Noem\u00ed Fern\u00e1ndez",
+  "description":"<p>As the signature arts program of International House Philadelphia, an independent nonprofit organization, Lightbox presents an unparalleled slate of repertory, nonfiction, experimental and international cinema. Beyond the traditional movie theater experience, Lightbox delivers enriching film programs with artist talks, live music and other multidisciplinary programs year-round in a dedicated venue known as a gathering place for cinephiles.</p>\r\n\r\n<p><a data-saferedirecturl=\"https://www.google.com/url?q=https://www.lightboxfilmcenter.org&amp;source=gmail&amp;ust=1545415825600000&amp;usg=AFQjCNG475pNTCXeoCYR38GRSPqP_2WY5g\" href=\"https://www.lightboxfilmcenter.org\" target=\"_blank\">https://www.<wbr />lightboxfilmcenter.org</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "partner"
+      ]
+    },
+    {
+      "Area":[
+        "Community Development",
+        "Education",
+        "Arts & Culture"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "Philadelphia Area"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

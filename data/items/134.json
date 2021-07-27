@@ -1,0 +1,47 @@
+{
+  "name":"FDI Clinical Research",
+  "lat":18.4838353,
+  "long":-66.8435523,
+  "image_file":null,
+  "organization":"FDI Clinical Research",
+  "contact":"jdomsky@haverford.edu",
+  "haverford_office":"Jodi Domsky",
+  "description":"<p>Located in San Juan, Puerto Rico, FDI Clinical Research is a clinical research center with state-of-the-art facilities that comprise medical treatment for multiple conditions, a 30-bed phase I unit, an in-house bioanalytical laboratory, multispecialty experienced personnel, and the latest in medical technology. They&nbsp;are also an active medical care facility for patients with diverse medical ailments.</p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer"
+      ]
+    },
+    {
+      "Area":[
+        "Healthcare",
+        "Research"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "United States"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

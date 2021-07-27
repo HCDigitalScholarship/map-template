@@ -1,0 +1,49 @@
+{
+  "name":"Ardmore Initiative",
+  "lat":40.0067455,
+  "long":-75.2890887,
+  "image_file":null,
+  "organization":"Ardmore Initiative",
+  "contact":"ejohnson3@haverford.edu",
+  "haverford_office":"Emily Johnson",
+  "description":"<p>The mission of the Ardmore Initiative is to manage the business improvement district in Ardmore, PA, to improve the business mix, to foster the preservation and development of downtown&rsquo;s historic buildings, be an advocate for business and property owners, promote the downtown for the benefit of all Ardmore residents, and to partner with the Township of Lower Merion and area community organizations.</p>\r\n\r\n<p>Haverford has had student interns here specializing in marketing and communications, and also programmed community events with them including an experience during Customs where students learned how accessible the downtown Ardmore area is to campus and learned about local community partners and businesses where they receive discounts.</p>\r\n\r\n<p><cite class=\"iUh30\">destinationardmore.com/ardmoreinitiative/</cite></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer",
+        "internship"
+      ]
+    },
+    {
+      "Area":[
+        "Community Development",
+        "Public Policy",
+        "Urban and Rural Development"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "Philadelphia Area"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}

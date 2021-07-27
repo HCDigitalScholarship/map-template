@@ -1,0 +1,51 @@
+{
+  "name":"Neighborhood Gardens Trust",
+  "lat":39.9559992,
+  "long":-75.173052,
+  "image_file":null,
+  "organization":"Neighborhood Gardens Trust",
+  "contact":"jlion@haverford.edu",
+  "haverford_office":"Janice Lion",
+  "description":"<p>The Neighborhood Gardens Trust (NGT) is Philadelphia&rsquo;s largest land trust. NGT is dedicated to preserving and supporting community gardens and other shared open spaces across the city. NGT&rsquo;s work is grounded in the belief that an equitable and sustainable city is one in which all neighborhoods have vibrant green spaces for residents to cultivate food, flowers, and community.</p>\r\n\r\n<p><a data-saferedirecturl=\"https://www.google.com/url?q=http://www.ngtrust.org/&amp;source=gmail&amp;ust=1541603721364000&amp;usg=AFQjCNHs1KYHa9uA8CIzhMZ5jPZyqzvdnw\" href=\"http://www.ngtrust.org/\" target=\"_blank\">http://www.ngtrust.org/</a></p>",
+  "start_date":null,
+  "end_date":null,
+  "categories":[
+    {
+      "Type":[
+        "volunteer",
+        "fellowship"
+      ]
+    },
+    {
+      "Area":[
+        "Agriculture",
+        "Economic Development",
+        "Globalization",
+        "Urban and Rural Development",
+        "Sustainability"
+      ]
+    },
+    {
+      "Language":[
+
+      ]
+    },
+    {
+      "Region":[
+        "Philadelphia Area"
+      ]
+    },
+    {
+      "Subject":[
+
+      ]
+    },
+    {
+      "Keyword":[
+
+      ]
+    }
+  ],
+  "publish":true,
+  "geo_json":null
+}
