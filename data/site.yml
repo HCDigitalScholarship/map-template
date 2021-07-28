@@ -1,9 +1,12 @@
-name: Map of Yore
-author: null 
+name: Civic Engagement Map 
+author: Mike 
 title: Cartographic Delusions in the Works of Old Chaucer
-about: This is a site for mapping things. All kinds of sorts of things.
+about: This is a site for mapping things. All kinds of sorts of things. That are things. 
 logo: 'cpgc.png' #file goes in assets/img
 email: null
 more_info: https://www.haverford.edu/peace-and-global-citizenship
 #https://leaflet-extras.github.io/leaflet-providers/preview/
-base_layer: Esri.NatGeoWorldMap
+base_layer: Esri.WorldStreetMap
+initial_lat: 27.757638179719486
+initial_long: -15.290770199349694
+initial_zoom: 3

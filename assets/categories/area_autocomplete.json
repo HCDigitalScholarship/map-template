@@ -2,95 +2,95 @@
   "results":[
     {
       "id":0,
-      "text":"Human Rights"
-    },
-    {
-      "id":1,
-      "text":"Cooperative Solidarity Economy"
-    },
-    {
-      "id":2,
-      "text":"Housing & Homelessness"
-    },
-    {
-      "id":3,
-      "text":"Mental Health"
-    },
-    {
-      "id":4,
-      "text":"Disability Accessibility"
-    },
-    {
-      "id":5,
-      "text":"Globalization"
-    },
-    {
-      "id":6,
-      "text":"Technology"
-    },
-    {
-      "id":7,
       "text":"Education"
     },
     {
-      "id":8,
-      "text":"Children"
-    },
-    {
-      "id":9,
-      "text":"Micro-Finance"
-    },
-    {
-      "id":10,
-      "text":"Seniors Elders"
-    },
-    {
-      "id":11,
-      "text":"Voting and politics"
-    },
-    {
-      "id":12,
-      "text":"Healthcare"
-    },
-    {
-      "id":13,
-      "text":"Literacy"
-    },
-    {
-      "id":14,
-      "text":"HIV/AIDS"
-    },
-    {
-      "id":15,
-      "text":"Civil Rights"
-    },
-    {
-      "id":16,
+      "id":1,
       "text":"Government"
     },
     {
-      "id":17,
-      "text":"Racism"
+      "id":2,
+      "text":"Disability Accessibility"
     },
     {
-      "id":18,
-      "text":"Sustainability"
+      "id":3,
+      "text":"Children"
     },
     {
-      "id":19,
-      "text":"Community Development"
+      "id":4,
+      "text":"Gender & Sexuality"
     },
     {
-      "id":20,
+      "id":5,
+      "text":"Conflict Resolution"
+    },
+    {
+      "id":6,
+      "text":"Seniors Elders"
+    },
+    {
+      "id":7,
+      "text":"Micro-Finance"
+    },
+    {
+      "id":8,
+      "text":"Language training"
+    },
+    {
+      "id":9,
+      "text":"Cooperative Solidarity Economy"
+    },
+    {
+      "id":10,
+      "text":"Technology"
+    },
+    {
+      "id":11,
+      "text":"Research"
+    },
+    {
+      "id":12,
+      "text":"Arts & Culture"
+    },
+    {
+      "id":13,
       "text":"Environment"
     },
     {
-      "id":21,
+      "id":14,
+      "text":"Housing & Homelessness"
+    },
+    {
+      "id":15,
+      "text":"Sustainability"
+    },
+    {
+      "id":16,
       "text":"Poverty"
     },
     {
+      "id":17,
+      "text":"Mental Health"
+    },
+    {
+      "id":18,
+      "text":"Urban and Rural Development"
+    },
+    {
+      "id":19,
+      "text":"Racism"
+    },
+    {
+      "id":20,
+      "text":"Intercultural Issues"
+    },
+    {
+      "id":21,
+      "text":"Other"
+    },
+    {
       "id":22,
-      "text":"Agriculture"
+      "text":"Economic Development"
     },
     {
       "id":23,
@@ -98,63 +98,63 @@
     },
     {
       "id":24,
-      "text":"Language training"
+      "text":"Human Rights"
     },
     {
       "id":25,
-      "text":"Public Policy"
+      "text":"Civil Rights"
     },
     {
       "id":26,
-      "text":"Quaker Studies"
-    },
-    {
-      "id":27,
-      "text":"Urban and Rural Development"
-    },
-    {
-      "id":28,
-      "text":"Other"
-    },
-    {
-      "id":29,
-      "text":"Justice and Prisons"
-    },
-    {
-      "id":30,
-      "text":"Law"
-    },
-    {
-      "id":31,
-      "text":"Gender & Sexuality"
-    },
-    {
-      "id":32,
-      "text":"Arts & Culture"
-    },
-    {
-      "id":33,
-      "text":"Conflict Resolution"
-    },
-    {
-      "id":34,
-      "text":"Intercultural Issues"
-    },
-    {
-      "id":35,
       "text":"Hunger"
     },
     {
+      "id":27,
+      "text":"Globalization"
+    },
+    {
+      "id":28,
+      "text":"Quaker Studies"
+    },
+    {
+      "id":29,
+      "text":"HIV/AIDS"
+    },
+    {
+      "id":30,
+      "text":"Community Development"
+    },
+    {
+      "id":31,
+      "text":"Healthcare"
+    },
+    {
+      "id":32,
+      "text":"Voting and politics"
+    },
+    {
+      "id":33,
+      "text":"Agriculture"
+    },
+    {
+      "id":34,
+      "text":"Law"
+    },
+    {
+      "id":35,
+      "text":"Public Policy"
+    },
+    {
       "id":36,
-      "text":"Research"
+      "text":"Religion Interfaith"
     },
     {
       "id":37,
-      "text":"Economic Development"
+      "text":"Justice and Prisons"
     },
     {
       "id":38,
-      "text":"Religion Interfaith"
+      "text":"Literacy"
     }
   ],
   "pagination":{

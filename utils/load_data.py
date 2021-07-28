@@ -88,9 +88,9 @@ def load_data():
 
             item_keyword = [a for a in item_obj.categories if list(a.keys())[0]  == 'Keyword'][0]['Keyword']
             if item_obj.image_file:
-                popup = f"""<img style="max-width:120px" src="../assets/items/{item_obj.image_file}" /><br><strong><a href="../item/{item_obj.slug}">{item_obj.name}</a></strong><br>"""
+                popup = f"""<img style="max-width:120px" src="../assets/items/{item_obj.image_file}" /><br><strong><a target="_blank" href="../item/{item_obj.slug}">{item_obj.name}</a></strong><br>"""
             else:
-                popup = f"""<strong><a href="../item/{item_obj.slug}">{item_obj.name}</a></strong><br>"""
+                popup = f"""<strong><a target="_blank" href="../item/{item_obj.slug}">{item_obj.name}</a></strong><br>"""
             geo_json = {
                         "id": item_obj.id,
                         "type": "Feature",

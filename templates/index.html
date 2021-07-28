@@ -7,13 +7,13 @@
   <!-- ======= MAP Section ======= -->
   <section id="map" class="hero d-flex align-items-center">
 
-    <div class="container">
+    <div class="container-fluid">
      
       <div class="row">
-        <div class=" d-flex flex-column justify-content-center">
+        <div class="">
             <section>
               {{ site_data['about']}}
-                <div id="map" class="container" style="padding-top: 20px;">
+                <div id="map"  style="padding-top: 20px;">
                   <div class="row">
                     
                     <div class="col-lg-2">
@@ -93,7 +93,7 @@
         zoomDelta: 0.125,
         wheelPxPerZoomLevel: 60,
         zoomControl: false,
-      }).setView([36.26490471823096, -37.35054994598953], 3);
+      }).setView([{{ site_data['initial_lat'] }}, {{ site_data['initial_long'] }}], {{ site_data['initial_zoom'] }});
       // var wmsLayer = L.esri.basemapLayer('{{ site_data['base_layer'] }}').addTo(map);
       var wmsLayer = L.tileLayer.provider('{{ site_data['base_layer'] }}').addTo(map);
 
