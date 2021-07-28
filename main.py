@@ -100,22 +100,37 @@ async def new_item_post(request: Request,
     
     if type:
         types = [i.strip() for i in type.split(',')]
-        categories.append({'Type': types})
+    else:
+        types = []
+    categories.append({'Type': types})
     if area:
         areas = [i.strip() for i in area.split(',')]
-        categories.append({'Area': areas})
+    else:
+        areas = []
+    categories.append({'Area': areas})
     if language:
         languages = [i.strip() for i in language.split(',')]
-        categories.append({'Language': languages})
+    else:
+        languages = []
+    categories.append({'Language': languages})
+
     if region:
         regions = [i.strip() for i in region.split(',')]
-        categories.append({'Region': regions})
+    else:
+        regions = []
+    categories.append({'Region': regions})
+
     if subject:
         subjects = [i.strip() for i in subject.split(',')]
-        categories.append({'Subject': subjects})
+    else:
+        subjects = []
+    categories.append({'Subject': subjects})
+
     if keyword:
         keywords = [i.strip() for i in keyword.split(',')]
-        categories.append({'Keyword': keywords})
+    else:
+        keywords = []
+    categories.append({'Keyword': keywords})
     #item.save()
     if image_file.filename:
         p = (Path.cwd() / 'assets' / 'items'/ image_file.filename)
