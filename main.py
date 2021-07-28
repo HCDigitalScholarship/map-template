@@ -1,10 +1,13 @@
 import srsly
+from typing import List
 from random import randint
+from pathlib import Path
 from utils.load_data import load_data
 from fastapi import FastAPI, Request, Form, Depends,UploadFile, File
 from fastapi.templating import Jinja2Templates
 from fastapi.security import HTTPBasic, HTTPBasicCredentials
 from fastapi.staticfiles import StaticFiles
+
 from utils.login import get_current_username
 from utils.load_data import load_data, Item, select2_ids
 from routers import (
@@ -77,7 +80,9 @@ async def new_item_form(request: Request, slug:str=None):
 async def new_item_post(request: Request, 
     slug:str=None,
     name: str = Form(...),
-    image_file:bytes = File(None),
+    lat: float = Form(...),
+    long: float = Form(...),
+    image_file: UploadFile= File(None),
     organization: str = Form(None),
     contact: str = Form(None),
     description: str = Form(None),
@@ -111,7 +116,16 @@ async def new_item_post(request: Request,
     if keyword:
         keywords = [i.strip() for i in keyword.split(',')]
         categories.append({'Keyword': keywords})
-    item = Item(id=randint(0,100),name=name,slug=name.lower().replace(' ','-'),image_file=image_file,organization=organization,contact=contact,description=description,haverford_office=haverford_office,language=language,categories=categories,publish=publish)
     #item.save()
-    return  item.dict()
+    if image_file.filename:
+        p = (Path.cwd() / 'assets' / 'items'/ image_file.filename)
+        contents = image_file.file.read()
+        p.write_bytes(contents)
+        image_file=image_file.filename
+        item = Item(id=randint(0,100),name=name,lat=lat,long=long,slug=name.lower().replace(' ','-'),image_file=image_file,organization=organization,contact=contact,description=description,haverford_office=haverford_office,language=language,categories=categories,publish=publish)
+    else:
+        item = Item(id=randint(0,100),name=name,lat=lat,long=long,slug=name.lower().replace(' ','-'),image_file=None,organization=organization,contact=contact,description=description,haverford_office=haverford_office,language=language,categories=categories,publish=publish)
+    p = (Path.cwd() / 'data' / 'items'/ (item.slug +'.json'))
+    srsly.write_json(p, item.dict())
+    return item.dict()
 

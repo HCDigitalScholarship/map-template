@@ -20,7 +20,7 @@
         <div class="col-lg-12">
           <a href="../edit_item/{{ prev }}" class="btn btn-light">Previous</a>
           <a href="../edit_item/{{ next}}" class="btn btn-light float-end">Next</a>
-          <form action="../edit_item/{{ item['slug'] }}" method="post" class="php-email-form">
+          <form action="../edit_item/{{ item['slug'] }}" method="post" enctype="multipart/form-data" class="php-email-form">
 
             <div class="row gy-4">
               <div class="col-md-12">
@@ -299,6 +299,51 @@ crossorigin=""></script>
     tags: true
   });
   
+  // on page load update s2 values with existing data
+  window.onload = function exampleFunction() {
+    let aa = $('.select2-type').select2('data');
+    let aaa = []
+    for (i in aa) {
+      aaa.push(aa[i].text);
+    }
+    $('#type').val(aaa);
+
+    let bb = $('.select2-area').select2('data');
+    let bbb = []
+    for (i in bb) {
+      bbb.push(bb[i].text);
+    }
+    $('#area').val(bbb);
+
+    let cc = $('.select2-language').select2('data');
+    let ccc = []
+    for (i in cc) {
+      ccc.push(cc[i].text);
+    }
+    $('#language').val(ccc);
+
+    let dd = $('.select2-region').select2('data');
+    let ddd = []
+    for (i in dd) {
+      ddd.push(dd[i].text);
+    }
+    $('#region').val(ddd);
+
+    let ee = $('.select2-subject').select2('data');
+    let eee = []
+    for (i in ee) {
+      eee.push(ee[i].text);
+    }
+    $('#subject').val(eee);
+
+    let ff = $('.select2-keyword').select2('data');
+    let fff = []
+    for (i in ff) {
+      fff.push(ff[i].text);
+    }
+    $('#keyword').val(fff);
+    
+  };
 
   //select2-type
   $('.select2-type').on('select2:select', function (e) {

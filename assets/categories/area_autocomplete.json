@@ -2,139 +2,139 @@
   "results":[
     {
       "id":0,
-      "text":"Literacy"
-    },
-    {
-      "id":1,
-      "text":"Voting and politics"
-    },
-    {
-      "id":2,
-      "text":"Conflict Resolution"
-    },
-    {
-      "id":3,
-      "text":"Sustainability"
-    },
-    {
-      "id":4,
-      "text":"Hunger"
-    },
-    {
-      "id":5,
-      "text":"Mental Health"
-    },
-    {
-      "id":6,
-      "text":"Law"
-    },
-    {
-      "id":7,
-      "text":"Government"
-    },
-    {
-      "id":8,
-      "text":"Children"
-    },
-    {
-      "id":9,
-      "text":"Human Rights"
-    },
-    {
-      "id":10,
-      "text":"Housing & Homelessness"
-    },
-    {
-      "id":11,
-      "text":"Intercultural Issues"
-    },
-    {
-      "id":12,
-      "text":"Agriculture"
-    },
-    {
-      "id":13,
-      "text":"Community Development"
-    },
-    {
-      "id":14,
-      "text":"Religion Interfaith"
-    },
-    {
-      "id":15,
-      "text":"Public Policy"
-    },
-    {
-      "id":16,
-      "text":"Environment"
-    },
-    {
-      "id":17,
-      "text":"Economic Development"
-    },
-    {
-      "id":18,
-      "text":"Urban and Rural Development"
-    },
-    {
-      "id":19,
       "text":"Justice and Prisons"
     },
     {
-      "id":20,
-      "text":"Cooperative Solidarity Economy"
+      "id":1,
+      "text":"Racism"
     },
     {
-      "id":21,
-      "text":"Poverty"
-    },
-    {
-      "id":22,
-      "text":"Other"
-    },
-    {
-      "id":23,
-      "text":"Arts & Culture"
-    },
-    {
-      "id":24,
-      "text":"Quaker Studies"
-    },
-    {
-      "id":25,
-      "text":"Immigration"
-    },
-    {
-      "id":26,
-      "text":"Education"
-    },
-    {
-      "id":27,
-      "text":"Research"
-    },
-    {
-      "id":28,
-      "text":"Globalization"
-    },
-    {
-      "id":29,
-      "text":"Micro-Finance"
-    },
-    {
-      "id":30,
+      "id":2,
       "text":"Seniors Elders"
     },
     {
-      "id":31,
-      "text":"Gender & Sexuality"
+      "id":3,
+      "text":"Arts & Culture"
     },
     {
-      "id":32,
+      "id":4,
+      "text":"Conflict Resolution"
+    },
+    {
+      "id":5,
+      "text":"Technology"
+    },
+    {
+      "id":6,
+      "text":"Urban and Rural Development"
+    },
+    {
+      "id":7,
       "text":"Healthcare"
     },
     {
-      "id":33,
+      "id":8,
+      "text":"Agriculture"
+    },
+    {
+      "id":9,
+      "text":"Community Development"
+    },
+    {
+      "id":10,
+      "text":"Literacy"
+    },
+    {
+      "id":11,
+      "text":"Other"
+    },
+    {
+      "id":12,
+      "text":"Research"
+    },
+    {
+      "id":13,
+      "text":"Mental Health"
+    },
+    {
+      "id":14,
+      "text":"Sustainability"
+    },
+    {
+      "id":15,
+      "text":"Hunger"
+    },
+    {
+      "id":16,
+      "text":"Voting and politics"
+    },
+    {
+      "id":17,
+      "text":"Law"
+    },
+    {
+      "id":18,
+      "text":"Poverty"
+    },
+    {
+      "id":19,
+      "text":"Micro-Finance"
+    },
+    {
+      "id":20,
+      "text":"Government"
+    },
+    {
+      "id":21,
+      "text":"Environment"
+    },
+    {
+      "id":22,
+      "text":"Cooperative Solidarity Economy"
+    },
+    {
+      "id":23,
+      "text":"Public Policy"
+    },
+    {
+      "id":24,
+      "text":"Education"
+    },
+    {
+      "id":25,
+      "text":"Civil Rights"
+    },
+    {
+      "id":26,
       "text":"Disability Accessibility"
+    },
+    {
+      "id":27,
+      "text":"Globalization"
+    },
+    {
+      "id":28,
+      "text":"Human Rights"
+    },
+    {
+      "id":29,
+      "text":"Children"
+    },
+    {
+      "id":30,
+      "text":"HIV/AIDS"
+    },
+    {
+      "id":31,
+      "text":"Religion Interfaith"
+    },
+    {
+      "id":32,
+      "text":"Housing & Homelessness"
+    },
+    {
+      "id":33,
+      "text":"Immigration"
     },
     {
       "id":34,
@@ -142,19 +142,19 @@
     },
     {
       "id":35,
-      "text":"Civil Rights"
+      "text":"Quaker Studies"
     },
     {
       "id":36,
-      "text":"HIV/AIDS"
+      "text":"Intercultural Issues"
     },
     {
       "id":37,
-      "text":"Racism"
+      "text":"Economic Development"
     },
     {
       "id":38,
-      "text":"Technology"
+      "text":"Gender & Sexuality"
     }
   ],
   "pagination":{
