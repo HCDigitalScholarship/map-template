@@ -1,6 +1,8 @@
 {% extends 'base.html' %}
 {% block title%}{{ site_data['name'] }}{% endblock %}
 {% block site_title%}{{ site_data['name'] }}{% endblock %}
+{% block site_author%}{{ site_data['author'] }}{% endblock %}
+
 {% block logo %}{{ site_data['logo'] }}{% endblock %}
   {% block content %}
  
@@ -33,8 +35,10 @@
                           <select style="width: 100%;" class="select2-area" multiple="multiple"></select>
                           <label for="language">Language</label>
                           <select style="width: 100%;" class="select2-language" multiple="multiple"></select>
-                          <label for="organization">Organization</label>
-                          <select style="width: 100%;" class="select2-organization" multiple="multiple"></select>
+                          <label for="organization">Region</label>
+                          <select style="width: 100%;" class="select2-region" multiple="multiple"></select>
+                          <label for="organization">Subject</label>
+                          <select style="width: 100%;" class="select2-subject" multiple="multiple"></select>
                           <label for="keyword">Keyword</label>
                           <select style="width: 100%;" class="select2-keyword" multiple="multiple"></select>
                           
@@ -132,7 +136,8 @@
         let type = $('.select2-type').val(); 
         let area = $('.select2-area').val();
         let languages = $('.select2-language').val();
-        let organization = $('.select2-organization').val();
+        let region = $('.select2-region').val();
+        let subject = $('.select2-subject').val();
         let keywords = $('.select2-keyword').val();
         let start_year = $("#slider").slider("values", 0);
         let end_year = $("#slider").slider("values", 1);
@@ -172,13 +177,19 @@
             } 
           };
           
-          if (organization.length > 0) {
-            let matches = items.features[i].properties.Organization.filter(value => organization.includes(value.toString()));
+          if (region.length > 0) {
+            let matches = items.features[i].properties.Region.filter(value => region.includes(value.toString()));
             if (matches.length ==  0) {
               drop_items.push(items.features[i].id)
             } 
           };
-    
+
+          if (subject.length > 0) {
+            let matches = items.features[i].properties.Subject.filter(value => subject.includes(value.toString()));
+            if (matches.length ==  0) {
+              drop_items.push(items.features[i].id)
+            } 
+          };
           if (keywords.length > 0) {
             let matches = items.features[i].properties.Keyword.filter(value => keywords.includes(value.toString()));
             if (matches.length ==  0) {
@@ -304,9 +315,16 @@
           theme: 'bootstrap4',
         }
       });
-      $('.select2-organization').select2({
+      $('.select2-region').select2({
         ajax: {
-          url: '../assets/categories/organization_autocomplete.json',
+          url: '../assets/categories/region_autocomplete.json',
+          dataType: 'json',
+          theme: 'bootstrap4',
+        }
+      });
+      $('.select2-subject').select2({
+        ajax: {
+          url: '../assets/categories/subject_autocomplete.json',
           dataType: 'json',
           theme: 'bootstrap4',
         }
@@ -318,23 +336,20 @@
           theme: 'bootstrap4',
         }
       });
-    
-      $('.select2-keyword').on('select2:select', function (e) {
-        // added on select, individually, need function for when deselected as well 
-    
-    
-        make_map();
-      });
-      $('.select2-keyword').on('select2:unselect', function (e) {
-    
+
+      $('.select2-type').on('select2:select', function (e) {
         make_map();
       });
     
-      $('.select2-organization').on('select2:select', function (e) {
+      $('.select2-type').on('select2:unselect', function (e) {
+        make_map();
+      });
+
+      $('.select2-area').on('select2:select', function (e) {
         make_map();
       });
     
-      $('.select2-organization').on('select2:unselect', function (e) {
+      $('.select2-area').on('select2:unselect', function (e) {
         make_map();
       });
     
@@ -345,22 +360,37 @@
       $('.select2-language').on('select2:unselect', function (e) {
         make_map();
       });
-    
-      $('.select2-area').on('select2:select', function (e) {
+
+      $('.select2-region').on('select2:select', function (e) {
         make_map();
       });
     
-      $('.select2-area').on('select2:unselect', function (e) {
+      $('.select2-region').on('select2:unselect', function (e) {
+        make_map();
+      });
+
+      $('.select2-subject').on('select2:select', function (e) {
         make_map();
       });
     
-      $('.select2-type').on('select2:select', function (e) {
+      $('.select2-subject').on('select2:unselect', function (e) {
+        make_map();
+      });
+      
+      $('.select2-keyword').on('select2:select', function (e) {
+        make_map();
+      });
+      $('.select2-keyword').on('select2:unselect', function (e) {
         make_map();
       });
     
-      $('.select2-type').on('select2:unselect', function (e) {
-        make_map();
-      });
+      
+    
+      
+    
+      
+    
+      
     
       $('.select2-keyword').on('select2:select', function (e) {
         make_map();

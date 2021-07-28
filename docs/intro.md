@@ -30,3 +30,9 @@ filters
 Netlify CMS, form pushes file to repository, this triggers GitHub action for build, regenerates the site directory 
 
 for should be static page
+
+## the site.yml
+## files you can change
+icon
+favicon
+map icons 
