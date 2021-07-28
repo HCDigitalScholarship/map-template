@@ -29,7 +29,7 @@ app.mount("/assets", StaticFiles(directory="./assets"), name="assets")
 app.include_router(add_items.router)
 
 @app.get("/")
-async def root(request: Request,):
+def root(request: Request,):
     context= {}
     items, site_data = load_data()
     context['items'] = items
@@ -39,7 +39,7 @@ async def root(request: Request,):
     return templates.TemplateResponse("index.html", context)
 
 @app.get("/item/{slug}")
-async def item_page(request: Request, slug:str):
+def item_page(request: Request, slug:str):
     context= {}
     items, site_data = load_data()
     context['site_data'] = site_data
@@ -65,12 +65,7 @@ async def new_item_form(request: Request, slug:str=None):
         else:
             prev = items[-1].slug
 
-        #convert select2 values to ids to mark as already selected
-        s2_ids = select2_ids()
-        item_types = [a for a in item.categories if 'Type' in list(a.keys())[0]][0]['Type']
-        context['selected_types'] = item_types
-        context['all_types'] = site_data['categories']['Type']
-        #context['type_ids'] = [s2_ids[a] for a in types]
+        
     context['next'] = next
     context['prev'] = prev    
     context['site_data'] = site_data
