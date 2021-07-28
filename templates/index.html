@@ -14,7 +14,7 @@
       <div class="row">
         <div class="">
             <section>
-              {{ site_data['about']}}
+              {{ site_data['about']|safe}}
                 <div id="map"  style="padding-top: 20px;">
                   <div class="row">
                     
@@ -376,7 +376,7 @@
       $('.select2-subject').on('select2:unselect', function (e) {
         make_map();
       });
-      
+
       $('.select2-keyword').on('select2:select', function (e) {
         make_map();
       });
