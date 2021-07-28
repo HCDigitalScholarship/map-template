@@ -62,13 +62,22 @@
               <div class="col-md-12">
                 <label for="description" class="form-label">Description</label>
 
-                <textarea class="form-control" name="description" rows="6" {% if item.description %}>{{ item.description }}</textarea>{% else %}> placeholder="Description"</textarea>{% endif %}
+                <textarea id="description" class="form-control" name="description" rows="6" {% if item.description %}>{{ item.description }}</textarea>{% else %}> placeholder="Description"</textarea>{% endif %}
               </div>
 
               <!-- TODO How to load existing s2 values? -->
               <div class="col-md-12">
-                <label for="type" class="form-label">Type {{item.categories[0]['Type']}}</label>
-                <select style="width:100%;" class="select2-type" name="type_[]" multiple="multiple"></select>
+                <label for="type" class="form-label">Type</label>
+                <select style="width:100%;" class="select2-type" name="type_[]" multiple="multiple">
+                  {% for type in site_data.categories['Type'] %}
+                  {% if type in selected_types %}
+                    <option selected="selected">{{type}}</option>
+                    {% else %}
+                    <option>{{type}}</option>
+                  {%endif%}
+                  {% endfor %}
+                  
+                </select>
               </div>
               <div class="col-md-12">
                 <label for="area" class="form-label">Area</label>
@@ -155,6 +164,14 @@ crossorigin=""></script>
 <script src="https://unpkg.com/esri-leaflet-geocoder@2.3.3/dist/esri-leaflet-geocoder.js"
   integrity="sha512-HrFUyCEtIpxZloTgEKKMq4RFYhxjJkCiF5sDxuAokklOeZ68U2NPfh4MFtyIVWlsKtVbK5GD2/JzFyAfvT5ejA=="
   crossorigin=""></script>
+  <script src="https://cdn.ckeditor.com/ckeditor5/29.0.0/classic/ckeditor.js"></script>
+  <script>
+    ClassicEditor
+        .create( document.querySelector( '#description' ) )
+        .catch( error => {
+            console.error( error );
+        } );
+</script>
 <script>
   
     
@@ -220,14 +237,30 @@ crossorigin=""></script>
     });
 </script> 
 <script>
-  $('.select2-type').select2({
+
+  
+  /*$('.select2-type').select2({
     tags: true,
     ajax: {
       url: '../assets/categories/type_autocomplete.json',
       dataType: 'json',
       theme: 'bootstrap4',
     }
+  }) */
+  $(".select2-type").select2({
+    tags: true
   });
+  {% if type_ids %}
+  
+  
+  /* $('.select2-type').trigger({
+    type: 'select2:select',
+    params: {
+        data: data
+    }
+  }); */
+  
+  {% endif %}
 
   $('.select2-area').select2({
     tags: true,

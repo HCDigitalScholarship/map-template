@@ -184,7 +184,10 @@ def get_cats(items_dir):
             for cat in data['categories']:
                 if list(cat.keys())[0]  == type_:
                     if cat[type_]:
-                        cats[type_].extend(cat[type_])
+                        for val in cat[type_]:
+                            if val not in cats[type_]:
+                                cats[type_].append(val)
+                        
     return cats
 
 

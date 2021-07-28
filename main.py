@@ -6,7 +6,7 @@ from fastapi.templating import Jinja2Templates
 from fastapi.security import HTTPBasic, HTTPBasicCredentials
 from fastapi.staticfiles import StaticFiles
 from utils.login import get_current_username
-from utils.load_data import load_data, Item
+from utils.load_data import load_data, Item, select2_ids
 from routers import (
     add_items, 
 )
@@ -53,7 +53,8 @@ async def new_item_form(request: Request, slug:str=None):
     items, site_data = load_data()
     context = {}
     if slug:
-        context['item'] = [i for i in items if i.slug == slug][0]
+        item = [i for i in items if i.slug == slug][0]
+        context['item'] = item.dict()
         index = items.index(context['item'])
         if index + 1 <= len(items):
             next = items[index + 1].slug
@@ -63,6 +64,13 @@ async def new_item_form(request: Request, slug:str=None):
             prev = items[index - 1].slug
         else:
             prev = items[-1].slug
+
+        #convert select2 values to ids to mark as already selected
+        s2_ids = select2_ids()
+        item_types = [a for a in item.categories if 'Type' in list(a.keys())[0]][0]['Type']
+        context['selected_types'] = item_types
+        context['all_types'] = site_data['categories']['Type']
+        #context['type_ids'] = [s2_ids[a] for a in types]
     context['next'] = next
     context['prev'] = prev    
     context['site_data'] = site_data
