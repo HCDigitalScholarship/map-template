@@ -70,7 +70,7 @@
                 <label for="type" class="form-label">Type</label>
                 <select style="width:100%;" class="select2-type" name="type_[]" multiple="multiple">
                   {% for type in site_data.categories['Type'] %}
-                  {% if type in selected_types %}
+                  {% if type in item.categories[0].Type %}
                     <option selected="selected">{{type}}</option>
                     {% else %}
                     <option>{{type}}</option>
@@ -81,24 +81,64 @@
               </div>
               <div class="col-md-12">
                 <label for="area" class="form-label">Area</label>
-                <select style="width:100%;" class="select2-area" name="area[]" multiple="multiple"></select>
+                <select style="width:100%;" class="select2-area" name="area[]" multiple="multiple">
+                  {% for type in site_data.categories['Area'] %}
+                  {% if type in item.categories[1].Area %}
+                    <option selected="selected">{{type}}</option>
+                    {% else %}
+                    <option>{{type}}</option>
+                  {%endif%}
+                  {% endfor %}
+                </select>
               </div>
               <div class="col-md-12">
                 <label for="area" class="form-label">Language</label>
-                <select style="width:100%;" class="select2-language" name="language[]" multiple="multiple"></select>
+                <select style="width:100%;" class="select2-language" name="language[]" multiple="multiple">
+                  {% for type in site_data.categories['Language'] %}
+                  {% if type in item.categories[2].Language %}
+                    <option selected="selected">{{type}}</option>
+                    {% else %}
+                    <option>{{type}}</option>
+                  {%endif%}
+                  {% endfor %}
+                </select>
               </div>
               <div class="col-md-12">
                 <label for="area" class="form-label">Region</label>
-                <select style="width:100%;" class="select2-region" name="region[]" multiple="multiple"></select>
+                <select style="width:100%;" class="select2-region" name="region[]" multiple="multiple">
+                  {% for type in site_data.categories['Region'] %}
+                  {% if type in item.categories[3].Region %}
+                    <option selected="selected">{{type}}</option>
+                    {% else %}
+                    <option>{{type}}</option>
+                  {%endif%}
+                  {% endfor %}
+                </select>
               </div>
               <div class="col-md-12">
                 <label for="area" class="form-label">Subject</label>
-                <select style="width:100%;" class="select2-subject" name="subject[]" multiple="multiple"></select>
+                <select style="width:100%;" class="select2-subject" name="subject[]" multiple="multiple">
+                  {% for type in site_data.categories['Subject'] %}
+                  {% if type in item.categories[4].Subject %}
+                    <option selected="selected">{{type}}</option>
+                    {% else %}
+                    <option>{{type}}</option>
+                  {%endif%}
+                  {% endfor %}
+                </select>
               </div>
               
               <div class="col-md-12">
                 <label for="keyword" class="form-label">Keywords</label>
-                <select style="width:100%;" class="select2-keyword" name="keyword[]" multiple="multiple"></select>
+                <select style="width:100%;" class="select2-keyword" name="keyword[]" multiple="multiple">
+                  {% for type in site_data.categories['Keyword'] %}
+                  {% if type in item.categories[5].Keyword %}
+                    <option selected="selected">{{type}}</option>
+                    {% else %}
+                    <option>{{type}}</option>
+                  {%endif%}
+                  {% endfor %}
+                </select>
               </div>
               <div class="col-md-6">
                 <label for="end_date" class="form-label">Start Date</label>
@@ -239,69 +279,26 @@ crossorigin=""></script>
 <script>
 
   
-  /*$('.select2-type').select2({
-    tags: true,
-    ajax: {
-      url: '../assets/categories/type_autocomplete.json',
-      dataType: 'json',
-      theme: 'bootstrap4',
-    }
-  }) */
+
   $(".select2-type").select2({
     tags: true
   });
-  {% if type_ids %}
+  $(".select2-area").select2({
+    tags: true
+  });
+  $(".select2-language").select2({
+    tags: true
+  });
+  $(".select2-region").select2({
+    tags: true
+  });  
+  $(".select2-subject").select2({
+    tags: true
+  });
+  $(".select2-keyword").select2({
+    tags: true
+  });
   
-  
-  /* $('.select2-type').trigger({
-    type: 'select2:select',
-    params: {
-        data: data
-    }
-  }); */
-  
-  {% endif %}
-
-  $('.select2-area').select2({
-    tags: true,
-    ajax: {
-      url: '../assets/categories/area_autocomplete.json',
-      dataType: 'json',
-      theme: 'bootstrap4',
-    }
-  });
-  $('.select2-language').select2({
-    tags: true,
-    ajax: {
-      url: '../assets/categories/language_autocomplete.json',
-      dataType: 'json',
-      theme: 'bootstrap4',   
-    }
-  });
-  $('.select2-region').select2({
-    tags: true,
-    ajax: {
-      url: '../assets/categories/region_autocomplete.json',
-      dataType: 'json',
-      theme: 'bootstrap4',
-    }
-  });
-  $('.select2-subject').select2({
-    tags: true,
-    ajax: {
-      url: '../assets/categories/subject_autocomplete.json',
-      dataType: 'json',
-      theme: 'bootstrap4',
-    }
-  });
-  $('.select2-keyword').select2({
-    tags: true,
-    ajax: {
-      url: '../assets/categories/keyword_autocomplete.json',
-      dataType: 'json',
-      theme: 'bootstrap4',
-    }
-  });
 
   //select2-type
   $('.select2-type').on('select2:select', function (e) {
