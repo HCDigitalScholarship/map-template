@@ -1,463 +1,577 @@
-{% extends 'base.html' %}
-{% block site_title%}{{ site_data['name'] }}{% endblock %}
-{% block title%}{{ site_data['name'] }}{% endblock %}
-{% block logo %}{{ site_data['logo'] }}{% endblock %}
-  {% block content %}
- <!-- ======= Contact Section ======= -->
- <section id="contact" class="contact">
+{% extends 'base.html' %} {% block site_title%}{{ site_data['name'] }}{%
+endblock %} {% block title%}{{ site_data['name'] }}{% endblock %} {% block logo
+%}{{ site_data['logo'] }}{% endblock %} {% block content %}
+<!-- ======= Contact Section ======= -->
+<section id="contact" class="contact">
+  <div class="container" data-aos="fade-up">
+    <header class="section-header">
+      <h2>Add or Edit Item</h2>
+    </header>
 
-    <div class="container" data-aos="fade-up">
+    <div class="row gy-4">
+      <div class="col-lg-12">
+        <a href="../edit_item/{{ prev }}" class="btn btn-light">Previous</a>
+        <a href="../edit_item/{{ next}}" class="btn btn-light float-end"
+          >Next</a
+        >
+        <form
+          action="../edit_item/{{ item['slug'] }}"
+          method="post"
+          enctype="multipart/form-data"
+          class="php-email-form"
+        >
+          <div class="row gy-4">
+            <div class="col-md-12">
+              <div id="map" style="height: 600px">This is the map</div>
+            </div>
 
-      <header class="section-header">
-        <h2>Add or Edit Item</h2>
-      </header>
+            <div class="col-md-12">
+              <label for="name" class="form-label">Name</label>
+              <input
+                type="text"
+                name="name"
+                class="form-control"
+                {%
+                if
+                item.name
+                %}
+                value="{{ item.name }}"
+                {%
+                else
+                %}placeholder="Item Name"
+                {%
+                endif
+                %}
+                required
+              />
+            </div>
+            {% if item.image_file %}
+            <div class="col-md-12">
+              <img
+                style="width: 100%"
+                src="../assets/items/{{ item.image_file }}"
+              />
+            </div>
+            {% else %}
+            <div class="col-md-12">
+              <label for="image_file" class="form-label">Image</label>
+              <input type="file" class="form-control" name="image_file" />
+            </div>
+            {% endif %}
 
-     
-      <div class="row gy-4">
-        
-         
+            <div class="col-md-12">
+              <label for="organization" class="form-label">Organization</label>
+              <input
+                type="text"
+                class="form-control"
+                name="organization"
+                {%
+                if
+                item.name
+                %}
+                value="{{ item.organization }}"
+                {%
+                else
+                %}placeholder="Organization"
+                {%
+                endif
+                %}
+              />
+            </div>
 
-        <div class="col-lg-12">
-          <a href="../edit_item/{{ prev }}" class="btn btn-light">Previous</a>
-          <a href="../edit_item/{{ next}}" class="btn btn-light float-end">Next</a>
-          <form action="../edit_item/{{ item['slug'] }}" method="post" enctype="multipart/form-data" class="php-email-form">
+            <div class="col-md-12">
+              <label for="contact" class="form-label">Contact</label>
 
-            <div class="row gy-4">
-              <div class="col-md-12">
-               <div id="map" style="height: 600px;">This is the map</div>
-              </div>
+              <input
+                type="email"
+                class="form-control"
+                name="contact"
+                {%
+                if
+                item.contact
+                %}
+                value="{{ item.contact }}"
+                {%
+                else
+                %}placeholder="Contact Email"
+                {%
+                endif
+                %}
+              />
+            </div>
 
-            
-           
-              <div class="col-md-12">
-                <label for="name" class="form-label">Name</label>
-                <input type="text" name="name" class="form-control" {% if item.name %} value='{{ item.name }}' {% else %}placeholder="Item Name"{% endif %} required>
-              </div>
-              {% if item.image_file %}
-              <div class="col-md-12"><img style="width:100%;" src="../assets/items/{{ item.image_file }}"></div>
-              {% else %}
-              <div class="col-md-12">
-                <label for="image_file" class="form-label">Image</label>
-                <input type="file" class="form-control" name="image_file">
-              </div>
-              {% endif %}
+            <div class="col-md-12">
+              <label for="haverford_office" class="form-label"
+                >Haverford Office</label
+              >
 
-              <div class="col-md-12">
-                <label for="organization" class="form-label">Organization</label>
-                <input type="text" class="form-control" name="organization"{% if item.name %} value='{{ item.organization }}' {% else %}placeholder="Organization"{% endif %} >
-              </div>
+              <input
+                type="text"
+                class="form-control"
+                name="haverford_office"
+                {%
+                if
+                item.haverford_office
+                %}
+                value="{{ item.haverford_office }}"
+                {%
+                else
+                %}
+                placeholder="Haverford Office"
+                {%
+                endif
+                %}
+              />
+            </div>
 
-              <div class="col-md-12">
-                <label for="contact" class="form-label">Contact</label>
+            <div class="col-md-12">
+              <label for="description" class="form-label">Description</label>
 
-                <input type="email" class="form-control" name="contact" {% if item.contact %} value='{{ item.contact }}' {% else %}placeholder="Contact Email" {% endif %} >
-              </div>
+              <textarea
+                id="description"
+                class="form-control"
+                name="description"
+                rows="6"
+                {%
+                if
+                item.description
+                %}
+              >
+{{ item.description }}{% else %}> placeholder="Description"{% endif %}</textarea
+              >
+            </div>
 
-              <div class="col-md-12">
-                <label for="haverford_office" class="form-label">Haverford Office</label>
+            <!-- TODO How to load existing s2 values? -->
+            <div class="col-md-12">
+              <label for="type" class="form-label">Type</label>
+              <select
+                style="width: 100%"
+                class="select2-type"
+                name="type_[]"
+                multiple="multiple"
+              >
+                {% for type in site_data.categories['Type'] %} {% if type in
+                item.categories[0].Type %}
+                <option selected="selected">{{type}}</option>
+                {% else %}
+                <option>{{type}}</option>
+                {%endif%} {% endfor %}
+              </select>
+            </div>
+            <div class="col-md-12">
+              <label for="area" class="form-label">Area</label>
+              <select
+                style="width: 100%"
+                class="select2-area"
+                name="area[]"
+                multiple="multiple"
+              >
+                {% for type in site_data.categories['Area'] %} {% if type in
+                item.categories[1].Area %}
+                <option selected="selected">{{type}}</option>
+                {% else %}
+                <option>{{type}}</option>
+                {%endif%} {% endfor %}
+              </select>
+            </div>
+            <div class="col-md-12">
+              <label for="area" class="form-label">Language</label>
+              <select
+                style="width: 100%"
+                class="select2-language"
+                name="language[]"
+                multiple="multiple"
+              >
+                {% for type in site_data.categories['Language'] %} {% if type in
+                item.categories[2].Language %}
+                <option selected="selected">{{type}}</option>
+                {% else %}
+                <option>{{type}}</option>
+                {%endif%} {% endfor %}
+              </select>
+            </div>
+            <div class="col-md-12">
+              <label for="area" class="form-label">Region</label>
+              <select
+                style="width: 100%"
+                class="select2-region"
+                name="region[]"
+                multiple="multiple"
+              >
+                {% for type in site_data.categories['Region'] %} {% if type in
+                item.categories[3].Region %}
+                <option selected="selected">{{type}}</option>
+                {% else %}
+                <option>{{type}}</option>
+                {%endif%} {% endfor %}
+              </select>
+            </div>
+            <div class="col-md-12">
+              <label for="area" class="form-label">Subject</label>
+              <select
+                style="width: 100%"
+                class="select2-subject"
+                name="subject[]"
+                multiple="multiple"
+              >
+                {% for type in site_data.categories['Subject'] %} {% if type in
+                item.categories[4].Subject %}
+                <option selected="selected">{{type}}</option>
+                {% else %}
+                <option>{{type}}</option>
+                {%endif%} {% endfor %}
+              </select>
+            </div>
 
-                <input type="text" class="form-control" name="haverford_office"{% if item.haverford_office %} value='{{ item.haverford_office }}' {% else %} placeholder="Haverford Office"{% endif %}>
-              </div>
+            <div class="col-md-12">
+              <label for="keyword" class="form-label">Keywords</label>
+              <select
+                style="width: 100%"
+                class="select2-keyword"
+                name="keyword[]"
+                multiple="multiple"
+              >
+                {% for type in site_data.categories['Keyword'] %} {% if type in
+                item.categories[5].Keyword %}
+                <option selected="selected">{{type}}</option>
+                {% else %}
+                <option>{{type}}</option>
+                {%endif%} {% endfor %}
+              </select>
+            </div>
+            <div class="col-md-6">
+              <label for="end_date" class="form-label">Start Date</label>
+              <input type="date" class="form-control" name="start_date" />
+            </div>
+            <div class="col-md-6">
+              <label for="end_date" class="form-label">End Date</label>
+              <input type="date" class="form-control" name="end_date" />
+            </div>
+            <div class="col-md-6">
+              <label for="publish" class="form-label">Publish</label>
 
-              <div class="col-md-12">
-                <label for="description" class="form-label">Description</label>
-
-                <textarea id="description" class="form-control" name="description" rows="6" {% if item.description %}>{{ item.description }}</textarea>{% else %}> placeholder="Description"</textarea>{% endif %}
-              </div>
-
-              <!-- TODO How to load existing s2 values? -->
-              <div class="col-md-12">
-                <label for="type" class="form-label">Type</label>
-                <select style="width:100%;" class="select2-type" name="type_[]" multiple="multiple">
-                  {% for type in site_data.categories['Type'] %}
-                  {% if type in item.categories[0].Type %}
-                    <option selected="selected">{{type}}</option>
-                    {% else %}
-                    <option>{{type}}</option>
-                  {%endif%}
-                  {% endfor %}
-                  
-                </select>
-              </div>
-              <div class="col-md-12">
-                <label for="area" class="form-label">Area</label>
-                <select style="width:100%;" class="select2-area" name="area[]" multiple="multiple">
-                  {% for type in site_data.categories['Area'] %}
-                  {% if type in item.categories[1].Area %}
-                    <option selected="selected">{{type}}</option>
-                    {% else %}
-                    <option>{{type}}</option>
-                  {%endif%}
-                  {% endfor %}
-                </select>
-              </div>
-              <div class="col-md-12">
-                <label for="area" class="form-label">Language</label>
-                <select style="width:100%;" class="select2-language" name="language[]" multiple="multiple">
-                  {% for type in site_data.categories['Language'] %}
-                  {% if type in item.categories[2].Language %}
-                    <option selected="selected">{{type}}</option>
-                    {% else %}
-                    <option>{{type}}</option>
-                  {%endif%}
-                  {% endfor %}
-                </select>
-              </div>
-              <div class="col-md-12">
-                <label for="area" class="form-label">Region</label>
-                <select style="width:100%;" class="select2-region" name="region[]" multiple="multiple">
-                  {% for type in site_data.categories['Region'] %}
-                  {% if type in item.categories[3].Region %}
-                    <option selected="selected">{{type}}</option>
-                    {% else %}
-                    <option>{{type}}</option>
-                  {%endif%}
-                  {% endfor %}
-                </select>
-              </div>
-              <div class="col-md-12">
-                <label for="area" class="form-label">Subject</label>
-                <select style="width:100%;" class="select2-subject" name="subject[]" multiple="multiple">
-                  {% for type in site_data.categories['Subject'] %}
-                  {% if type in item.categories[4].Subject %}
-                    <option selected="selected">{{type}}</option>
-                    {% else %}
-                    <option>{{type}}</option>
-                  {%endif%}
-                  {% endfor %}
-                </select>
-              </div>
-              
-              <div class="col-md-12">
-                <label for="keyword" class="form-label">Keywords</label>
-                <select style="width:100%;" class="select2-keyword" name="keyword[]" multiple="multiple">
-                  {% for type in site_data.categories['Keyword'] %}
-                  {% if type in item.categories[5].Keyword %}
-                    <option selected="selected">{{type}}</option>
-                    {% else %}
-                    <option>{{type}}</option>
-                  {%endif%}
-                  {% endfor %}
-                </select>
-              </div>
-              <div class="col-md-6">
-                <label for="end_date" class="form-label">Start Date</label>
-                <input type="date" class="form-control" name="start_date">
-              </div>
-              <div class="col-md-6">
-                <label for="end_date" class="form-label">End Date</label>
-                <input type="date" class="form-control" name="end_date">
-              </div>
-              <div class="col-md-6">
-                <label for="publish" class="form-label">Publish</label>
-                
-                <input id="publish" type="checkbox" name="publish" {% if item.publish is sameas true %} checked value="true"{% else %}value="false"{% endif %}>
+              <input
+                id="publish"
+                type="checkbox"
+                name="publish"
+                {%
+                if
+                item.publish
+                is
+                sameas
+                true
+                %}
+                checked
+                value="true"
+                {%
+                else
+                %}value="false"
+                {%
+                endif
+                %}
+              />
+            </div>
+            <div class="col-md-12 text-center">
+              <div class="loading">Loading</div>
+              <div class="error-message"></div>
+              <div class="sent-message">
+                Your message has been sent. Thank you!
               </div>
               <div class="col-md-12 text-center">
-                <div class="loading">Loading</div>
-                <div class="error-message"></div>
-                <div class="sent-message">Your message has been sent. Thank you!</div>
-                <div class="col-md-12 text-center">
-                  <div id="map"></div>
-                </div>
-                <input type="hidden" name="lat" id="lat" value="">
-                <input type="hidden" name="long" id="long" value="">
-
-                <input type="hidden" name="type" id="type" value="">
-                <input type="hidden" name="area" id="area" value="">
-                <input type="hidden" name="language" id="language" value="">
-                <input type="hidden" name="region" id="region" value="">
-                <input type="hidden" name="subject" id="subject" value="">
-                <input type="hidden" name="keyword" id="keyword" value="">
-
-                <button type="submit">Send Message</button>
+                <div id="map"></div>
               </div>
+              <input type="hidden" name="lat" id="lat" value="" />
+              <input type="hidden" name="long" id="long" value="" />
 
+              <input type="hidden" name="type" id="type" value="" />
+              <input type="hidden" name="area" id="area" value="" />
+              <input type="hidden" name="language" id="language" value="" />
+              <input type="hidden" name="region" id="region" value="" />
+              <input type="hidden" name="subject" id="subject" value="" />
+              <input type="hidden" name="keyword" id="keyword" value="" />
+
+              <button type="submit">Send Message</button>
             </div>
-          </form>
-
-        </div>
-
+          </div>
+        </form>
       </div>
-
     </div>
+  </div>
+</section>
+<!-- End Contact Section -->
 
-  </section><!-- End Contact Section -->
-
-
-  
- 
-
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-{% endblock %}
-
-{% block extrajs %}
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"
+  ><i class="bi bi-arrow-up-short"></i
+></a>
+{% endblock %} {% block extrajs %}
 <!-- Load Esri Leaflet from CDN -->
-<script src="https://unpkg.com/esri-leaflet@2.4.1/dist/esri-leaflet.js"
-integrity="sha512-xY2smLIHKirD03vHKDJ2u4pqeHA7OQZZ27EjtqmuhDguxiUvdsOuXMwkg16PQrm9cgTmXtoxA6kwr8KBy3cdcw=="
-crossorigin=""></script>
+<script
+  src="https://unpkg.com/esri-leaflet@2.4.1/dist/esri-leaflet.js"
+  integrity="sha512-xY2smLIHKirD03vHKDJ2u4pqeHA7OQZZ27EjtqmuhDguxiUvdsOuXMwkg16PQrm9cgTmXtoxA6kwr8KBy3cdcw=="
+  crossorigin=""
+></script>
 
 <!-- Load Esri Leaflet Geocoder from CDN -->
-<link rel="stylesheet" href="https://unpkg.com/esri-leaflet-geocoder@2.3.3/dist/esri-leaflet-geocoder.css"
+<link
+  rel="stylesheet"
+  href="https://unpkg.com/esri-leaflet-geocoder@2.3.3/dist/esri-leaflet-geocoder.css"
   integrity="sha512-IM3Hs+feyi40yZhDH6kV8vQMg4Fh20s9OzInIIAc4nx7aMYMfo+IenRUekoYsHZqGkREUgx0VvlEsgm7nCDW9g=="
-  crossorigin="">
-<script src="https://unpkg.com/esri-leaflet-geocoder@2.3.3/dist/esri-leaflet-geocoder.js"
+  crossorigin=""
+/>
+<script
+  src="https://unpkg.com/esri-leaflet-geocoder@2.3.3/dist/esri-leaflet-geocoder.js"
   integrity="sha512-HrFUyCEtIpxZloTgEKKMq4RFYhxjJkCiF5sDxuAokklOeZ68U2NPfh4MFtyIVWlsKtVbK5GD2/JzFyAfvT5ejA=="
-  crossorigin=""></script>
-  <script src="https://cdn.ckeditor.com/ckeditor5/29.0.0/classic/ckeditor.js"></script>
-  <script>
-    ClassicEditor
-        .create( document.querySelector( '#description' ) )
-        .catch( error => {
-            console.error( error );
-        } );
+  crossorigin=""
+></script>
+<script src="https://cdn.ckeditor.com/ckeditor5/29.0.0/classic/ckeditor.js"></script>
+<script>
+  ClassicEditor.create(document.querySelector("#description")).catch(
+    (error) => {
+      console.error(error);
+    }
+  );
 </script>
 <script>
-  
-    
-    var map = L.map('map', {
-        zoomControl: false,
-        zoomSnap: 0.25,
-        zoomDelta: 0.125,
-        wheelPxPerZoomLevel: 60,
-        zoomControl: false,
-      }).setView([36.26490471823096, -37.35054994598953], 3);
-      var wmsLayer = L.esri.basemapLayer('ImageryClarity').addTo(map);
-      // get current lat long, give default if none
-      {% if item %}
-      let lat = {{ item.lat|safe }};
-      $('#lat').val(lat);
-      let long = {{ item.long|safe }};
-      $('#long').val(long);
-      let marker = L.marker([lat,long]).addTo(map);
-      {% else %}
-      let marker = null;
-      {% endif %}
-      // add point to map 
-      // set lat long on click 
 
-      // add geocoder and icon for search results
-      var LeafIcon = L.Icon.extend({
-        options: {
-           iconSize:     [38, 95],
-           shadowSize:   [50, 64],
-           iconAnchor:   [22, 94],
-           shadowAnchor: [4, 62],
-           popupAnchor:  [-3, -76]
-        }
-      });
-      var greenIcon = new LeafIcon({
-        iconUrl: 'http://leafletjs.com/examples/custom-icons/leaf-green.png',
-        shadowUrl: 'http://leafletjs.com/examples/custom-icons/leaf-shadow.png'
-      })
-      var searchControl = L.esri.Geocoding.geosearch().addTo(map);
-      var results = L.layerGroup().addTo(map);
 
-      searchControl.on('results', function (data) {
-        results.clearLayers();
-        for (var i = data.results.length - 1; i >= 0; i--) {
-          marker.setLatLng(data.results[i].latlng);
-        }
-      });
-      map.on('click', function(e) {
-        if (marker){
-          marker.setLatLng(e.latlng);
-          lat = e.latlng.lat;
-          $('#lat').val(lat);
-          long = e.latlng.lng;
-          $('#long').val(long);
-        }
-        else {
-          marker = L.marker(e.latlng).addTo(map);
-          lat = e.latlng.lat;
-          $('#lat').val(lat);
-          long = e.latlng.lng;
-          $('#long').val(long);
-        }
+  var map = L.map('map', {
+      zoomControl: false,
+      zoomSnap: 0.25,
+      zoomDelta: 0.125,
+      wheelPxPerZoomLevel: 60,
+      zoomControl: false,
+    }).setView([36.26490471823096, -37.35054994598953], 3);
+    var wmsLayer = L.esri.basemapLayer('ImageryClarity').addTo(map);
+    // get current lat long, give default if none
+    {% if item %}
+    let lat = {{ item.lat|safe }};
+    $('#lat').val(lat);
+    let long = {{ item.long|safe }};
+    $('#long').val(long);
+    let marker = L.marker([lat,long]).addTo(map);
+    {% else %}
+    let marker = null;
+    {% endif %}
+    // add point to map
+    // set lat long on click
+
+    // add geocoder and icon for search results
+    var LeafIcon = L.Icon.extend({
+      options: {
+         iconSize:     [38, 95],
+         shadowSize:   [50, 64],
+         iconAnchor:   [22, 94],
+         shadowAnchor: [4, 62],
+         popupAnchor:  [-3, -76]
+      }
     });
-</script> 
+    var greenIcon = new LeafIcon({
+      iconUrl: 'http://leafletjs.com/examples/custom-icons/leaf-green.png',
+      shadowUrl: 'http://leafletjs.com/examples/custom-icons/leaf-shadow.png'
+    })
+    var searchControl = L.esri.Geocoding.geosearch().addTo(map);
+    var results = L.layerGroup().addTo(map);
+
+    searchControl.on('results', function (data) {
+      results.clearLayers();
+      for (var i = data.results.length - 1; i >= 0; i--) {
+        marker.setLatLng(data.results[i].latlng);
+      }
+    });
+    map.on('click', function(e) {
+      if (marker){
+        marker.setLatLng(e.latlng);
+        lat = e.latlng.lat;
+        $('#lat').val(lat);
+        long = e.latlng.lng;
+        $('#long').val(long);
+      }
+      else {
+        marker = L.marker(e.latlng).addTo(map);
+        lat = e.latlng.lat;
+        $('#lat').val(lat);
+        long = e.latlng.lng;
+        $('#long').val(long);
+      }
+  });
+</script>
 <script>
-
-  
-
   $(".select2-type").select2({
-    tags: true
+    tags: true,
   });
   $(".select2-area").select2({
-    tags: true
+    tags: true,
   });
   $(".select2-language").select2({
-    tags: true
+    tags: true,
   });
   $(".select2-region").select2({
-    tags: true
-  });  
+    tags: true,
+  });
   $(".select2-subject").select2({
-    tags: true
+    tags: true,
   });
   $(".select2-keyword").select2({
-    tags: true
+    tags: true,
   });
-  
+
   // on page load update s2 values with existing data
   window.onload = function exampleFunction() {
-    let aa = $('.select2-type').select2('data');
-    let aaa = []
+    let aa = $(".select2-type").select2("data");
+    let aaa = [];
     for (i in aa) {
       aaa.push(aa[i].text);
     }
-    $('#type').val(aaa);
+    $("#type").val(aaa);
 
-    let bb = $('.select2-area').select2('data');
-    let bbb = []
+    let bb = $(".select2-area").select2("data");
+    let bbb = [];
     for (i in bb) {
       bbb.push(bb[i].text);
     }
-    $('#area').val(bbb);
+    $("#area").val(bbb);
 
-    let cc = $('.select2-language').select2('data');
-    let ccc = []
+    let cc = $(".select2-language").select2("data");
+    let ccc = [];
     for (i in cc) {
       ccc.push(cc[i].text);
     }
-    $('#language').val(ccc);
+    $("#language").val(ccc);
 
-    let dd = $('.select2-region').select2('data');
-    let ddd = []
+    let dd = $(".select2-region").select2("data");
+    let ddd = [];
     for (i in dd) {
       ddd.push(dd[i].text);
     }
-    $('#region').val(ddd);
+    $("#region").val(ddd);
 
-    let ee = $('.select2-subject').select2('data');
-    let eee = []
+    let ee = $(".select2-subject").select2("data");
+    let eee = [];
     for (i in ee) {
       eee.push(ee[i].text);
     }
-    $('#subject').val(eee);
+    $("#subject").val(eee);
 
-    let ff = $('.select2-keyword').select2('data');
-    let fff = []
+    let ff = $(".select2-keyword").select2("data");
+    let fff = [];
     for (i in ff) {
       fff.push(ff[i].text);
     }
-    $('#keyword').val(fff);
-    
+    $("#keyword").val(fff);
   };
 
   //select2-type
-  $('.select2-type').on('select2:select', function (e) {
-    let data = $('.select2-type').select2('data');
-    let result = []
+  $(".select2-type").on("select2:select", function (e) {
+    let data = $(".select2-type").select2("data");
+    let result = [];
     for (i in data) {
       result.push(data[i].text);
     }
-    $('#type').val(result);
+    $("#type").val(result);
   });
 
-  $('.select2-type').on('select2:unselect', function (e) {
-    let data = $('.select2-type').select2('data');
-    let result = []
+  $(".select2-type").on("select2:unselect", function (e) {
+    let data = $(".select2-type").select2("data");
+    let result = [];
     for (i in data) {
       result.push(data[i].text);
     }
-    $('#type').val(result);
+    $("#type").val(result);
   });
 
   //select2-area
-  $('.select2-area').on('select2:select', function (e) {
-    let data = $('.select2-area').select2('data');
-    let result = []
+  $(".select2-area").on("select2:select", function (e) {
+    let data = $(".select2-area").select2("data");
+    let result = [];
     for (i in data) {
       result.push(data[i].text);
     }
-    $('#area').val(result);
+    $("#area").val(result);
   });
 
-  $('.select2-area').on('select2:unselect', function (e) {
-    let data = $('.select2-area').select2('data');
-    let result = []
+  $(".select2-area").on("select2:unselect", function (e) {
+    let data = $(".select2-area").select2("data");
+    let result = [];
     for (i in data) {
       result.push(data[i].text);
     }
-    $('#area').val(result);
+    $("#area").val(result);
   });
 
   //select2-language
-  $('.select2-language').on('select2:select', function (e) {
-    let data = $('.select2-language').select2('data');
-    let result = []
+  $(".select2-language").on("select2:select", function (e) {
+    let data = $(".select2-language").select2("data");
+    let result = [];
     for (i in data) {
       result.push(data[i].text);
     }
-    $('#language').val(result);
+    $("#language").val(result);
   });
 
-  $('.select2-language').on('select2:unselect', function (e) {
-    let data = $('.select2-language').select2('data');
-    let result = []
+  $(".select2-language").on("select2:unselect", function (e) {
+    let data = $(".select2-language").select2("data");
+    let result = [];
     for (i in data) {
       result.push(data[i].text);
     }
-    $('#language').val(result);
+    $("#language").val(result);
   });
-  
+
   //select2-region
-  $('.select2-region').on('select2:select', function (e) {
-    let data = $('.select2-region').select2('data');
-    let result = []
+  $(".select2-region").on("select2:select", function (e) {
+    let data = $(".select2-region").select2("data");
+    let result = [];
     for (i in data) {
       result.push(data[i].text);
     }
-    $('#region').val(result);
+    $("#region").val(result);
   });
 
-  $('.select2-region').on('select2:unselect', function (e) {
-    let data = $('.select2-region').select2('data');
-    let result = []
+  $(".select2-region").on("select2:unselect", function (e) {
+    let data = $(".select2-region").select2("data");
+    let result = [];
     for (i in data) {
       result.push(data[i].text);
     }
-    $('#region').val(result);
+    $("#region").val(result);
   });
 
   //select2-subject
-  $('.select2-subject').on('select2:select', function (e) {
-    let data = $('.select2-subject').select2('data');
-    let result = []
+  $(".select2-subject").on("select2:select", function (e) {
+    let data = $(".select2-subject").select2("data");
+    let result = [];
     for (i in data) {
       result.push(data[i].text);
     }
-    $('#subject').val(result);
+    $("#subject").val(result);
   });
 
-  $('.select2-subject').on('select2:unselect', function (e) {
-    let data = $('.select2-subject').select2('data');
-    let result = []
+  $(".select2-subject").on("select2:unselect", function (e) {
+    let data = $(".select2-subject").select2("data");
+    let result = [];
     for (i in data) {
       result.push(data[i].text);
     }
-    $('#subject').val(result);
+    $("#subject").val(result);
   });
 
   //select2-keyword
-  $('.select2-keyword').on('select2:select', function (e) {
-    let data = $('.select2-keyword').select2('data');
-    let result = []
+  $(".select2-keyword").on("select2:select", function (e) {
+    let data = $(".select2-keyword").select2("data");
+    let result = [];
     for (i in data) {
       result.push(data[i].text);
     }
-    $('#keyword').val(result);
+    $("#keyword").val(result);
   });
 
-  $('.select2-keyword').on('select2:unselect', function (e) {
-    let data = $('.select2-keyword').select2('data');
-    let result = []
+  $(".select2-keyword").on("select2:unselect", function (e) {
+    let data = $(".select2-keyword").select2("data");
+    let result = [];
     for (i in data) {
       result.push(data[i].text);
     }
-    $('#keyword').val(result);
+    $("#keyword").val(result);
   });
-  
 </script>
 {% endblock %}

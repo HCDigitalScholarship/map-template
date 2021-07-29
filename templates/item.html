@@ -1,65 +1,50 @@
-{% extends 'base.html' %}
-{% block title%}{{ item.name }}{% endblock %}
-{% block site_title%}{{ site_data['name'] }}{% endblock %}
-{% block logo %}{{ site_data['logo'] }}{% endblock %}
-  {% block content %}
- 
-    <!-- ======= Contact Section ======= -->
-    <section id="contact" class="contact">
+{% extends 'base.html' %} 
+{% block title%}{{ item.name }}{% endblock %} 
+{% block site_title%}{{ site_data['name'] }}{% endblock %} 
+{% block logo %}{{site_data['logo'] }}{% endblock %} 
+{% block logo_link %}{% endblock %}
+{% block navbar %}<li><a class="getstarted scrollto" href="javascript:close();">Close</a></li>{% endblock %} 
+{% block content %}
 
-        <div class="container" data-aos="fade-up">
-  
-          <header class="section-header">
-            <h2>Contact</h2>
-           
-          </header>
-          
-          <div class="row gy-4">
+<!-- ======= Contact Section ======= -->
+<section id="contact" class="contact">
+  <div class="container" data-aos="fade-up">
+    <header class="section-header"></header>
 
-            <div class="col-lg-12">
-  
-              <div class="row gy-4">
-               
-                {% if item.image_file %}
-                <div class="col-md-12">
-                  <div class="info-box">
-                    <img src="../assets/items/{{image.image_file}}" / >
-                  </div>
-                </div>
-                {% endif %}
-                <div class="col-md-12">
-                  <div class="info-box">
-                      <h3>{{item.name}}</h3>
-                  </div>
-                </div>
-                <div class="col-md-12">
-                  <div class="info-box">
-                      <p>{{item.description|safe}}</p>
-                  </div>
-                </div>
-                <div class="col-md-6">
-                  <div class="info-box">
-                      <h3>Contact</h3>
-                      <a href="mailto:{{item.contact}}">{{item.contact}}</p>                
-                  </div>
-                </div>
-          
-                </div>
-                </div> 
+    <div class="row gy-4">
+      <div class="col-lg-12">
+        <div class="row gy-4">
+          {% if item.image_file %}
+          <div class="col-md-12">
+            <div class="info-box">
+              <img src="../assets/items/{{item.image_file}}" / >
             </div>
-              
-  
-  
-            
-          
-  
+          </div>
+          {% endif %}
+          <div class="col-md-12">
+            <div class="info-box">
+              <h3>{{item.name}}</h3>
+            </div>
+          </div>
+          <div class="col-md-12">
+            <div class="info-box">
+              <p>{{item.description|safe}}</p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="info-box">
+              <h3>Contact</h3>
+              <a href="mailto:{{item.contact}}">{{item.contact}}</a>
+            </div>
+          </div>
         </div>
-  
-      </section><!-- End Contact Section -->
-  
- 
+      </div>
+    </div>
+  </div>
+</section>
+<!-- End Contact Section -->
 
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-{% endblock %}
-
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"
+  ><i class="bi bi-arrow-up-short"></i></a>
+{% endblock %} 
 {% block extrajs %}{% endblock %}

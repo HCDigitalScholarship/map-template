@@ -3,8 +3,14 @@
 1. Site file
     - contains the site title and other metadata
     - defines the categories relevant to your content, which appear as filters in the map
+    - map base layer
+    - categories 
+    
 2. data files 
     - each file contains the data needed for one item, which will appear on the map as a point, with a link to an individual item page.
+3. Images
+    - map icon
+    - favicon 
 
 
 
@@ -36,3 +42,17 @@ for should be static page
 icon
 favicon
 map icons 
+
+
+TODO 
+
+remove Map button from map page 
+remove hamburger button (there's no nav) 
+
+1. read categories from site.yml (needed for items with null for a cat) or items (add cats in data, but not in site.yml), 
+2. dynamically generate js file for `<script>` in index and edit_item
+- add html for `<select >`
+- select2 ajax 
+- update values on page load (4 existing data)
+- update on select, deselect
+

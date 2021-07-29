@@ -1,50 +1,76 @@
-{% extends 'base.html' %}
-{% block title%}{{ site_data['name'] }}{% endblock %}
-{% block site_title%}{{ site_data['name'] }}{% endblock %}
-{% block site_author%}{{ site_data['author'] }}{% endblock %}
+{% extends 'base.html' %} {% block title%}{{ site_data['name'] }}{% endblock %}
+{% block site_title%}{{ site_data['name'] }}{% endblock %} {% block
+site_author%}{{ site_data['author'] }}{% endblock %} {% block logo %}{{
+site_data['logo'] }}{% endblock %} {% block content %}
+{% block navbar %}{% endblock %}
 
-{% block logo %}{{ site_data['logo'] }}{% endblock %}
-  {% block content %}
- 
-  <!-- ======= MAP Section ======= -->
-  <section id="map" class="hero d-flex align-items-center">
+<!-- ======= MAP Section ======= -->
+<section id="map" class="hero d-flex align-items-center">
+  <div class="container-fluid">
+    <div class="row">
+      <div class="">
+        <section>
+          {{ site_data['about']|safe}}
+          <div id="map" style="padding-top: 20px">
+            <div class="row">
+              <div class="col-lg-2">
+                <form>
+                  <div class="form-group">
+                    <input
+                      type="text"
+                      class="form-control"
+                      id="query"
+                      placeholder="Search..."
+                    />
+                    <button
+                      type="button"
+                      onclick="reset_map();"
+                      class="btn btn-sm btn-light"
+                    >
+                      Reset Map
+                    </button>
 
-    <div class="container-fluid">
-     
-      <div class="row">
-        <div class="">
-            <section>
-              {{ site_data['about']|safe}}
-                <div id="map"  style="padding-top: 20px;">
-                  <div class="row">
-                    
-                    <div class="col-lg-2">
-                      
-                      <form>
-              
-                        <div class="form-group">
-              
-                          <input type="text" class="form-control" id="query" placeholder="Search...">
-                          <button type="button" onclick="reset_map();" class="btn btn-sm btn-light">Reset Map</button>
-              
-                          <hr>
-              
-                          <label for="type">Type</label>
-                          <select style="width: 100%;" class="select2-type" multiple="multiple"></select>
-                          <label for="area">Area</label>
-                          <select style="width: 100%;" class="select2-area" multiple="multiple"></select>
-                          <label for="language">Language</label>
-                          <select style="width: 100%;" class="select2-language" multiple="multiple"></select>
-                          <label for="organization">Region</label>
-                          <select style="width: 100%;" class="select2-region" multiple="multiple"></select>
-                          <label for="organization">Subject</label>
-                          <select style="width: 100%;" class="select2-subject" multiple="multiple"></select>
-                          <label for="keyword">Keyword</label>
-                          <select style="width: 100%;" class="select2-keyword" multiple="multiple"></select>
-                          
-                          
-                        
-                          <!-- <div class="card" style="background-color: #f3efef;">
+                    <hr />
+
+                    <label for="type">Type</label>
+                    <select
+                      style="width: 100%"
+                      class="select2-type"
+                      multiple="multiple"
+                    ></select>
+                    <label for="area">Area</label>
+                    <select
+                      style="width: 100%"
+                      class="select2-area"
+                      multiple="multiple"
+                    ></select>
+                    <label for="language">Language</label>
+                    <select
+                      style="width: 100%"
+                      class="select2-language"
+                      multiple="multiple"
+                    ></select>
+                    <label for="organization">Region</label>
+                    <select
+                      style="width: 100%"
+                      class="select2-region"
+                      multiple="multiple"
+                    ></select>
+                    <label for="organization">Subject</label>
+                    <select
+                      style="width: 100%"
+                      class="select2-subject"
+                      multiple="multiple"
+                    ></select>
+                    <label for="keyword">Keyword</label>
+                    <select
+                      style="width: 100%"
+                      class="select2-keyword"
+                      multiple="multiple"
+                    ></select>
+
+                    <!-- Uncomment to add a label using the distinct values for Type
+                      <div class="card" style="background-color: #f3efef;">
                             <div class="card-body">
                               <p>Legend</p>
                               {% for category in site_data['icons'] %}
@@ -56,394 +82,360 @@
                               {% endfor %}
                             </div>
                           </div> -->
-                        </div>
-              
-              
-                      </form>
-                    </div>
-                    <div class="col-lg-10">
-              
-              
-                      <style>
-                        
-                        #mapid { height: 80vh; width: 100%; }
-                      </style>
-                      <!-- http://bl.ocks.org/zross/47760925fcb1643b4225 -->
-                      <div id="mapid"></div>
-                    </div>
                   </div>
-                </div>
-              </section>
-        </div>
-        
+                </form>
+              </div>
+              <div class="col-lg-10">
+                <style>
+                  #mapid {
+                    height: 80vh;
+                    width: 100%;
+                  }
+                </style>
+                <!-- http://bl.ocks.org/zross/47760925fcb1643b4225 -->
+                <div id="mapid"></div>
+              </div>
+            </div>
+          </div>
+        </section>
       </div>
     </div>
+  </div>
+</section>
+<!-- End Hero -->
 
-  </section><!-- End Hero -->
-
- 
-
-  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i class="bi bi-arrow-up-short"></i></a>
-{% endblock %}
+<a href="#" class="back-to-top d-flex align-items-center justify-content-center"
+  ><i class="bi bi-arrow-up-short"></i></a>
+{% endblock %} 
 
 {% block extrajs %}
 <script src="../assets/js/leaflet-providers.js"></script>
 <script>
-    <!-- LEAFLET SECTION -->
+  /* LEAFLET SECTION*/
 
-      var map = L.map('mapid', {
-        zoomControl: false,
-        zoomSnap: 0.25,
-        zoomDelta: 0.125,
-        wheelPxPerZoomLevel: 60,
-        zoomControl: false,
-      }).setView([{{ site_data['initial_lat'] }}, {{ site_data['initial_long'] }}], {{ site_data['initial_zoom'] }});
-      // var wmsLayer = L.esri.basemapLayer('{{ site_data['base_layer'] }}').addTo(map);
-      var wmsLayer = L.tileLayer.provider('{{ site_data['base_layer'] }}').addTo(map);
+    var map = L.map('mapid', {
+      zoomControl: false,
+      zoomSnap: 0.25,
+      zoomDelta: 0.125,
+      wheelPxPerZoomLevel: 60,
+      zoomControl: false,
+    }).setView([{{ site_data['initial_lat'] }}, {{ site_data['initial_long'] }}], {{ site_data['initial_zoom'] }});
+    // var wmsLayer = L.esri.basemapLayer('{{ site_data['base_layer'] }}').addTo(map);
+    var wmsLayer = L.tileLayer.provider('{{ site_data['base_layer'] }}').addTo(map);
 
-      //add zoom control with your options
-    
-      
-      
-      
-    
-      
-      
-    
-    
-    let items = {{ site_data['geojson']|safe }};
-    
-    for (i in items.features) {
-      items.features[i] = JSON.parse(items.features[i]);
-    };
-      //   hide the leaflet and esri label on the map
-      $('.leaflet-control-attribution').hide()
-    
-    </script>
-    <!-- MAP FILTER AND SEARCH -->
-    <script>
-      function make_map() {
-        // clear existing points on the map
-        map.eachLayer(function (layer) {
-          if (!!layer.toGeoJSON) {
-            map.removeLayer(layer);
-          }
-        });
+  let items = {{ site_data['geojson']|safe }};
 
-        
-        // collect search parameters
-        let query = $('#query').val();
-        let type = $('.select2-type').val(); 
-        let area = $('.select2-area').val();
-        let languages = $('.select2-language').val();
-        let region = $('.select2-region').val();
-        let subject = $('.select2-subject').val();
-        let keywords = $('.select2-keyword').val();
-        let start_year = $("#slider").slider("values", 0);
-        let end_year = $("#slider").slider("values", 1);
-    
-        //iterate over features in the FeatureCollection to filter
-        // returns an array of ids to be dropped from the map
-        // that do not match the current parameters 
-        let drop_items = [];
-        for (i = 0; i < items.features.length; i++) {
-          if (query) {
-            // normalize the title and query, remove accented charachters and convert to lowercase
-            let title = items.features[i].properties.popupcontent.normalize('NFD').replace(/[\u0300-\u036f]/g, "").toLowerCase();
-            if (!title.includes(query.normalize('NFD').replace(/[\u0300-\u036f]/g, "").toLowerCase())) {
-              drop_items.push(items.features[i].id);
-            }
-          };
-    
-          if (type.length > 0) {
+  for (i in items.features) {
+    items.features[i] = JSON.parse(items.features[i]);
+  };
+    //   hide the leaflet and esri label on the map
+    $('.leaflet-control-attribution').hide()
+</script>
 
-            let matches = items.features[i].properties.Type.filter(value => type.includes(value.toString()));
-            if (matches.length ==  0) {
-              drop_items.push(items.features[i].id)
-            } 
-          };
-    
-          if (area.length > 0) {
-            let matches = items.features[i].properties.Area.filter(value => area.includes(value.toString()));
-            if (matches.length ==  0) {
-              drop_items.push(items.features[i].id)
-            } 
-          };
-          
-          if (languages.length > 0) {
-            let matches = items.features[i].properties.Language.filter(value => languages.includes(value.toString()));
-            if (matches.length ==  0) {
-              drop_items.push(items.features[i].id)
-            } 
-          };
-          
-          if (region.length > 0) {
-            let matches = items.features[i].properties.Region.filter(value => region.includes(value.toString()));
-            if (matches.length ==  0) {
-              drop_items.push(items.features[i].id)
-            } 
-          };
-
-          if (subject.length > 0) {
-            let matches = items.features[i].properties.Subject.filter(value => subject.includes(value.toString()));
-            if (matches.length ==  0) {
-              drop_items.push(items.features[i].id)
-            } 
-          };
-          if (keywords.length > 0) {
-            let matches = items.features[i].properties.Keyword.filter(value => keywords.includes(value.toString()));
-            if (matches.length ==  0) {
-              drop_items.push(items.features[i].id)
-            } 
-          };
-    
-        }; // End of for loop 
-        // console.log('criteria: ', type,subject, location, medium,keywords,start_year, end_year)
-    
-    
-        // add the categories as layers with their own icons
-        {% for category in site_data['icons'] %} 
-        var cat_{{loop.index}}_icon = new L.Icon({
-        iconUrl: '{{ category["file"] }}',
-        shadowUrl: '{{ category["file"] }}',
-        iconSize: [{{ category['width'] }}, {{ category['height'] }}],  // [25, 41],
-        iconAnchor: [{{ category['width'] | half }}, {{ category['height'] | half }}],
-        popupAnchor: [1, -34],
-        shadowSize: [{{ category['width'] }}, {{ category['height'] }}]
-          });
-    
-      //create a layer for each category with filter
-      var coords = [];
-      var popups = [];
-      var i;
-      var j;
-      var inArray = false;
-      var k;
-      var z;
-      var t = 0;
-      var cat_{{loop.index}} = L.geoJSON(items, {
-        pointToLayer: function (feature, latlng) {
-          return L.marker(latlng, {
-            icon: cat_{{loop.index}}_icon
+<!-- MAP FILTER AND SEARCH -->
+<script>
+    function make_map() {
+      // clear existing points on the map
+      map.eachLayer(function (layer) {
+        if (!!layer.toGeoJSON) {
+          map.removeLayer(layer);
+        }
       });
-        },
-      filter: function(feature, layer) {
-        return  !(drop_items.includes(feature.id)) && feature.properties.Type.includes({{loop.index}}-1)
-        },
-      onEachFeature: function(feature, layer) {
-        c = [];
-        d = [];
-        props = [];
-    
-        coords.push(feature.geometry.coordinates);
-        popups.push(feature.properties.popupcontent);
-        for (i = 0; i < coords.length; i++) {
-          for (j = 0; j < c.length; j++) {
-            if (c[j][0][0] == (coords[i][0])) {
-              c[j].push(coords[i]);
-              d[j].push(popups[i]);
-              inArray = true;
-              break;
-            }
+
+
+      // collect search parameters
+      let query = $('#query').val();
+      let type = $('.select2-type').val();
+      let area = $('.select2-area').val();
+      let languages = $('.select2-language').val();
+      let region = $('.select2-region').val();
+      let subject = $('.select2-subject').val();
+      let keywords = $('.select2-keyword').val();
+      let start_year = $("#slider").slider("values", 0);
+      let end_year = $("#slider").slider("values", 1);
+
+      //iterate over features in the FeatureCollection to filter
+      // returns an array of ids to be dropped from the map
+      // that do not match the current parameters
+      let drop_items = [];
+      for (i = 0; i < items.features.length; i++) {
+        if (query) {
+          // normalize the title and query, remove accented charachters and convert to lowercase
+          let title = items.features[i].properties.popupcontent.normalize('NFD').replace(/[\u0300-\u036f]/g, "").toLowerCase();
+          if (!title.includes(query.normalize('NFD').replace(/[\u0300-\u036f]/g, "").toLowerCase())) {
+            drop_items.push(items.features[i].id);
           }
-          if (inArray == false) {
-            c.push([coords[i]]);
-            d.push([popups[i]]);
+        };
+
+        if (type.length > 0) {
+
+          let matches = items.features[i].properties.Type.filter(value => type.includes(value.toString()));
+          if (matches.length ==  0) {
+            drop_items.push(items.features[i].id)
           }
-          inArray = false;
-        }
-    
-        for (k = 0; k < c.length; k++) {
-          if (c[k].includes(feature.geometry.coordinates)) {
-            break;
+        };
+
+        if (area.length > 0) {
+          let matches = items.features[i].properties.Area.filter(value => area.includes(value.toString()));
+          if (matches.length ==  0) {
+            drop_items.push(items.features[i].id)
           }
-        }
-        var props = "";
-        props = props + d[k][0]
-        for (t = 1; t < d[k].length; t++) {
-          var x = d[k][t].indexOf("br>")
-          d[k][t] = d[k][t].substring(x + 3, d[k][t].length)
-          props = props + "<hr>" + d[k][t];
-          if (t > 10) {
-            props = props + "<p>and " + ((d[k].length) + -t) + " more results. Narrow down your search!</p>";
-            break;
+        };
+
+        if (languages.length > 0) {
+          let matches = items.features[i].properties.Language.filter(value => languages.includes(value.toString()));
+          if (matches.length ==  0) {
+            drop_items.push(items.features[i].id)
           }
-        }
-        var content = `<p>${props}</p>`;
-        layer.bindPopup(content, {
-          maxWidth: "auto"
+        };
+
+        if (region.length > 0) {
+          let matches = items.features[i].properties.Region.filter(value => region.includes(value.toString()));
+          if (matches.length ==  0) {
+            drop_items.push(items.features[i].id)
+          }
+        };
+
+        if (subject.length > 0) {
+          let matches = items.features[i].properties.Subject.filter(value => subject.includes(value.toString()));
+          if (matches.length ==  0) {
+            drop_items.push(items.features[i].id)
+          }
+        };
+        if (keywords.length > 0) {
+          let matches = items.features[i].properties.Keyword.filter(value => keywords.includes(value.toString()));
+          if (matches.length ==  0) {
+            drop_items.push(items.features[i].id)
+          }
+        };
+
+      }; // End of for loop
+
+
+      // add the categories as layers with their own icons
+      {% for category in site_data['icons'] %}
+      var cat_{{loop.index}}_icon = new L.Icon({
+      iconUrl: '{{ category["file"] }}',
+      shadowUrl: '{{ category["file"] }}',
+      iconSize: [{{ category['width'] }}, {{ category['height'] }}],  // [25, 41],
+      iconAnchor: [{{ category['width'] | half }}, {{ category['height'] | half }}],
+      popupAnchor: [1, -34],
+      shadowSize: [{{ category['width'] }}, {{ category['height'] }}]
         });
+
+    //create a layer for each category with filter
+    var coords = [];
+    var popups = [];
+    var i;
+    var j;
+    var inArray = false;
+    var k;
+    var z;
+    var t = 0;
+    var cat_{{loop.index}} = L.geoJSON(items, {
+      pointToLayer: function (feature, latlng) {
+        return L.marker(latlng, {
+          icon: cat_{{loop.index}}_icon
+    });
+      },
+    filter: function(feature, layer) {
+      return  !(drop_items.includes(feature.id)) && feature.properties.Type.includes({{loop.index}}-1)
+      },
+    onEachFeature: function(feature, layer) {
+      c = [];
+      d = [];
+      props = [];
+
+      coords.push(feature.geometry.coordinates);
+      popups.push(feature.properties.popupcontent);
+      for (i = 0; i < coords.length; i++) {
+        for (j = 0; j < c.length; j++) {
+          if (c[j][0][0] == (coords[i][0])) {
+            c[j].push(coords[i]);
+            d[j].push(popups[i]);
+            inArray = true;
+            break;
+          }
+        }
+        if (inArray == false) {
+          c.push([coords[i]]);
+          d.push([popups[i]]);
+        }
+        inArray = false;
       }
-    }).addTo(map);
-    
-      inArray = false;
-      t = 0;
-    
-    
-    
-    
-      {% endfor %}
-    
-          
-      };
-    
-    
-    </script>
 
-    
-    <!-- SELECT2 SECTION -->
-    <script>
-      $('.select2-type').select2({
-        ajax: {
-          url: '../assets/categories/type_autocomplete.json',
-          dataType: 'json',
-          theme: 'bootstrap4',
+      for (k = 0; k < c.length; k++) {
+        if (c[k].includes(feature.geometry.coordinates)) {
+          break;
         }
-      });
-    
-      $('.select2-area').select2({
-        ajax: {
-          url: '../assets/categories/area_autocomplete.json',
-          dataType: 'json',
-          theme: 'bootstrap4',
+      }
+      var props = "";
+      props = props + d[k][0]
+      for (t = 1; t < d[k].length; t++) {
+        var x = d[k][t].indexOf("br>")
+        d[k][t] = d[k][t].substring(x + 3, d[k][t].length)
+        props = props + "<hr>" + d[k][t];
+        if (t > 10) {
+          props = props + "<p>and " + ((d[k].length) + -t) + " more results. Narrow down your search!</p>";
+          break;
         }
+      }
+      var content = `<p>${props}</p>`;
+      layer.bindPopup(content, {
+        maxWidth: "auto"
       });
-      $('.select2-language').select2({
-        ajax: {
-          url: '../assets/categories/language_autocomplete.json',
-          dataType: 'json',
-          theme: 'bootstrap4',
-        }
-      });
-      $('.select2-region').select2({
-        ajax: {
-          url: '../assets/categories/region_autocomplete.json',
-          dataType: 'json',
-          theme: 'bootstrap4',
-        }
-      });
-      $('.select2-subject').select2({
-        ajax: {
-          url: '../assets/categories/subject_autocomplete.json',
-          dataType: 'json',
-          theme: 'bootstrap4',
-        }
-      });
-      $('.select2-keyword').select2({
-        ajax: {
-          url: '../assets/categories/keyword_autocomplete.json',
-          dataType: 'json',
-          theme: 'bootstrap4',
-        }
-      });
+    }
+  }).addTo(map);
 
-      $('.select2-type').on('select2:select', function (e) {
-        make_map();
-      });
-    
-      $('.select2-type').on('select2:unselect', function (e) {
-        make_map();
-      });
+    inArray = false;
+    t = 0;
+    {% endfor %}
 
-      $('.select2-area').on('select2:select', function (e) {
-        make_map();
-      });
-    
-      $('.select2-area').on('select2:unselect', function (e) {
-        make_map();
-      });
-    
-      $('.select2-language').on('select2:select', function (e) {
-        make_map();
-      });
-    
-      $('.select2-language').on('select2:unselect', function (e) {
-        make_map();
-      });
 
-      $('.select2-region').on('select2:select', function (e) {
-        make_map();
-      });
-    
-      $('.select2-region').on('select2:unselect', function (e) {
-        make_map();
-      });
+    };
+</script>
 
-      $('.select2-subject').on('select2:select', function (e) {
-        make_map();
-      });
-    
-      $('.select2-subject').on('select2:unselect', function (e) {
-        make_map();
-      });
+<!-- SELECT2 SECTION -->
+<script>
+  $(".select2-type").select2({
+    ajax: {
+      url: "../assets/categories/type_autocomplete.json",
+      dataType: "json",
+      theme: "bootstrap4",
+    },
+  });
 
-      $('.select2-keyword').on('select2:select', function (e) {
-        make_map();
-      });
-      $('.select2-keyword').on('select2:unselect', function (e) {
-        make_map();
-      });
-    
-      
-    
-      
-    
-      
-    
-      
-    
-      $('.select2-keyword').on('select2:select', function (e) {
-        make_map();
-      });
-    
-      $('.select2-keyword').on('select2:unselect', function (e) {
-        make_map();
-      });
-    
-      $('#query').on('change keydown paste input', function (e) {
-        if (e.keyCode === 13) {
-          event.preventDefault();
-          make_map();
-        }
-        else {
-          make_map();
-        }
-    
-      });
-    
-    
-      // helper function to remove value from array
-      // https://stackoverflow.com/questions/3954438/how-to-remove-item-from-array-by-value
-      Array.prototype.remove = function () {
-        var what, a = arguments, L = a.length, ax;
-        while (L && this.length) {
-          what = a[--L];
-          while ((ax = this.indexOf(what)) !== -1) {
-            this.splice(ax, 1);
-          }
-        }
-        return this;
-      };
-    </script>
-    
-    <script>
-      function reset_map() {
-        $('#query').val('');
-        $('.select2-type').val(null).trigger('change');
-        $('.select2-subject').val(null).trigger('change');
-        $('.select2-location').val(null).trigger('change');
-        $('.select2-medium').val(null).trigger('change');
-        $('.select2-keyword').val(null).trigger('change');
-        make_map();
-      };
-    
-    
-    </script>
-    
-    <script>
-    
-    
-      // call make map for initial state before filters and search
+  $(".select2-area").select2({
+    ajax: {
+      url: "../assets/categories/area_autocomplete.json",
+      dataType: "json",
+      theme: "bootstrap4",
+    },
+  });
+  $(".select2-language").select2({
+    ajax: {
+      url: "../assets/categories/language_autocomplete.json",
+      dataType: "json",
+      theme: "bootstrap4",
+    },
+  });
+  $(".select2-region").select2({
+    ajax: {
+      url: "../assets/categories/region_autocomplete.json",
+      dataType: "json",
+      theme: "bootstrap4",
+    },
+  });
+  $(".select2-subject").select2({
+    ajax: {
+      url: "../assets/categories/subject_autocomplete.json",
+      dataType: "json",
+      theme: "bootstrap4",
+    },
+  });
+  $(".select2-keyword").select2({
+    ajax: {
+      url: "../assets/categories/keyword_autocomplete.json",
+      dataType: "json",
+      theme: "bootstrap4",
+    },
+  });
+
+  $(".select2-type").on("select2:select", function (e) {
+    make_map();
+  });
+
+  $(".select2-type").on("select2:unselect", function (e) {
+    make_map();
+  });
+
+  $(".select2-area").on("select2:select", function (e) {
+    make_map();
+  });
+
+  $(".select2-area").on("select2:unselect", function (e) {
+    make_map();
+  });
+
+  $(".select2-language").on("select2:select", function (e) {
+    make_map();
+  });
+
+  $(".select2-language").on("select2:unselect", function (e) {
+    make_map();
+  });
+
+  $(".select2-region").on("select2:select", function (e) {
+    make_map();
+  });
+
+  $(".select2-region").on("select2:unselect", function (e) {
+    make_map();
+  });
+
+  $(".select2-subject").on("select2:select", function (e) {
+    make_map();
+  });
+
+  $(".select2-subject").on("select2:unselect", function (e) {
+    make_map();
+  });
+
+  $(".select2-keyword").on("select2:select", function (e) {
+    make_map();
+  });
+  $(".select2-keyword").on("select2:unselect", function (e) {
+    make_map();
+  });
+
+  $(".select2-keyword").on("select2:select", function (e) {
+    make_map();
+  });
+
+  $(".select2-keyword").on("select2:unselect", function (e) {
+    make_map();
+  });
+
+  $("#query").on("change keydown paste input", function (e) {
+    if (e.keyCode === 13) {
+      event.preventDefault();
       make_map();
-    </script>
+    } else {
+      make_map();
+    }
+  });
+
+  // helper function to remove value from array
+  // https://stackoverflow.com/questions/3954438/how-to-remove-item-from-array-by-value
+  Array.prototype.remove = function () {
+    var what,
+      a = arguments,
+      L = a.length,
+      ax;
+    while (L && this.length) {
+      what = a[--L];
+      while ((ax = this.indexOf(what)) !== -1) {
+        this.splice(ax, 1);
+      }
+    }
+    return this;
+  };
+</script>
+
+<script>
+  function reset_map() {
+    $("#query").val("");
+    $(".select2-type").val(null).trigger("change");
+    $(".select2-subject").val(null).trigger("change");
+    $(".select2-location").val(null).trigger("change");
+    $(".select2-medium").val(null).trigger("change");
+    $(".select2-keyword").val(null).trigger("change");
+    make_map();
+  }
+</script>
+
+<script>
+  // call make map for initial state before filters and search
+  make_map();
+</script>
 {% endblock %}

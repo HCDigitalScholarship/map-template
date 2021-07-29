@@ -2,15 +2,15 @@
   "results":[
     {
       "id":0,
-      "text":"residency"
+      "text":"fellowship"
     },
     {
       "id":1,
-      "text":"partner"
+      "text":"internship"
     },
     {
       "id":2,
-      "text":"fellowship"
+      "text":"partner"
     },
     {
       "id":3,
@@ -18,11 +18,11 @@
     },
     {
       "id":4,
-      "text":"internship"
+      "text":"conferences"
     },
     {
       "id":5,
-      "text":"volunteer"
+      "text":"post-bac fellowship"
     },
     {
       "id":6,
@@ -30,11 +30,11 @@
     },
     {
       "id":7,
-      "text":"conferences"
+      "text":"residency"
     },
     {
       "id":8,
-      "text":"post-bac fellowship"
+      "text":"volunteer"
     }
   ],
   "pagination":{
